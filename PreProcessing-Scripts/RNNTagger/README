@@ -1,0 +1,2 @@
+- Launch first one of the "PreLemmatization_*.sh" script on your files
+- Then, launch the "prelemmatized_to_lemmatized.sh" script for extracting only the useful lemmatized words
