@@ -43,7 +43,7 @@ def distributeLength(number, maxPack = 8000, threshold = 20):
 # Distribution avec comme contrainte une spécification sur les séparateurs
 # (uniquement sur les ' ' et '\n' dans un texte)
 #####
-def distributeIndex(text, maxPack = 4000, threshold = 20):
+def distributeIndex(text, maxPack = 3750, threshold = 20):
     size = len(text)
     L = distributeLength(size, maxPack, threshold)
     L.insert(0, 0)
