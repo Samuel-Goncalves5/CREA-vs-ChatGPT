@@ -14,7 +14,7 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 - make preprocess-treetagger : génère les fichiers d'entrée depuis raw vers TreeTagger
 
 ### Appel-des-méthodes
-`ChatGPT.py` permet d'utiliser l'API de ChatGPT.
-`Llama2.py` permet d'utiliser l'API de Llama 2.
-`CREA.py` permet d'utiliser la méthode CREA.
-`LDA.py` permet d'utiliser la LDA.
+- `ChatGPT.py` permet d'utiliser l'API de ChatGPT.
+- `Llama2.py` permet d'utiliser l'API de Llama 2.
+- `CREA.py` permet d'utiliser la méthode CREA.
+- `LDA.py` permet d'utiliser la LDA.
