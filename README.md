@@ -13,7 +13,7 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 - make preprocess-babelfy : génère les fichiers d'entrée depuis raw vers Babelfy
 - make preprocess-treetagger : génère les fichiers d'entrée depuis raw vers TreeTagger
 
-### Appel-des-méthodes
+## Méthodes
 - `ChatGPT.py` permet d'utiliser l'API de ChatGPT.
 - `Llama2.py` permet d'utiliser l'API de Llama 2.
 - `CREA.py` permet d'utiliser la méthode CREA.
