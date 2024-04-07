@@ -13,9 +13,9 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 - make print-files : affiche le contenu de l'environnement d'utilisation des codes (le chemin de chaque fichier)
 ### Protocole
 #### Pré-traitement
-##### RNNTagger
+##### RNNTagger
 Fichiers et codes préalablement fournis.
-##### TreeTagger
+##### TreeTagger
 TODO
 ##### Babelfy
 - make preprocessing-babelfy-raw :
@@ -36,7 +36,7 @@ TODO
 TODO
 ##### Llama2
 TODO
-#### Evaluation
+#### Evaluation
 ##### Cohérence V
 TODO
 
