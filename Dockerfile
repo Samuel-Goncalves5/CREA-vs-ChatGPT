@@ -6,7 +6,9 @@ COPY requirements.txt .
 RUN apk add build-base && pip install -r requirements.txt
 
 COPY sources/methods sources/utils .
-COPY sources/preprocessing/Babelfy input/external/pybabelfy sources/preprocessing/RNNTagger sources/preprocessing/TreeTagger preprocessing
-COPY input/data data
+COPY sources/preprocessing/* input/external/pybabelfy input/external/nltk preprocessing
+COPY input/data input-data
+COPY output/data output-data
 
+RUN ["python", "preprocessing/nltk-download.py"]
 ENTRYPOINT ["python"]

@@ -2,14 +2,52 @@ from os import listdir
 from pybabelfy import *
 from distribution import cutByPack
 
-babelapi = Babelfy()
+from nltk.corpus import stopwords
+from nltk import word_tokenize
+
+fr_useless = set(stopwords.words('french'))
+fr_punctuation = ['.', ',', '«', '»', '?', '!', '[', ']', '(',
+                  ')', ';', '%', '@', ':', '’', '...', '⇒', '<',
+                  '>', '\'\'', '--', '$']
+fr_other = ["a", "le", "la", "les", "des", "un", "une", "où", "ou",
+            "l", "ni", "si", "ce", "cette", "cet", "donc", "dont"]
+fr_useless.update(fr_other)
+fr_useless.update(fr_punctuation)
+
+filtre = lambda text: [token for token in text if token.lower() not in fr_useless]
 
 # Clé Babelfy
 BABEL_KEY = "bc4877a4-d59c-4100-aaa1-3f55fada8f83"
 
-#####
-# Formatte une notion dans un texte au bon format dans un CSV.
-#####
+babelapi = Babelfy()
+
+##########################################################
+############ APPLICATION A TOUS LES DOCUMENTS ############
+##########################################################
+def folderToX(inputFolder, outputFolder, textToX):
+    for document in listdir(inputFolder):
+        print(document, flush=True)
+
+        f = open(inputFolder + "/" + document, "r")
+        textToX(f.read(), outputFolder, document)
+        f.close()
+
+##########################################################
+###################### TOKENISATION ######################
+##########################################################
+def textToTokens(text, outputFolder, document):
+    tokens = filtre(word_tokenize(text, language="french"))
+
+    token_database = open(outputFolder + "/" + document, "w")
+    # Ajout des tokens au fichier
+    for token in tokens:
+        token_database.write(token + "\n")
+    token_database.close()
+
+
+##########################################################
+##################### ENTITY LINKING #####################
+##########################################################
 def tokenToCSV(token, text, start_index):
     relative_start = token.char_fragment_start()
     relative_end   = token.char_fragment_end()
@@ -23,9 +61,6 @@ def tokenToCSV(token, text, start_index):
 
     return bn_id + ";" + start + ";" + end + ";" + " ".join(text[relative_start : relative_end + 1].split('\n')) + ";" + score + ";" + gscore + ";" + cscore + "\n"
 
-#####
-# Traduit un texte en CSV-Babelfy
-#####
 def textToCSV(text, outputFolder, document):
     csv_database = open(outputFolder + "/" + document + ".csv", "w")
     # Couper le document en bloc de caractères
@@ -43,21 +78,42 @@ def textToCSV(text, outputFolder, document):
             print(repr(e))
     csv_database.close()
 
-#####
-# Traduit un fichier en CSV-Babelfy
-#####
-def fileToCSV(inputFolder, outputFolder, document):
-    f = open(inputFolder + "/" + document, "r")
-    textToCSV(f.read(), outputFolder, document)
-    f.close()
+###########################################################
+##################### EQUIVALENT TEXT #####################
+###########################################################
+def textToEquivalent(text, outputFolder, document):
+    equivalent_database = open(outputFolder + "/" + document, "w")
+    for line in text.splitlines():
+        equivalent_database.write(line.rstrip().split(';')[0] + "\n")
+    equivalent_database.close()
 
-#####
-# Traduit les fichiers d'un dossier en CSV-Babelfy
-#####
-def folderToCSV(inputFolder, outputFolder):
-    for document in listdir(inputFolder):
-        print(document)
-        fileToCSV(inputFolder, outputFolder, document)
-
+###########################################################
+####################### APPLICATION #######################
+###########################################################
 if __name__ == '__main__':
-    folderToCSV("data/Raw", "data/Raw+Babelfy")
+    import sys
+
+    if sys.argv[1] == "Raw":
+        # TOKENISATION
+        print("Tokenisation... (1/3)", flush=True)
+        folderToX("input-data/Raw", "input-data/Raw+Babelfy/prelinked", textToTokens)
+        # ENTITY LINKING
+        print("Entity linking... (2/3)", flush=True)
+        folderToX("input-data/Raw+Babelfy/prelinked", "input-data/Raw+Babelfy/linked", textToCSV)
+        # EQUIVALENT TEXT
+        print("Equivalent text... (3/3)", flush=True)
+        folderToX("input-data/Raw+Babelfy/linked", "input-data/Raw+Babelfy/equivalent", textToEquivalent)
+    
+    elif sys.argv[1] == "RNNTagger":
+        # ENTITY LINKING
+        print("Entity linking... (1/2)", flush=True)
+        folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked", textToCSV)
+        # EQUIVALENT TEXT
+        print("Equivalent text... (2/2)", flush=True)
+        folderToX("input-data/Raw+RNNTagger+Babelfy/linked", "input-data/Raw+Babelfy/equivalent", textToEquivalent)
+    
+    elif sys.argv[1] == "TreeTagger":
+        print("TODO")
+    
+    else:
+        print("Error : Valid arguments are : Raw - RNNTagger - TreeTagger")

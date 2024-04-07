@@ -2,3 +2,5 @@
 openai==1.12.0
 # Llama 2
 llama-cpp-python==0.2.47
+# NLTK
+nltk==3.8.1
