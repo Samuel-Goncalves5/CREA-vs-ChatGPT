@@ -4,3 +4,6 @@ openai==1.12.0
 llama-cpp-python==0.2.47
 # NLTK
 nltk==3.8.1
+# TreeTagger
+treetaggerwrapper==2.3
+six==1.16.0

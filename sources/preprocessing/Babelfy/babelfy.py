@@ -113,7 +113,12 @@ if __name__ == '__main__':
         folderToX("input-data/Raw+RNNTagger+Babelfy/linked", "input-data/Raw+RNNTagger+Babelfy/equivalent", textToEquivalent)
     
     elif sys.argv[1] == "TreeTagger":
-        print("TODO")
+        # ENTITY LINKING
+        print("Entity linking... (1/2)", flush=True)
+        folderToX("input-data/Raw+TreeTagger/lemmatized", "input-data/Raw+TreeTagger+Babelfy/linked", textToCSV)
+        # EQUIVALENT TEXT
+        print("Equivalent text... (2/2)", flush=True)
+        folderToX("input-data/Raw+TreeTagger+Babelfy/linked", "input-data/Raw+TreeTagger+Babelfy/equivalent", textToEquivalent)
     
     else:
         print("Error : Valid arguments are : Raw - RNNTagger - TreeTagger")

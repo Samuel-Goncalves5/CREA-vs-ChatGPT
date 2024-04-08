@@ -16,17 +16,20 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 ##### 2.1.1 - RNNTagger
 Fichiers et codes préalablement fournis.
 ##### 2.1.2 - TreeTagger
-TODO
+- make preprocessing-tree :
+    - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+TreeTagger/prelemmatized/`
+    - génère la lemmatisation TreeTagger des fichiers de `Raw+TreeTagger/prelemmatized/` dans `Raw+TreeTagger/lemmatized/`
 ##### 2.1.3 - Babelfy
 - make preprocessing-babelfy-raw :
-    - génère la séparation en tokens des fichiers de Raw dans Raw+Babelfy/prelinked
-    - génère les informations babelfy des fichiers de Raw+Babelfy/prelinked dans Raw+Babelfy/linked
-    - génère les textes équivalents des fichiers de Raw+Babelfy/linked dans Raw+Babelfy/equivalent
+    - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+Babelfy/prelinked/`
+    - génère les informations babelfy des fichiers de `Raw+Babelfy/prelinked/` dans `Raw+Babelfy/linked/`
+    - génère les textes équivalents des fichiers de `Raw+Babelfy/linked/` dans `Raw+Babelfy/equivalent/`
 - make preprocessing-babelfy-rnn :
-    - génère les informations babelfy des fichiers de Raw+RNNTagger/lemmatized dans Raw+RNNTagger+Babelfy/linked
-    - génère les textes équivalents des fichiers de Raw+RNNTagger+Babelfy/linked dans Raw+RNNTagger+Babelfy/equivalent
+    - génère les informations babelfy des fichiers de `Raw+RNNTagger/lemmatized/` dans `Raw+RNNTagger+Babelfy/linked/`
+    - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/` dans `Raw+RNNTagger+Babelfy/equivalent/`
 - make preprocessing-babelfy-tree :
-    - TODO
+    - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/` dans `Raw+TreeTagger+Babelfy/linked/`
+    - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/` dans `Raw+TreeTagger+Babelfy/equivalent/`
 #### 2.2 - Traitement
 ##### 2.2.1 - CREA
 TODO
@@ -36,7 +39,7 @@ TODO
 TODO
 ##### 2.2.4 - Llama2
 TODO
-#### 2.3 -Evaluation
+#### 2.3 - Evaluation
 ##### 2.3.1 - Cohérence V
 TODO
 

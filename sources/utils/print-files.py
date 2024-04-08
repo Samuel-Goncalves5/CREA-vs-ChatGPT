@@ -1,7 +1,9 @@
 import os
 
+ignore = ["./preprocessing/TreeTagger"]
+
 def printall(folder, limit=False):
-    if limit and len(os.listdir(folder)) > 10:
+    if (folder in ignore) or (limit and len(os.listdir(folder))) >= 20:
         print(folder + "/...")
     
     else:
