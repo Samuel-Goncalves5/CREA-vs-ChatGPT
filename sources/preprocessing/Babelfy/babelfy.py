@@ -110,7 +110,7 @@ if __name__ == '__main__':
         folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked", textToCSV)
         # EQUIVALENT TEXT
         print("Equivalent text... (2/2)", flush=True)
-        folderToX("input-data/Raw+RNNTagger+Babelfy/linked", "input-data/Raw+Babelfy/equivalent", textToEquivalent)
+        folderToX("input-data/Raw+RNNTagger+Babelfy/linked", "input-data/Raw+RNNTagger+Babelfy/equivalent", textToEquivalent)
     
     elif sys.argv[1] == "TreeTagger":
         print("TODO")
