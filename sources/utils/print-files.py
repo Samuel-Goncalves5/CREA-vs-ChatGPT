@@ -1,6 +1,6 @@
 import os
 
-ignore = ["./preprocessing/TreeTagger"]
+ignore = ["./preprocessing/TreeTagger", "./preprocessing/RNNTagger"]
 
 def printall(folder, limit=False):
     if (folder in ignore) or (limit and len(os.listdir(folder))) >= 20:

@@ -1,0 +1,205 @@
+arabic
+  trained on:  Arabic Universal Dependency Treebank PADT
+               https://github.com/UniversalDependencies/UD_Arabic-PADT
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+belarusian
+  trained on:  Belarusian UD corpus https://github.com/UniversalDependencies/UD_Belarusian-HSE
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+bulgarian
+  trained on:  Bulgarian Treebank http://www.bultreebank.org/
+  tagset info: http://bultreebank.org/wp-content/uploads/2017/06/BTB-TR03.pdf
+
+catalan
+  trained on:  Catalan UD corpus https://github.com/UniversalDependencies/UD_Catalan-AnCora
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+coptic
+  trained on:  Coptic UD corpus https://github.com/UniversalDependencies/UD_Coptic-Scriptorium
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+  comment:     The input must have been pretokenized as in the Coptic UD corpus
+
+czech
+  trained on:  Czech Academic Corpus https://ufal.mff.cuni.cz/cac
+  tagset info: https://ufal.mff.cuni.cz/rest/CAC/doc-cac20/cac-guide/eng/html/ch13.html
+
+danish
+  trained on:  eParole corpus http://korpus.dsl.dk/resources.html
+  tagset info: http://korpus.dsl.dk/clarin/corpus-doc/pos-design.pdf
+
+diachronic-icelandic
+  trained on:  ICEPAHC http://www.linguist.is/icelandic_treebank/Download
+  tagset info: http://www.linguist.is/icelandic_treebank/Tagset
+
+dutch
+  trained on:  Eindhoven Corpus  http://tst-centrale.org/nl/tst-materialen/corpora/eindhoven-corpus-detail
+  tagset info: http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/ehc_handleiding_nl.pdf
+
+early-new-high-german
+  trained on:  Referenzkorpus Frühneuhochdeutsch https://www.linguistics.rub.de/ref
+  tagset info: https://linguistics.rub.de/forschung/arbeitsberichte/24.pdf
+
+english
+  trained on:  Penn Treebank  https://catalog.ldc.upenn.edu/ldc99t42
+  tagset info: http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/Penn-Treebank-Tagset.pdf
+
+estonian
+  trained on:  Estonian Dependency Treebank http://www.cl.ut.ee/korpused/morfkorpus
+  tagset info: http://www.cl.ut.ee/korpused/morfliides/seletus
+
+finnish
+  trained on:  FinnTreebank2 http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/index.shtml
+  tagset info: http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/sources/FinnTreeBankManual.pdf
+
+french
+  trained on:  Paris7 French Treebank  http://www.llf.cnrs.fr/Gens/Abeille/French-Treebank-fr.php
+  tagset info: http://www.llf.cnrs.fr/sites/sandbox.linguist.univ-paris-diderot.fr/files/statiques/french_treebank/guide-morpho-synt.02.pdf
+
+galician
+  trained on:  Xiada Corpus http://corpus.cirp.es/xiada
+  tagset info: http://corpus.cirp.es/xiada/etiquetario.html
+
+georgian
+  trained on:  Georgian National Corpus  http://gnc.gov.ge/gnc/page
+  tagset info: http://gnc.gov.ge/gnc/gnc-features?session-id=254949875830192
+
+german
+  trained on:  Tiger Treebank  http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html
+  tagset info: http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/TIGERCorpus/annotation/tiger_scheme-morph.pdf
+
+greek
+  trained on:  INTERA corpus http://hdl.grnet.gr/11500/ATHENA-0000-0000-25B4-B
+  tagset info: http://nlp.ilsp.gr/nlp/tagset_examples/tagset_en
+
+hindi
+  trained on:  Hindi UD Corpus https://github.com/UniversalDependencies/UD_Hindi-HDTB
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+hungarian
+  trained on:  Szeged corpus http://www.inf.u-szeged.hu/projectdirs/hlt/index_en.html
+  tagset info: 
+
+icelandic
+  trained on:  Icelandic Frequency Dictionary corpus http://www.malfong.is/index.php?lang=en&pg=ordtidnibok
+  tagset info: http://www.malfong.is/files/greiningastrengur.pdf
+
+indonesian
+  trained on:  UD Indonesian GSD https://github.com/UniversalDependencies/UD_Indonesian-GSD
+  tagset info: https://universaldependencies.org/treebanks/id_gsd/index.html
+
+italian
+  trained on:  Italian UD treebank https://github.com/UniversalDependencies/UD_Italian-ISDT
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+korean
+  trained on:  Sejong corpus  http://nlplab.ulsan.ac.kr
+  tagset info: http://www.smart21.kr/sj21tagset.html
+
+latin
+  trained on:  Index Thomisticus corpus  http://www.corpusthomisticum.org/it/index.age
+  tagset info: http://itreebank.marginalia.it/doc/Tagset_IT.pdf
+
+middle-dutch
+  trained on:  Corpus Gysseling  https://ivdnt.org/downloads/tstc-corpus-gysseling
+  tagset info: https://ivdnt.org/images/stories/producten/documentatie/cgyss_codering_nl.txt
+
+middle-english
+  trained on:  Chaucer texts from http://wordhoard.northwestern.edu/userman/data-files/data.zip
+  tagset info: http://wordhoard.northwestern.edu/userman/pos-and-wc.html
+
+middle-french
+  trained on:  manually annotated part of Base de Français Médiéval 2022
+               http://bfm.ens-lyon.fr/
+  tagset info: http://bfm.ens-lyon.fr/spip.php?article176
+  
+middle-high-german
+  trained on:  Referenzkorpus Mittelhochdeutsch  https://www.linguistics.rub.de/rem/index.html
+  tagset info: https://www.linguistics.rub.de/rem/documentation/pos.html
+
+norwegian
+  trained on:  Norwegian UD treebank  https://github.com/UniversalDependencies/UD_Norwegian-Bokmaal
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+old church slavonian
+  trained on:  UD_Old_Church_Slavonic-PROIEL  https://github.com/UniversalDependencies/UD_Old_Church_Slavonic-PROIEL
+  tagset info: https://universaldependencies.org/u/pos/
+
+old-french
+  trained on:  manually annotated part of Base de Français Médiéval 2022
+               http://bfm.ens-lyon.fr/
+  tagset info: http://bfm.ens-lyon.fr/spip.php?article176
+
+old-greek
+  trained on:  Perseus Ancient Greek Dependency Treebank  https://github.com/PerseusDL/treebank_data
+  tagset info: https://github.com/cltk/greek_treebank_perseus
+
+old-icelandic
+  trained on:  Icelandic Parsed Historical Corpus
+  tagset info: http://www.linguist.is/icelandic_treebank/Tagset
+
+old-italian
+  trained on:  Corpus Taurinense  http://www.bmanuel.org/projects/ct-HOME.html
+  tagset info: http://www.bmanuel.org/projects/ct-posinfo.htm
+
+persian
+  trained on:  Persian UD Treebank (Seraji) https://github.com/UniversalDependencies/UD_Persian-Seraji
+  tagset info: https://universaldependencies.org/u/pos/
+
+polish
+  trained on:  National Corpus of Polish  http://nkjp.pl/
+  tagset info: http://nkjp.pl/poliqarp/help/ense2.html
+
+portuguese
+  trained on:  Portuguese UD treebank  https://github.com/UniversalDependencies/UD_Portuguese-Bosque/tree/master
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+romanian
+  trained on:  Romanian UD treebank  https://github.com/UniversalDependencies/UD_Romanian-RRT
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+russian
+  trained on:  http://corpus.leeds.ac.uk/mocky/
+  tagset info: http://corpus.leeds.ac.uk/mocky/ru-table.tab
+
+slovak
+  trained on:  Slovak National Corpus   https://korpus.sk/index_en.html
+  tagset info: http://korpus.juls.savba.sk/morpho_en.html
+
+slovenian
+  trained on:  ssj500k corpus version 1.3  http://eng.slovenscina.eu/tehnologije/ucni-korpus
+  tagset info: http://nl.ijs.si/jos/msd/html-en/index.html
+
+spanish
+  trained on:  Spanish UD corpus https://github.com/UniversalDependencies/UD_Spanish-GSD
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+swahili
+  trained on:  Helsinki Corpus of Swahili http://metashare.csc.fi/repository/browse/helsinki-corpus-of-swahili-20-hcs-20-annotated-version/232c1910b9eb11e5915e005056be118e59fb2e920f1f4c0cafc94915fc6f5cac/
+  tagset info: http://www.aakkl.helsinki.fi/cameel/corpus/swatags.pdf
+
+swedish
+  trained on:  SUCX 3.0 https://spraakbanken.gu.se/en/resources/suc3
+  tagset info: https://spraakbanken.gu.se/parole/Docs/SUC2.0-manual.pdf
+
+swiss-german
+  trained on:  NOAH corpus https://noe-eva.github.io/NOAH-Corpus
+  tagset info: https://noe-eva.github.io/NOAH-Corpus/corpus.html
+
+syriac
+  trained on: Sedra3.0 (kindly provided by George Kiraz, see also https://sedra.bethmardutho.org/about/sedra)
+  tagset info: -
+
+turkish
+  trained on:  Turkish Universal Dependency treebanks Kenet and Tourism 
+               https://github.com/UniversalDependencies/UD_Turkish-Kenet
+               https://github.com/UniversalDependencies/UD_Turkish-Tourism
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+ukrainian
+  trained on:  Ukrainian UD corpus https://github.com/UniversalDependencies/UD_Ukrainian-IU
+  tagset info: http://universaldependencies.org/u/overview/morphology.html
+
+upper-sorbian
+  trained on:  Upper Sorbian UD corpus https://github.com/UniversalDependencies/UD_Upper_Sorbian-UFAL
+  tagset info: http://universaldependencies.org/u/overview/morphology.html

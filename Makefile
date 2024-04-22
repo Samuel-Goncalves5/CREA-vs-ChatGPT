@@ -14,6 +14,9 @@ print-files: build
 
 # Protocole
 ## Pré-traitement
+### RNNTagger
+preprocessing-rnn: build
+	$(DOCKER-RUN) $(PREFIX)-preprocessing-rnn $(IMAGE) preprocessing/rnntagger.py
 ### TreeTagger
 preprocessing-tree: build
 	$(DOCKER-RUN) $(PREFIX)-preprocessing-tree $(IMAGE) preprocessing/treetagger.py
@@ -22,13 +25,19 @@ preprocessing-babelfy-raw: build
 	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-raw $(IMAGE) preprocessing/babelfy.py Raw
 preprocessing-babelfy-rnn: build
 	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-rnn $(IMAGE) preprocessing/babelfy.py RNNTagger
-preprocessing-babelfy-tree: build
-	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-tree $(IMAGE) preprocessing/babelfy.py TreeTagger
+preprocessing-babelfy-tree-no-stop: build
+	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-tree-no-stop $(IMAGE) preprocessing/babelfy.py TreeTagger-no-stop
+preprocessing-babelfy-tree-stop-word: build
+	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-tree-stop-word $(IMAGE) preprocessing/babelfy.py TreeTagger-stop-word
+preprocessing-babelfy-tree-stop-class: build
+	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-tree-stop-class $(IMAGE) preprocessing/babelfy.py TreeTagger-stop-class
 
 ## Traitement
 ### CREA
 ### GPT
 ### LDA
+lda: build
+	$(DOCKER-RUN) $(PREFIX)-lda $(IMAGE) LDA.py
 ### Llama2
 
 ## Evaluation

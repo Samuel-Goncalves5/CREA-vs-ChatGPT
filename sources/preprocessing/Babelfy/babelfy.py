@@ -1,5 +1,5 @@
 from os import listdir
-from pybabelfy import *
+from pybabelfy import Babelfy, AnnTypeValues
 from distribution import cutByPack
 
 from nltk.corpus import stopwords
@@ -112,13 +112,29 @@ if __name__ == '__main__':
         print("Equivalent text... (2/2)", flush=True)
         folderToX("input-data/Raw+RNNTagger+Babelfy/linked", "input-data/Raw+RNNTagger+Babelfy/equivalent", textToEquivalent)
     
-    elif sys.argv[1] == "TreeTagger":
+    elif sys.argv[1] == "TreeTagger-no-stop":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+TreeTagger/lemmatized", "input-data/Raw+TreeTagger+Babelfy/linked", textToCSV)
+        folderToX("input-data/Raw+TreeTagger/lemmatized/keepStopData", "input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", textToCSV)
         # EQUIVALENT TEXT
         print("Equivalent text... (2/2)", flush=True)
-        folderToX("input-data/Raw+TreeTagger+Babelfy/linked", "input-data/Raw+TreeTagger+Babelfy/equivalent", textToEquivalent)
+        folderToX("input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", "input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", textToEquivalent)
     
+    elif sys.argv[1] == "TreeTagger-stop-class":
+        # ENTITY LINKING
+        print("Entity linking... (1/2)", flush=True)
+        folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", textToCSV)
+        # EQUIVALENT TEXT
+        print("Equivalent text... (2/2)", flush=True)
+        folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", textToEquivalent)
+    
+    elif sys.argv[1] == "TreeTagger-stop-word":
+        # ENTITY LINKING
+        print("Entity linking... (1/2)", flush=True)
+        folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", textToCSV)
+        # EQUIVALENT TEXT
+        print("Equivalent text... (2/2)", flush=True)
+        folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", textToEquivalent)
+
     else:
         print("Error : Valid arguments are : Raw - RNNTagger - TreeTagger")

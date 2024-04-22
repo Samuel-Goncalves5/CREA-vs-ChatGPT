@@ -1,0 +1,4 @@
+This software has been developed by Helmut Schmid at the Ludwig-Maximilians-Universität of Munich, Germany.
+It may freely be used for teaching, research and evaluation purposes.
+
+If you want to use the software commercially, please contact Helmut Schmid (schmid@cis.lmu.de).

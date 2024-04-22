@@ -14,11 +14,14 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 ### 2 - Protocole
 #### 2.1 - Pré-traitement
 ##### 2.1.1 - RNNTagger
-Fichiers et codes préalablement fournis.
+- **make preprocessing-rnn** :
+    - génère la pré-lemmatisation RNNTagger des fichiers de `Raw/` dans `Raw+RNNTagger/prelemmatized/`
+    - génère la lemmatisation des fichiers de `Raw+RNNTagger/prelemmatized/` dans `Raw+TreeTagger/lemmatized/`
 ##### 2.1.2 - TreeTagger
 - **make preprocessing-tree** :
-    - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+TreeTagger/prelemmatized/`
-    - génère la lemmatisation TreeTagger des fichiers de `Raw+TreeTagger/prelemmatized/` dans `Raw+TreeTagger/lemmatized/`
+    - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+TreeTagger/prelemmatized/throwStopWords/` en filtrant les stop words et dans `Raw+TreeTagger/prelemmatized/keepStopWords/` en ne les filtrant pas
+    - génère la lemmatisation TreeTagger des fichiers de `Raw+TreeTagger/prelemmatized/throwStopWords/` dans `Raw+TreeTagger/lemmatized/throwStopWords/`
+    - génère la lemmatisation TreeTagger des fichiers de `Raw+TreeTagger/prelemmatized/keepStopWords/` dans `Raw+TreeTagger/lemmatized/throwStopClasses/` en filtrant les stop classes et dans `Raw+TreeTagger/lemmatized/keepStopData/` en ne les filtrant pas.
 ##### 2.1.3 - Babelfy
 - **make preprocessing-babelfy-raw** :
     - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+Babelfy/prelinked/`
@@ -27,9 +30,15 @@ Fichiers et codes préalablement fournis.
 - **make preprocessing-babelfy-rnn** :
     - génère les informations babelfy des fichiers de `Raw+RNNTagger/lemmatized/` dans `Raw+RNNTagger+Babelfy/linked/`
     - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/` dans `Raw+RNNTagger+Babelfy/equivalent/`
-- **make preprocessing-babelfy-tree** :
-    - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/` dans `Raw+TreeTagger+Babelfy/linked/`
-    - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/` dans `Raw+TreeTagger+Babelfy/equivalent/`
+- **make preprocessing-babelfy-tree-no-stop** :
+    - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/keepStopData/` dans `Raw+TreeTagger+Babelfy/linked/keepStopData/`
+    - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/keepStopData/` dans `Raw+TreeTagger+Babelfy/equivalent/keepStopData/`
+- **make preprocessing-babelfy-tree-stop-word** :
+    - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/throwStopWords/` dans `Raw+TreeTagger+Babelfy/linked/throwStopWords/`
+    - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/throwStopWords/` dans `Raw+TreeTagger+Babelfy/equivalent/throwStopWords/`
+- **make preprocessing-babelfy-tree-stop-class** :
+    - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/throwStopClasses/` dans `Raw+TreeTagger+Babelfy/linked/throwStopClasses/`
+    - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/throwStopClasses/` dans `Raw+TreeTagger+Babelfy/equivalent/throwStopClasses/`
 #### 2.2 - Traitement
 ##### 2.2.1 - CREA
 TODO
