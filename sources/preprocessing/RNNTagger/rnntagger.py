@@ -30,8 +30,8 @@ def fileToLemmatised(inputDocument, outputDocument):
 if __name__ == '__main__':
     # TOKENISATION
     print("Prelemmatisation... (1/2)", flush=True)
-    #folderToX("input-data/Raw", "input-data/Raw+RNNTagger/prelemmatized", fileToPrelemmatised)
-    
+    folderToX("input-data/Raw", "input-data/Raw+RNNTagger/prelemmatized", fileToPrelemmatised)
+
     # LEMMATISATION
     print("Lemmatisation... (2/2)", flush=True)
     folderToX("input-data/Raw+RNNTagger/prelemmatized", "input-data/Raw+RNNTagger/lemmatized", fileToLemmatised)
