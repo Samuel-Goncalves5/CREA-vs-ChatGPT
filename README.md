@@ -68,9 +68,3 @@ TODO
 #### 2.3 - Evaluation
 ##### 2.3.1 - Cohérence V
 TODO
-
-## III - Méthodes
-- `ChatGPT.py` permet d'utiliser l'API de ChatGPT.
-- `Llama2.py` permet d'utiliser l'API de Llama 2.
-- `CREA.py` permet d'utiliser la méthode CREA.
-- `LDA.py` permet d'utiliser la LDA.
