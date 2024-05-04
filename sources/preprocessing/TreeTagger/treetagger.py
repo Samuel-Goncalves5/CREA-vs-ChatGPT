@@ -1,21 +1,9 @@
 from os import listdir
-from nltk.corpus import stopwords
-from nltk import word_tokenize
+from tokenization import tokenize
 import treetaggerwrapper
 
 TreeTagger = "preprocessing/TreeTagger"
 tagger = treetaggerwrapper.TreeTagger(TAGLANG='fr', TAGDIR=TreeTagger)
-
-fr_useless = set(stopwords.words('french'))
-fr_punctuation = ['.', ',', '«', '»', '?', '!', '[', ']', '(',
-                  ')', ';', '%', '@', ':', '’', '...', '⇒', '<',
-                  '>', '\'\'', '--', '$']
-fr_other = ["a", "le", "la", "les", "des", "un", "une", "où", "ou",
-            "l", "ni", "si", "ce", "cette", "cet", "donc", "dont"]
-fr_useless.update(fr_other)
-fr_useless.update(fr_punctuation)
-
-filtre = lambda text: [token for token in text if token.lower() not in fr_useless]
 
 ##########################################################
 ############ APPLICATION A TOUS LES DOCUMENTS ############
@@ -33,9 +21,7 @@ def folderToX(inputFolder, outputFolder, textToX):
 ##########################################################
 throwStopWords = False
 def textToTokens(text, outputFolder, document):
-    tokens = word_tokenize(text, language="french")
-    if throwStopWords:
-        tokens = filtre(tokens)
+    tokens = tokenize(text, throwStopWords)
 
     token_database = open(outputFolder + "/" + document, "w")
     # Ajout des tokens au fichier

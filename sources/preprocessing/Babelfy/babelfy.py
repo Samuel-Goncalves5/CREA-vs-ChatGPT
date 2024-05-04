@@ -1,20 +1,7 @@
 from os import listdir
+from tokenization import tokenize
 from pybabelfy import Babelfy, AnnTypeValues
 from distribution import cutByPack
-
-from nltk.corpus import stopwords
-from nltk import word_tokenize
-
-fr_useless = set(stopwords.words('french'))
-fr_punctuation = ['.', ',', '«', '»', '?', '!', '[', ']', '(',
-                  ')', ';', '%', '@', ':', '’', '...', '⇒', '<',
-                  '>', '\'\'', '--', '$']
-fr_other = ["a", "le", "la", "les", "des", "un", "une", "où", "ou",
-            "l", "ni", "si", "ce", "cette", "cet", "donc", "dont"]
-fr_useless.update(fr_other)
-fr_useless.update(fr_punctuation)
-
-filtre = lambda text: [token for token in text if token.lower() not in fr_useless]
 
 # Clé Babelfy
 BABEL_KEY = "bc4877a4-d59c-4100-aaa1-3f55fada8f83"
@@ -36,7 +23,7 @@ def folderToX(inputFolder, outputFolder, textToX):
 ###################### TOKENISATION ######################
 ##########################################################
 def textToTokens(text, outputFolder, document):
-    tokens = filtre(word_tokenize(text, language="french"))
+    tokens = tokenize(text)
 
     token_database = open(outputFolder + "/" + document, "w")
     # Ajout des tokens au fichier
@@ -137,4 +124,4 @@ if __name__ == '__main__':
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", textToEquivalent)
 
     else:
-        print("Error : Valid arguments are : Raw - RNNTagger - TreeTagger")
+        print("Error : Valid arguments are : Raw - RNNTagger - TreeTagger-no-stop - TreeTagger-stop-class - TreeTagger-stop-word")

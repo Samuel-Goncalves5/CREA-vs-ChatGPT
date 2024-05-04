@@ -34,6 +34,8 @@ preprocessing-babelfy-tree-stop-class: build
 
 ## Traitement
 ### CREA
+crea: build
+	$(DOCKER-RUN) $(PREFIX)-crea $(IMAGE) CREA.py
 ### GPT
 ### LDA
 lda: build

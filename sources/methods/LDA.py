@@ -1,38 +1,85 @@
-from gensim.test.utils import common_texts
-from gensim.corpora.dictionary import Dictionary
-
+from os import listdir
 from gensim.models.ldamodel import LdaModel
+from gensim.matutils import corpus2csc
+from gensim.corpora import Dictionary
+import json
 
-from pprint import pprint
+##########################################################
+############ APPLICATION A TOUS LES DOCUMENTS ############
+##########################################################
+def folderToX(inputFolder, textToX):
+    for document in listdir(inputFolder):
+        f = open(inputFolder + "/" + document, "r")
+        textToX(f.read(), document)
+        f.close()
 
-# Exemple de documents
-text_corpus = [
-    "Human machine interface for lab abc computer applications",
-    "A survey of user opinion of computer system response time",
-    "The EPS user interface management system",
-    "System and human system engineering testing of EPS",
-    "Relation of user perceived response time to error measurement",
-    "The generation of random binary unordered trees",
-    "The intersection graph of paths in trees",
-    "Graph minors IV Widths of trees and well quasi ordering",
-    "Graph minors A survey",
-]
+##########################################################
+########################## LDA ###########################
+##########################################################
+TOPIC_NUMBER = 2
+TOPIC_SIZE = 3
+def lda(outputFolder, corpus, docs):
+    dictionary = Dictionary(corpus)
+    bagOfWords = [dictionary.doc2bow(doc) for doc in corpus]
+    lda_model = LdaModel(corpus=bagOfWords, id2word=dictionary, num_topics=TOPIC_NUMBER)
 
+    topics_json = []
+    for i in range(TOPIC_NUMBER):
+        topic = lda_model.show_topic(topicid=i, topn=TOPIC_SIZE)
+        topic_json = []
+        for word, score in topic:
+            word_json = {
+                "word": word,
+                "score": float(score)
+            }
+            topic_json.append(word_json)
 
-# Prétraitement des données
-# Pour cet exemple simple, nous allons simplement séparer chaque document en mots
-# Vous pouvez utiliser des techniques plus avancées pour nettoyer et prétraiter vos données
+        topics_json.append(topic_json)
 
-# Création du dictionnaire
-dictionary = corpora.Dictionary([doc.lower().split() for doc in documents])
+    documentsTopics = corpus2csc(lda_model.get_document_topics(bagOfWords)).T.toarray().tolist()
+    documents_json = []
+    for i in range(len(docs)):
+        document_json = {
+            "document": docs[i],
+            "topics": documentsTopics[i]
+        }
+        documents_json.append(document_json)
 
-# Création du corpus
-corpus = [dictionary.doc2bow(doc.lower().split()) for doc in documents]
+    result_json = {
+        "topics": topics_json,
+        "documents": documents_json
+    }
 
-# Entraînement du modèle LDA
-lda_model = LdaModel(corpus, num_topics=2, id2word=dictionary, passes=10)
+    with open(outputFolder + "/result", "w") as outputFile:
+        json.dump(result_json, outputFile, indent=2)
 
-# Affichage des sujets
-pprint(lda_model.print_topics())
-print("~~~~~~~~~~~~")
-print(lda_model.print_topics())
+###########################################################
+####################### APPLICATION #######################
+###########################################################
+dataCouples = [
+        ("input-data/Raw+Babelfy/prelinked", "output-data/Raw+LDA"),
+        ("input-data/Raw+Babelfy/equivalent", "output-data/Raw+Babelfy+LDA"),
+        ("input-data/Raw+RNNTagger/punctuationClean", "output-data/Raw+RNNTagger+LDA"),
+        ("input-data/Raw+RNNTagger+Babelfy/equivalent", "output-data/Raw+RNNTagger+Babelfy+LDA"),
+        ("input-data/Raw+TreeTagger/lemmatized/keepStopData", "output-data/Raw+TreeTagger+LDA/keepStopData"),
+        ("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "output-data/Raw+TreeTagger+LDA/throwStopClasses"),
+        ("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "output-data/Raw+TreeTagger+LDA/throwStopWords"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", "output-data/Raw+TreeTagger+Babelfy+LDA/keepStopData"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", "output-data/Raw+TreeTagger+Babelfy+LDA/throwStopClasses"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", "output-data/Raw+TreeTagger+Babelfy+LDA/throwStopWords"),
+    ]
+
+if __name__ == '__main__':
+    # LDA
+    print("LDA...", flush=True)
+    l_data = len(dataCouples)
+    for i in range(l_data):
+        inputFolder, outputFolder = dataCouples[i]
+        print(f"LDA - {inputFolder}... ({i+1}/{l_data})", flush=True)
+        corpus, docs = [], []
+        def textToCorpus(text, document):
+            corpus.append(text.splitlines())
+            docs.append(document)
+        
+        folderToX(inputFolder, textToCorpus)
+        lda(outputFolder, corpus, docs)
