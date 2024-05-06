@@ -36,7 +36,7 @@ throwStopWords = False
 classFilter = ['ADV', 'DET:ART', 'DET:POS', 'KON', 'PRO', 'PRO:DEM', 'PRO:IND', 'PRO:PER', 'PRO:POS', 'PRO:REL', 'PRP:det']
 def textToTreeTagger(text, outputFolder, document):
     lemmes_database = open(outputFolder + "/" + document, "w")
-    lemmes = treetaggerwrapper.make_tags(tagger.tag_text(text))
+    lemmes = treetaggerwrapper.make_tags(tagger.tag_text(text), allow_extra=True)
     # Ajout des lemmes au fichier
     for lemme in lemmes:
         if hasattr(lemme, "what"):
@@ -45,7 +45,9 @@ def textToTreeTagger(text, outputFolder, document):
             continue
         if throwStopWords and lemme.pos in classFilter:
             continue
-        lemmes_database.write(lemme.lemma + "\n")
+
+        # Remove disambiguations (mois|moi / être|suivre)
+        lemmes_database.write(lemme.lemma.split('|')[0] + "\n")
     lemmes_database.close()
 ###########################################################
 ####################### APPLICATION #######################
