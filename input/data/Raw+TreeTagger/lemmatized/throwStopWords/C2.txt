@@ -47,7 +47,7 @@ title
 head
 body
 nous
-être|sommer
+être
 le
 body
 html
@@ -209,7 +209,7 @@ body
 php
 echo
 nous
-être|sommer
+être
 le
 echo
 dater
@@ -237,7 +237,7 @@ title
 head
 body
 nous
-être|sommer
+être
 le
 body
 html
@@ -440,7 +440,7 @@ plusieurs
 ligne
 constant
 on
-la|le
+la
 définir
 à
 l
@@ -453,7 +453,7 @@ exemple
 define
 pi
 on
-la|le
+la
 utiliser
 directement
 sans
@@ -680,7 +680,7 @@ de
 l
 élément
 en
-cours|cour
+cours
 key
 tab
 retourne
@@ -690,7 +690,7 @@ de
 l
 élément
 en
-cours|cour
+cours
 reset
 tab
 déplacer
@@ -1137,13 +1137,13 @@ fin
 sauf
 si
 on
-la|le
+la
 définir
 avec
 static
 si
 on
-la|le
+la
 définir
 avec
 global
@@ -2226,7 +2226,7 @@ timestamp
 timestamp
 nombre
 de
-seconde|second
+seconde
 depuis
 le
 erjanvier
@@ -2234,7 +2234,7 @@ mktime
 heure
 minute
 second
-mois|moi
+mois
 jour
 an
 Thierry

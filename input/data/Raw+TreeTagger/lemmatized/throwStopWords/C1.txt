@@ -1,7 +1,7 @@
-cours|cour
+cours
 HTML
 PHP
-cours|cour
+cours
 HTML
 PHP
 E
@@ -11,7 +11,7 @@ coquery
 liris
 cnrs
 fr
-cours|cour
+cours
 HTML
 PHP
 page
@@ -99,7 +99,7 @@ au
 serveur
 ex
 image
-cours|cour
+cours
 HTML
 PHP
 page
@@ -128,7 +128,7 @@ accès
 index
 html
 disquer
-cours|cour
+cours
 HTML
 PHP
 page
@@ -177,7 +177,7 @@ le
 demande
 ex
 formulaire
-cours|cour
+cours
 HTML
 PHP
 page
@@ -290,7 +290,7 @@ navigateur
 afficher
 le
 résultat
-cours|cour
+cours
 HTML
 PHP
 page
@@ -330,7 +330,7 @@ source
 de
 index
 php
-cours|cour
+cours
 HTML
 PHP
 page
@@ -388,7 +388,7 @@ sur
 le
 base
 SQL
-cours|cour
+cours
 HTML
 PHP
 page
@@ -481,7 +481,7 @@ fonction
 spécial
 qui
 aller
-la|le
+la
 transmettre
 au
 SGBD
@@ -527,7 +527,7 @@ base
 de
 donn
 ees
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -648,7 +648,7 @@ pour
 faire
 l
 affichage
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -692,7 +692,7 @@ afficher
 délimiter
 par
 et
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -754,7 +754,7 @@ texte
 un
 petit
 titre
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -808,7 +808,7 @@ Casimir
 p
 body
 html
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -861,7 +861,7 @@ texte
 en
 plus
 petit
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -896,7 +896,7 @@ li
 li
 li
 ol
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -923,7 +923,7 @@ caser
 td
 tr
 tabler
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -951,7 +951,7 @@ caser
 td
 tr
 tabler
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1045,7 +1045,7 @@ que
 le
 page
 courant
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1076,7 +1076,7 @@ où
 chercher
 l
 image
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1124,7 +1124,7 @@ saisie
 correspondre
 un
 paramètre
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1193,7 +1193,7 @@ nom
 du
 formulaire
 optionnel
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1278,7 +1278,7 @@ pas
 de
 balise
 fermant
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1353,7 +1353,7 @@ ne
 contenir
 de
 balise
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1402,7 +1402,7 @@ pas
 de
 balise
 fermant
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1485,7 +1485,7 @@ pré
 sélectionner
 ce
 option
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1558,7 +1558,7 @@ afficher
 sur
 le
 bouton
-cours|cour
+cours
 HTML
 PHP
 HTML
@@ -1635,7 +1635,7 @@ pratique
 pour
 le
 formulaire
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -1669,7 +1669,7 @@ impératif
 proche
 du
 C
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -1714,7 +1714,7 @@ le
 contenu
 HTML
 générer
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -1782,7 +1782,7 @@ C
 ou
 un
 tableau
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -1854,7 +1854,7 @@ argument
 à
 un
 print
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -1917,7 +1917,7 @@ un
 entre
 deux
 chaˆınes
-la|le
+la
 concaténer
 print
 p
@@ -1925,7 +1925,7 @@ mon
 nom
 nom
 p
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -1958,7 +1958,7 @@ xor
 ou
 exclusif
 non
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2019,7 +2019,7 @@ utiliser
 mon
 tableau
 array
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2055,7 +2055,7 @@ générer
 le
 texte
 toto
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2086,7 +2086,7 @@ nom
 fichier
 php
 ”
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2110,7 +2110,7 @@ un
 fonction
 return
 valeur
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2175,7 +2175,7 @@ POST
 print
 POST
 nom
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2232,7 +2232,7 @@ connexion
 à
 l
 étape
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2294,7 +2294,7 @@ requête
 mysql
 clore
 connect
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2368,7 +2368,7 @@ son
 envoi
 au
 SGBD
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2447,7 +2447,7 @@ de
 parcourir
 le
 résultat
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2515,7 +2515,7 @@ euro
 par
 an
 p
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2578,7 +2578,7 @@ paramètre
 et
 penser
 à
-la|le
+la
 remettre
 à
 chaque
@@ -2593,7 +2593,7 @@ et
 source
 de
 problème
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2667,7 +2667,7 @@ page
 sur
 l
 autre
-cours|cour
+cours
 HTML
 PHP
 PHP
@@ -2730,7 +2730,7 @@ un
 tableau
 associatif
 classique
-cours|cour
+cours
 HTML
 PHP
 PHP

@@ -1723,7 +1723,7 @@ validité
 date
 
 checkdate
-mois|moi
+mois
 jour
 année
 cookies
@@ -1809,7 +1809,7 @@ session
 destroy
 détruire
 session
-cours|cour
+cours
 session
 start
 session

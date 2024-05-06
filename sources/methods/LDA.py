@@ -23,6 +23,7 @@ def lda(outputFolder, corpus, docs):
     bagOfWords = [dictionary.doc2bow(doc) for doc in corpus]
     lda_model = LdaModel(corpus=bagOfWords, id2word=dictionary, num_topics=TOPIC_NUMBER)
 
+    # JSON
     topics_json = []
     for i in range(TOPIC_NUMBER):
         topic = lda_model.show_topic(topicid=i, topn=TOPIC_SIZE)

@@ -640,7 +640,7 @@ le
 valider
 le
 navigateur
-ouvrir|ouvrer
+ouvrir
 un
 connexion
 vers
@@ -1051,7 +1051,7 @@ par
 zend
 et
 s
-ouvrir|ouvrer
+ouvrir
 à
 d
 autre
@@ -2126,7 +2126,7 @@ un
 backslash
 pour
 pouvoir
-la|le
+la
 afficher
 comme
 tel
@@ -3106,7 +3106,7 @@ URI
 du
 script
 en
-cours|cour
+cours
 d
 exécution
 GLOBALS
@@ -3459,11 +3459,11 @@ jour
 lundi
 echo
 nous
-être|sommer
+être
 jour
 afficher
 nous
-être|sommer
+être
 lundi
 syntaxe
 du
@@ -3506,7 +3506,7 @@ bit
 avoir
 décalage
 à
-droit|droite
+droit
 de
 b
 bit
@@ -3620,7 +3620,7 @@ de
 l
 opérande
 de
-droit|droite
+droit
 le
 valeur
 retourner
@@ -6207,7 +6207,7 @@ ex
 un
 téléphone
 sans
-fils|fil
+fils
 être
 un
 téléphone
@@ -6269,7 +6269,7 @@ téléphone
 pour
 un
 sans
-fils|fil
+fils
 programmation
 orienter
 objet
@@ -7483,7 +7483,7 @@ script
 en
 script
 au
-cours|cour
+cours
 de
 le
 navigation
@@ -9157,7 +9157,7 @@ le
 suivant
 mysql
 connect
-ouvrir|ouvrer
+ouvrir
 un
 connexion
 à
@@ -9449,7 +9449,7 @@ de
 donnée
 avant
 de
-la|le
+la
 utiliser
 dans
 du

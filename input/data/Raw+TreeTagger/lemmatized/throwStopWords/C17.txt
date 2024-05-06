@@ -1,4 +1,4 @@
-cours|cour
+cours
 introductif
 au
 PHP
@@ -391,7 +391,7 @@ Caraveo
 et
 Jim
 Winstead
-la|le
+la
 rejoindre
 par
 le
@@ -595,7 +595,7 @@ plus
 le
 instruction
 il
-la|le
+la
 exécuter
 à
 le
@@ -890,7 +890,7 @@ on
 ne
 pouvoir
 pas
-la|le
+la
 utiliser
 afin
 de
@@ -968,7 +968,7 @@ afin
 que
 l
 interpréteur
-la|le
+la
 ignorer
 et
 passer
@@ -1258,7 +1258,7 @@ différent
 nécessaire
 et
 de
-la|le
+la
 compiler
 un
 compilateur
@@ -2300,7 +2300,7 @@ on
 pouvoir
 commencer
 à
-la|le
+la
 utiliser
 sans
 en
@@ -2745,7 +2745,7 @@ variable
 tel
 que
 nous
-la|le
+la
 avoir
 voir
 ne
@@ -3251,7 +3251,7 @@ global
 on
 pouvoir
 alors
-la|le
+la
 utiliser
 à
 partir
@@ -3431,7 +3431,7 @@ dire
 effectuer
 du
 opération
-la|le
+la
 évaluer
 on
 distinguer
@@ -4353,7 +4353,7 @@ gauche
 ou
 vers
 le
-droit|droite
+droit
 le
 premier
 opérande
@@ -4418,13 +4418,13 @@ le
 bit
 vers
 le
-droit|droite
+droit
 diviser
 par
 à
 rotation
 à
-droit|droite
+droit
 avec
 chaque
 décalage
@@ -4535,7 +4535,7 @@ savoir
 dans
 quel
 ordre
-la|le
+la
 traiter
 voici
 donc
@@ -5063,7 +5063,7 @@ faux
 l
 instruction
 de
-droit|droite
+droit
 être
 exécuter
 L
@@ -5475,7 +5475,7 @@ le
 programme
 continuer
 son
-cours|cour
+cours
 D
 autre
 part
@@ -6529,7 +6529,7 @@ il
 falloir
 veiller
 à
-la|le
+la
 inclure
 lors
 de
@@ -8375,7 +8375,7 @@ dater
 y
 echo
 nous
-être|sommer
+être
 en
 MaDate
 body
@@ -8941,7 +8941,7 @@ PHP
 appeler
 le
 serveur
-la|le
+la
 lui
 fournir
 en

@@ -68,7 +68,7 @@ université
 antilles
 guyane
 plan
-cours|cour
+cours
 tout
 heure
 td
@@ -292,7 +292,7 @@ délimiter
 crochet
 tout
 devoir
-être|êtres
+être
 ouvrir
 fermer
 elle
@@ -397,7 +397,7 @@ div
 div
 unité
 faire
-sens|sen
+sens
 site
 ex
 entete

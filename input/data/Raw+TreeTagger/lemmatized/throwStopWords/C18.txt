@@ -2261,7 +2261,7 @@ un
 date
 
 checkdate
-mois|moi
+mois
 jour
 année
 le
@@ -2279,7 +2279,7 @@ time
 
 timestamp
 en
-seconde|second
+seconde
 différent
 de
 Javascript
@@ -2370,7 +2370,7 @@ détruire
 le
 session
 en
-cours|cour
+cours
 session
 start
 session

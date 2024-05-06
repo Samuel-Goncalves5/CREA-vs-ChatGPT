@@ -34,13 +34,13 @@ FRESSIN
 développement
 web
 bibliographier
-cours|cour
+cours
 de
 Pierre
 Nicolas
 Clauss
 LORIA
-cours|cour
+cours
 de
 Romain
 Lebreton
@@ -898,7 +898,7 @@ web
 sémantique
 donner
 du
-sens|sen
+sens
 au
 balise
 pour
@@ -2473,12 +2473,12 @@ title
 head
 body
 nous
-être|sommer
+être
 le
 body
 html
 nous
-être|sommer
+être
 le
 page
 dynamique
@@ -2493,7 +2493,7 @@ title
 head
 body
 nous
-être|sommer
+être
 le
 php
 echo
@@ -2506,7 +2506,7 @@ html
 Thomas
 FRESSIN
 nous
-être|sommer
+être
 le
 date
 du
@@ -2700,7 +2700,7 @@ define
 define
 pi
 on
-la|le
+la
 utiliser
 directement
 sans

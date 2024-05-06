@@ -32,7 +32,7 @@ apparaître
 tabler
 matière
 i
-cours|cour
+cours
 vii
 introduction
 document
@@ -431,7 +431,7 @@ index
 v
 vi
 i
-cours|cour
+cours
 chapitrer
 introduction
 pager
@@ -439,7 +439,7 @@ destiner
 personne
 programmer
 agir
-cours|cour
+cours
 algorithmique
 particulier
 notion
@@ -495,7 +495,7 @@ postgresql
 document
 page
 originer
-cours|cour
+cours
 destiner
 étudiant
 ème
@@ -524,15 +524,15 @@ miashs
 pager
 destiner
 être
-cours|cour
+cours
 autonome
 support
-cours|cour
+cours
 chose
 transmettre
 oral
 pendant
-cours|cour
+cours
 écrire
 environnement
 technique
@@ -547,7 +547,7 @@ aborder
 faire
 partir
 contenir
-cours|cour
+cours
 construire
 polycopier
 rédiger
@@ -1054,7 +1054,7 @@ signifier
 parler
 page
 bouger
-sens|sen
+sens
 agir
 page
 existence
@@ -1370,7 +1370,7 @@ faire
 page
 html
 dynamique
-sens|sen
+sens
 deux
 appel
 consécutif
@@ -2463,7 +2463,7 @@ pouvoir
 text
 zoner
 saisir
-sens|sen
+sens
 habituel
 terme
 zone
@@ -2951,10 +2951,10 @@ vacancier
 abandonner
 montpellier
 bébé
-mois|moi
+mois
 sage
 surprise
-mois|moi
+mois
 rentrer
 chez
 lille
@@ -4527,7 +4527,7 @@ com
 possible
 attraper
 virus
-ouvrir|ouvrer
+ouvrir
 e
 mail
 http
@@ -4833,7 +4833,7 @@ vers
 autre
 écrire
 exemple
-cours|cour
+cours
 site
 utiliser
 base
@@ -7508,7 +7508,7 @@ vers
 autre
 écrire
 exemple
-cours|cour
+cours
 site
 utiliser
 base
@@ -8525,7 +8525,7 @@ vers
 autre
 écrire
 exemple
-cours|cour
+cours
 site
 utiliser
 base
@@ -9377,7 +9377,7 @@ prendre
 compte
 inspirer
 faire
-cours|cour
+cours
 exploration
 contenir
 répertoire
@@ -9678,7 +9678,7 @@ utiliser
 valeur
 courant
 r
-ouvrir|ouvrer
+ouvrir
 lecture
 seul
 placer
@@ -9687,7 +9687,7 @@ fichier
 début
 fichier
 w
-ouvrir|ouvrer
+ouvrir
 écriture
 seul
 placer
@@ -9702,7 +9702,7 @@ fichier
 exister
 tenter
 créer
-ouvrir|ouvrer
+ouvrir
 écriture
 seul
 placer
@@ -12709,7 +12709,7 @@ select
 name
 pipo
 option
-convenir|convier
+convenir
 option
 option
 falloir
@@ -12857,7 +12857,7 @@ offrir
 option
 option
 bon
-sens|sen
+sens
 option
 option
 envisageable
@@ -12873,7 +12873,7 @@ offrir
 option
 option
 bon
-sens|sen
+sens
 option
 select
 input
@@ -15362,7 +15362,7 @@ integer
 not
 null
 sea
-mois|moi
+mois
 integer
 not
 null
@@ -15694,7 +15694,7 @@ année
 jour
 jour
 badge
-cours|cour
+cours
 validité
 autre
 dater
@@ -15850,7 +15850,7 @@ cotisation
 annuel
 rentrer
 pendant
-mois|moi
+mois
 pouvoir
 réserver
 terrain
@@ -16468,7 +16468,7 @@ durer
 location
 nuire
 semaine
-mois|moi
+mois
 année
 nombre
 personne
@@ -16533,7 +16533,7 @@ suivant
 prix
 nuire
 semaine
-mois|moi
+mois
 année
 localisation
 géographique
@@ -16603,11 +16603,11 @@ camping
 recette
 année
 recette
-mois|moi
+mois
 fréquentation
 année
 fréquentation
-mois|moi
+mois
 typer
 hébergement
 etc
@@ -17677,7 +17677,7 @@ traitement
 donner
 donner
 rassembler
-sens|sen
+sens
 pouvoir
 utiliser
 fonctionnalité
@@ -17938,7 +17938,7 @@ integer
 jour
 naître
 integer
-mois|moi
+mois
 naître
 integer
 annee
@@ -17953,7 +17953,7 @@ integer
 jour
 deces
 integer
-mois|moi
+mois
 deces
 integer
 annee
@@ -18025,7 +18025,7 @@ null
 jour
 debut
 integer
-mois|moi
+mois
 debut
 integer
 annee
@@ -18037,7 +18037,7 @@ integer
 jour
 fin
 integer
-mois|moi
+mois
 fin
 integer
 annee
@@ -19409,7 +19409,7 @@ gérer
 emploi
 temps
 répartition
-cours|cour
+cours
 semaine
 heure
 enseignement
@@ -19611,7 +19611,7 @@ autre
 différent
 statis
 tique
-sens|sen
+sens
 falloir
 avoir
 trois
@@ -19640,7 +19640,7 @@ affectation
 ufr
 formater
 filière
-cours|cour
+cours
 enseigner
 etc
 affecter
@@ -19662,7 +19662,7 @@ information
 nécessaire
 enseignement
 désignation
-cours|cour
+cours
 nombre
 heure
 public
@@ -19680,7 +19680,7 @@ cnu
 concerner
 enseigner
 charger
-cours|cour
+cours
 rattacher
 section
 information
@@ -19745,7 +19745,7 @@ aêtre
 année
 iup
 iies
-cours|cour
+cours
 unité
 enseignement
 correspondre
@@ -19763,7 +19763,7 @@ enseignant
 pouvoir
 être
 concerner
-cours|cour
+cours
 groupe
 différent
 chapitrer
@@ -19931,7 +19931,7 @@ td
 travail
 diriger
 cm
-cours|cour
+cours
 magistral
 cmtd
 intermédiaire
@@ -19961,7 +19961,7 @@ structurer
 entité
 cmtd
 annees
-cours|cour
+cours
 cnu
 formation
 ufr
@@ -19973,7 +19973,7 @@ service
 liaison
 sauf
 entre
-cours|cour
+cours
 enseignant
 typer
 exemple
@@ -20007,11 +20007,11 @@ clef
 cas
 liaison
 entre
-cours|cour
+cours
 enseignant
 agir
 relation
-cours|cour
+cours
 pouvoir
 être
 associer
@@ -20020,7 +20020,7 @@ enseignant
 pouvoir
 avoir
 assurer
-cours|cour
+cours
 réaliser
 type
 liaison
@@ -20040,7 +20040,7 @@ schéma
 suivant
 cmtd
 annees
-cours|cour
+cours
 cnu
 affectation
 formater
@@ -20066,7 +20066,7 @@ table
 contenir
 description
 type
-cours|cour
+cours
 td
 cm
 cmtd
@@ -20076,7 +20076,7 @@ intituler
 intituler
 lettre
 typer
-cours|cour
+cours
 td
 cm
 cmtd
@@ -20184,11 +20184,11 @@ lettre
 section
 cnu
 correspondant
-cours|cour
+cours
 table
 contenir
 description
-cours|cour
+cours
 baser
 donner
 partager
@@ -20197,12 +20197,12 @@ réseau
 macro
 économie
 etc
-numcours|cour
+numcours
 identifier
 intituler
 intituler
 lettre
-cours|cour
+cours
 baser
 donner
 partager
@@ -20215,11 +20215,11 @@ numannée
 coder
 formation
 dépendre
-cours|cour
+cours
 numcmtd
 coder
 type
-cours|cour
+cours
 cmtd
 td
 etc
@@ -20228,18 +20228,18 @@ coder
 section
 cnu
 rattacher
-cours|cour
+cours
 heure
 nombre
 heure
 enseignement
 groupe
-cours|cour
+cours
 groupe
 nombre
 grouper
 concerner
-cours|cour
+cours
 statut
 table
 contenir
@@ -20304,11 +20304,11 @@ liaison
 affectation
 exister
 entre
-cours|cour
+cours
 enseignant
-numcours|cour
+numcours
 coder
-cours|cour
+cours
 concerner
 affectation
 numenseignant
@@ -20410,10 +20410,10 @@ primary
 key
 intituler
 text
-cours|cour
+cours
 create
 tabler
-cours|cour
+cours
 numcours
 numeric
 not
@@ -20528,7 +20528,7 @@ foreign
 key
 numcours
 references
-cours|cour
+cours
 cnumcours
 foreign
 key
@@ -20568,7 +20568,7 @@ into
 statut
 valoir
 charger
-cours|cour
+cours
 insert
 into
 statut
@@ -20799,7 +20799,7 @@ cnu
 valoir
 milieu
 dense
-matériaux|matériau
+matériaux
 insert
 into
 cnu
@@ -20837,7 +20837,7 @@ into
 cnu
 valoir
 chimie
-matériaux|matériau
+matériaux
 insert
 into
 cnu
@@ -22543,7 +22543,7 @@ utiliser
 php
 postgresql
 projet
-cours|cour
+cours
 deux
 formulaire
 voir
@@ -22552,7 +22552,7 @@ noter
 site
 fin
 dernier
-cours|cour
+cours
 contrôle
 oral
 contenir
@@ -22912,7 +22912,7 @@ initiation
 tabler
 matière
 i
-cours|cour
+cours
 chapitrer
 introduction
 document
@@ -23588,7 +23588,7 @@ ufr
 formater
 annees
 cnu
-cours|cour
+cours
 statut
 enseignant
 affectation
@@ -23599,7 +23599,7 @@ ufr
 formater
 annees
 cnu
-cours|cour
+cours
 statut
 enseignant
 affectation

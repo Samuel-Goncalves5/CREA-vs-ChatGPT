@@ -30,12 +30,12 @@ fressin
 développement
 web
 bibliographier
-cours|cour
+cours
 pierre
 nicolas
 clauss
 loria
-cours|cour
+cours
 romain
 lebreton
 sébastien
@@ -620,7 +620,7 @@ participer
 web
 sémantique
 donner
-sens|sen
+sens
 baliser
 faciliter
 interprétation

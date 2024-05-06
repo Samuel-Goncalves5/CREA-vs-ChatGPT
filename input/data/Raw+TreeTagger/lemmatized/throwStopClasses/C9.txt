@@ -11,7 +11,7 @@ dounas
 gmail
 com
 plan
-cours|cour
+cours
 rappel
 sql
 introduction
@@ -456,7 +456,7 @@ date
 dater
 create
 extraction
-mois|moi
+mois
 année
 ø
 style
@@ -1531,7 +1531,7 @@ fonction
 moisfr
 permettre
 afficher
-mois|moi
+mois
 lettre
 français
 utiliser
@@ -1539,7 +1539,7 @@ instruction
 switch
 caser
 afficher
-mois|moi
+mois
 faire
 appel
 fonction
@@ -1601,7 +1601,7 @@ décembre
 break
 default
 return
-mois|moi
+mois
 valide
 echo
 moisfr
@@ -2621,7 +2621,7 @@ php
 echo
 nom
 fichier
-cours|cour
+cours
 exécution
 partir
 raciner
@@ -3780,7 +3780,7 @@ pouvoir
 faire
 changer
 valeur
-cours|cour
+cours
 temps
 différence
 constant
@@ -4897,7 +4897,7 @@ php
 http
 php
 net
-cours|cour
+cours
 ligner
 https
 openclassrooms

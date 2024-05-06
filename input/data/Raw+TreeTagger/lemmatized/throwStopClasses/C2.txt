@@ -478,13 +478,13 @@ tab
 retourner
 valeur
 élément
-cours|cour
+cours
 key
 tab
 retourner
 indice
 élément
-cours|cour
+cours
 reset
 tab
 déplacer
@@ -1676,7 +1676,7 @@ mktime
 heure
 minute
 second
-mois|moi
+mois
 jour
 an
 thierry

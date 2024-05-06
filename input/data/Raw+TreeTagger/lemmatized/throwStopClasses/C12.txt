@@ -465,7 +465,7 @@ formulaire
 html
 valide
 navigateur
-ouvrir|ouvrer
+ouvrir
 connexion
 vers
 serveur
@@ -729,7 +729,7 @@ posséder
 interpréteur
 optimiser
 zend
-ouvrir|ouvrer
+ouvrir
 autre
 serveur
 http
@@ -2015,7 +2015,7 @@ php
 self
 urire
 script
-cours|cour
+cours
 exécution
 globals
 tableau
@@ -3790,7 +3790,7 @@ fonctionalités
 aïeul
 téléphone
 sans
-fils|fil
+fils
 téléphoner
 particulier
 programmation
@@ -3817,7 +3817,7 @@ méthode
 décrocher
 téléphone
 sans
-fils|fil
+fils
 programmation
 orienter
 objet
@@ -4555,7 +4555,7 @@ identifier
 transmettre
 script
 script
-cours|cour
+cours
 navigation
 session
 sans
@@ -5632,7 +5632,7 @@ utiliser
 suivant
 mysql
 connect
-ouvrir|ouvrer
+ouvrir
 connexion
 serveur
 mysql

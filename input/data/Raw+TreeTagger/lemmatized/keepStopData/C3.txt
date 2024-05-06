@@ -1,4 +1,4 @@
-cours|cour
+cours
 php
 verser
 x
@@ -108,7 +108,7 @@ contrôler
 if
 while
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -212,7 +212,7 @@ création
 syntaxe
 sql
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -320,7 +320,7 @@ général
 découper
 chaîne
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -414,7 +414,7 @@ clé
 parent
 self
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -481,7 +481,7 @@ session
 autre
 cas
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -654,14 +654,14 @@ officiellement
 mai
 apporter
 performance
-accroître|accroire
+accroître
 support
 plusieurs
 serveur
 web
 session
 sécurité
-accroître|accroire
+accroître
 actuellement
 dernier
 version
@@ -675,7 +675,7 @@ cycle
 pouvoir
 durer
 plusieurs
-mois|moi
+mois
 boire
 php
 amélioration
@@ -690,7 +690,7 @@ objet
 très
 proche
 compatibilité
-accroître|accroire
+accroître
 nouveau
 standard
 ancien
@@ -733,7 +733,7 @@ php
 hypertext
 preprocessor
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -994,7 +994,7 @@ instant
 asp
 sous
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -1033,7 +1033,7 @@ oublier
 php
 disposer
 plus
-api|apis
+api
 devoir
 déjà
 connaître
@@ -1268,7 +1268,7 @@ maniérer
 identique
 page
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -1356,7 +1356,7 @@ version
 avant
 longhorn
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -1528,7 +1528,7 @@ faux
 strong
 php
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -1590,14 +1590,14 @@ balise
 fermant
 ferme
 commentaire
-cours|cour
+cours
 php
 echo
 salut
 commentaire
 ligne
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -1807,7 +1807,7 @@ fonction
 autre
 script
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -1943,7 +1943,7 @@ session
 variable
 session
 voir
-cours|cour
+cours
 session
 noter
 avant
@@ -2014,7 +2014,7 @@ globals
 php
 ini
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -2214,7 +2214,7 @@ arrondir
 valeur
 inférieur
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -2381,7 +2381,7 @@ var
 toto
 fin
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -2638,7 +2638,7 @@ tab
 nom
 toto
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -2809,7 +2809,7 @@ constant
 afficher
 valeur
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -2920,7 +2920,7 @@ falloir
 utiliser
 unset
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -2937,7 +2937,7 @@ ainsi
 expression
 lire
 gauche
-droit|droite
+droit
 retourner
 voici
 tableau
@@ -2971,7 +2971,7 @@ associatif
 gauche
 gauche
 gauche
-droit|droite
+droit
 int
 double
 string
@@ -3006,7 +3006,7 @@ décalage
 b
 bit
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3191,7 +3191,7 @@ priorité
 plus
 faible
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3236,7 +3236,7 @@ ajouter
 tableau
 gauche
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3413,7 +3413,7 @@ sinon
 expression
 évaluer
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3423,7 +3423,7 @@ echo
 b
 affiche
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3490,7 +3490,7 @@ aussi
 utiliser
 syntaxe
 alternatif
-ouvrir|ouvrer
+ouvrir
 bloc
 juste
 après
@@ -3561,7 +3561,7 @@ bloc
 commander
 exécuter
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3759,7 +3759,7 @@ valeur
 valoir
 br
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -3913,7 +3913,7 @@ syntaxe
 alternatif
 endswitch
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4040,7 +4040,7 @@ fichier
 instruction
 exécuter
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4190,7 +4190,7 @@ tout
 type
 argument
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4362,7 +4362,7 @@ comment
 utiliser
 certain
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4604,7 +4604,7 @@ nom
 champ
 formulaire
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4789,7 +4789,7 @@ option
 select
 br
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4822,7 +4822,7 @@ bordeaux
 vin
 beaujolais
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -4916,7 +4916,7 @@ fonction
 retourner
 jour
 semaine
-mois|moi
+mois
 faire
 français
 récupérer
@@ -4971,7 +4971,7 @@ heure
 internet
 swatch
 jour
-mois|moi
+mois
 deux
 chiffre
 éventuellement
@@ -4985,7 +4985,7 @@ exemple
 frire
 vendredi
 f
-mois|moi
+mois
 textuel
 version
 longue
@@ -5030,12 +5030,12 @@ activer
 heure
 hiver
 jour
-mois|moi
+mois
 sans
 zéro
 initial
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -5054,17 +5054,17 @@ booléen
 savoir
 année
 bissextile
-mois|moi
+mois
 i
 e
-mois|moi
+mois
 trois
 lettre
 anglais
 exemple
 apr
 avril
-mois|moi
+mois
 sans
 zéro
 initial
@@ -5104,7 +5104,7 @@ th
 nd
 nombre
 jour
-mois|moi
+mois
 donner
 i
 e
@@ -5115,7 +5115,7 @@ i
 e
 mettre
 u
-seconde|second
+seconde
 depuis
 époque
 w
@@ -5224,12 +5224,12 @@ local
 b
 nom
 abréger
-mois|moi
+mois
 local
 b
 nom
 complet
-mois|moi
+mois
 local
 représentation
 préférer
@@ -5243,19 +5243,19 @@ diviser
 arrondir
 entre
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
 jour
-mois|moi
+mois
 numérique
 intervalle
 identique
 e
 numéro
 jour
-mois|moi
+mois
 chiffrer
 précéder
 espace
@@ -5278,7 +5278,7 @@ jour
 année
 numérique
 intervalle
-mois|moi
+mois
 numérique
 intervalle
 minuter
@@ -5421,7 +5421,7 @@ second
 minute
 minute
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -5429,7 +5429,7 @@ hours
 heure
 mday
 jour
-mois|moi
+mois
 wday
 jour
 semaine
@@ -5437,7 +5437,7 @@ numérique
 dimanche
 jusqu
 samedi
-mois|moi
+mois
 numérique
 year
 année
@@ -5458,7 +5458,7 @@ i
 e
 friday
 month
-mois|moi
+mois
 texte
 complet
 anglais
@@ -5467,7 +5467,7 @@ e
 january
 aujourdhui
 getdate
-mois|moi
+mois
 aujourdhui
 month
 mjour
@@ -5478,7 +5478,7 @@ aujourdhui
 year
 echo
 mjour
-mois|moi
+mois
 annee
 heure
 localtime
@@ -5510,9 +5510,9 @@ heure
 tm
 mday
 jour
-mois|moi
+mois
 tm
-mois|moi
+mois
 année
 tm
 year
@@ -5587,7 +5587,7 @@ an
 semaine
 jour
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -5768,7 +5768,7 @@ server
 name
 mysql
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -5932,7 +5932,7 @@ insert
 update
 delete
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -6085,7 +6085,7 @@ peu
 plus
 explication
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -6267,7 +6267,7 @@ primary
 key
 id
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -6420,7 +6420,7 @@ seul
 test
 effectuer
 validité
-mois|moi
+mois
 entre
 validité
 jour
@@ -6432,7 +6432,7 @@ pratique
 stockage
 année
 année
-mois|moi
+mois
 seulement
 exemple
 voici
@@ -6470,7 +6470,7 @@ donner
 préférence
 format
 année
-mois|moi
+mois
 jour
 année
 devoir
@@ -6480,7 +6480,7 @@ premier
 cas
 année
 jour
-mois|moi
+mois
 attention
 mysql
 pouvoir
@@ -6519,7 +6519,7 @@ mieux
 toujours
 utiliser
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -6703,7 +6703,7 @@ formater
 défaut
 timestamp
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -6736,7 +6736,7 @@ format
 spécifier
 toujours
 année
-mois|moi
+mois
 jour
 timestamp
 sinon
@@ -6873,7 +6873,7 @@ type
 table
 noter
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -7136,7 +7136,7 @@ règle
 respecter
 utilisation
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -7176,7 +7176,7 @@ delete
 set
 null
 enregistrement
-fils|fil
+fils
 supprimer
 colonne
 clé
@@ -7379,7 +7379,7 @@ flotter
 supérieur
 égal
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -7579,7 +7579,7 @@ b
 pass
 cret
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -7810,7 +7810,7 @@ from
 f
 message
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -8069,7 +8069,7 @@ champ
 sujet
 texte
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -8244,7 +8244,7 @@ error
 returns
 html
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -8442,7 +8442,7 @@ atteindre
 erreur
 survenir
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -8617,7 +8617,7 @@ compresser
 gzip
 zlib
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -8806,7 +8806,7 @@ buffer
 fclose
 fd
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -8874,7 +8874,7 @@ déplacer
 ouvrir
 lister
 fermer
-ouvrir|ouvrer
+ouvrir
 répertoire
 lecture
 fonction
@@ -8924,7 +8924,7 @@ comme
 autre
 ferme
 répertoire
-cours|cour
+cours
 lecture
 fonction
 closedir
@@ -8971,7 +8971,7 @@ entrer
 répertoire
 fonction
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -9145,7 +9145,7 @@ tailler
 fichier
 octet
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -9330,7 +9330,7 @@ résultat
 pouvoir
 surprendre
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -9577,7 +9577,7 @@ machine
 client
 web
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -9763,7 +9763,7 @@ forum
 avatar
 avatar
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -9964,7 +9964,7 @@ utilisation
 url
 espace
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -10172,7 +10172,7 @@ choisir
 second
 paramètre
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -10313,7 +10313,7 @@ position
 départir
 recherche
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -10467,7 +10467,7 @@ tableau
 nom
 cookie
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -10669,7 +10669,7 @@ auth
 user
 login
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -10880,7 +10880,7 @@ ini
 méthode
 déconseiller
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -11081,7 +11081,7 @@ rouvrir
 nouveau
 session
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -11166,7 +11166,7 @@ handler
 étude
 dépasser
 cadre
-cours|cour
+cours
 voici
 exemple
 tirer
@@ -11286,7 +11286,7 @@ query
 return
 true
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -11469,7 +11469,7 @@ spécifier
 type
 image
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -11649,7 +11649,7 @@ img
 imagedestroy
 img
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -11815,7 +11815,7 @@ coordonner
 x
 image
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -11940,7 +11940,7 @@ imagearc
 imagefilledarc
 juste
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -12093,7 +12093,7 @@ passer
 valeur
 création
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -12232,7 +12232,7 @@ this
 méthode
 appeler
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -12423,7 +12423,7 @@ faire
 référence
 classe
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -12589,7 +12589,7 @@ mot
 clé
 extends
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -12739,7 +12739,7 @@ comme
 attribut
 statique
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -12875,7 +12875,7 @@ classer
 b
 br
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -13000,7 +13000,7 @@ var
 function
 construct
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -13156,7 +13156,7 @@ function
 this
 salut
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -13318,7 +13318,7 @@ affiche
 afficher
 bonjour
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -13497,7 +13497,7 @@ return
 false
 else
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -13657,7 +13657,7 @@ o
 o
 true
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -13778,7 +13778,7 @@ o
 référence
 objet
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -13979,7 +13979,7 @@ getvalue
 return
 concreteclass
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -14148,7 +14148,7 @@ fonction
 affiche
 incrémenter
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -14269,7 +14269,7 @@ this
 val
 cpt
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -14476,7 +14476,7 @@ itératif
 comme
 foreach
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -14617,7 +14617,7 @@ objet
 classe
 utilisateur
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -14829,7 +14829,7 @@ message
 erreur
 générer
 rohaut
-cours|cour
+cours
 programmation
 php
 page
@@ -14995,7 +14995,7 @@ such
 filer
 or
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -15193,7 +15193,7 @@ handler
 exception
 handler
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -15372,7 +15372,7 @@ this
 proprietaire
 nom
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -15502,7 +15502,7 @@ ainsi
 être
 stocker
 manière
-convenir|convier
+convenir
 second
 fonction
 prendre
@@ -15531,7 +15531,7 @@ echo
 this
 one
 rohaut
-cours|cour
+cours
 programmation
 php
 pager
@@ -15580,7 +15580,7 @@ objet
 show
 one
 rohaut
-cours|cour
+cours
 programmation
 php
 pager

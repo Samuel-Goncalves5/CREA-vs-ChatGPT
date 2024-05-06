@@ -475,7 +475,7 @@ adapter
 type
 baser
 donner
-sens|sen
+sens
 offrir
 juste
 service
@@ -539,7 +539,7 @@ service
 web
 commander
 ligne
-cours|cour
+cours
 ligner
 homebanking
 devoir
@@ -579,7 +579,7 @@ p
 heure
 form
 élément
-sens|sen
+sens
 html
 concerner
 langage
@@ -748,7 +748,7 @@ casser
 nom
 fichier
 dossier
-convenir|convier
+convenir
 être
 prudent
 écriture
@@ -757,7 +757,7 @@ voir
 également
 url
 vide
-sens|sen
+sens
 certain
 circonstance
 étienne
@@ -793,7 +793,7 @@ formulaire
 tout
 attribut
 aucun
-sens|sen
+sens
 formulaire
 contenir
 élément
@@ -984,7 +984,7 @@ sans
 serif
 strong
 objectif
-cours|cour
+cours
 strong
 faire
 p
@@ -1197,13 +1197,13 @@ sans
 serif
 strong
 typer
-cours|cour
+cours
 strong
 faire
 p
 select
 name
-typecours|cour
+typecours
 size
 option
 valoir
@@ -1240,13 +1240,13 @@ sans
 serif
 strong
 typer
-cours|cour
+cours
 strong
 faire
 p
 select
 name
-typecours|cour
+typecours
 option
 valoir
 selected
@@ -1495,7 +1495,7 @@ champ
 accompagner
 bouton
 parcourir
-ouvrir|ouvrer
+ouvrir
 fenêtre
 explorateur
 p
@@ -2011,7 +2011,7 @@ input
 typer
 checkbox
 name
-cours|cour
+cours
 valoir
 faire
 strong
@@ -2039,7 +2039,7 @@ input
 typer
 checkbox
 name
-cours|cour
+cours
 valoir
 fran
 ccedil
@@ -2059,7 +2059,7 @@ input
 typer
 checkbox
 name
-cours|cour
+cours
 valoir
 physique
 faire
@@ -2450,7 +2450,7 @@ valoir
 alert
 fournir
 dénomination
-cours|cour
+cours
 return
 false
 if
@@ -2463,7 +2463,7 @@ valoir
 alert
 fournir
 objectif
-cours|cour
+cours
 return
 false
 else
@@ -2670,7 +2670,7 @@ class
 important
 eacute
 nomination
-cours|cour
+cours
 p
 p
 php
@@ -2682,7 +2682,7 @@ p
 class
 important
 objectif
-cours|cour
+cours
 p
 étienne
 vandeput
@@ -3327,7 +3327,7 @@ former
 élément
 document
 html
-convenir|convier
+convenir
 comprendre
 principe
 notamment
@@ -3853,7 +3853,7 @@ pouvoir
 définir
 plusieurs
 endroit
-convenir|convier
+convenir
 déterminer
 cas
 règle
@@ -4429,7 +4429,7 @@ dater
 charat
 dater
 charat
-mois|moi
+mois
 dater
 charat
 dater
@@ -4450,7 +4450,7 @@ document
 modifier
 dernier
 fois
-mois|moi
+mois
 annee
 jour
 script
@@ -4719,7 +4719,7 @@ contenir
 valeur
 défaut
 valeur
-convenir|convier
+convenir
 cela
 éviter
 utilisateur
@@ -7422,7 +7422,7 @@ php
 prenom
 étienne
 titre
-cours|cour
+cours
 php
 br
 étienne
@@ -7439,18 +7439,18 @@ inverser
 échapper
 caractère
 br
-cours|cour
+cours
 php
 donner
 prenom
 br
-cours|cour
+cours
 php
 donner
 prenom
 br
 e
-cours|cour
+cours
 php
 donner
 prenom
@@ -8095,7 +8095,7 @@ estampille
 moment
 présent
 exprimer
-seconde|second
+seconde
 depuis
 er
 janvier
@@ -8785,7 +8785,7 @@ tableau
 valeur
 renvoyer
 false
-convenir|convier
+convenir
 comme
 test
 arrêt
@@ -9509,7 +9509,7 @@ notamment
 celui
 être
 portable
-sens|sen
+sens
 exécuter
 peu
 près
@@ -9995,7 +9995,7 @@ certain
 année
 formater
 cela
-sens|sen
+sens
 formation
 assurer
 seul
@@ -10322,7 +10322,7 @@ avant
 préciser
 contenir
 table
-convenir|convier
+convenir
 définir
 structure
 savoir
@@ -10633,7 +10633,7 @@ commencer
 toujours
 année
 suivre
-mois|moi
+mois
 jour
 valeur
 défaut
@@ -10700,7 +10700,7 @@ mot
 passer
 instruction
 suivant
-convenir|convier
+convenir
 program
 filer
 easyphp
@@ -10825,7 +10825,7 @@ pouvoir
 étendre
 plusieurs
 ligne
-convenir|convier
+convenir
 alors
 sélectionner
 base
@@ -11350,7 +11350,7 @@ index
 colonne
 index
 intéressant
-sens|sen
+sens
 accélérer
 recherche
 ralentir
@@ -12133,7 +12133,7 @@ information
 tout
 colonne
 souhaiter
-convenir|convier
+convenir
 préciser
 celui
 concerner
@@ -12393,7 +12393,7 @@ bien
 regroupement
 illustrer
 regroupement
-convenir|convier
+convenir
 travailler
 base
 donner
@@ -13481,7 +13481,7 @@ die
 comporter
 comme
 fonction
-sens|sen
+sens
 pouvoir
 prendre
 comme
@@ -13522,7 +13522,7 @@ fois
 connecter
 serveur
 mysql
-convenir|convier
+convenir
 activer
 base
 donner
@@ -13957,7 +13957,7 @@ row
 p
 petit
 script
-ouvrir|ouvrer
+ouvrir
 base
 donner
 exemple
@@ -15022,7 +15022,7 @@ alors
 aucun
 élève
 rendre
-cours|cour
+cours
 année
 maître
 stage
@@ -15100,7 +15100,7 @@ tout
 entité
 vraiment
 utile
-sens|sen
+sens
 lors
 passager
 schéma
@@ -15472,7 +15472,7 @@ interface
 interface
 communication
 entre
-être|êtres
+être
 humain
 application
 devoir
@@ -15778,7 +15778,7 @@ avant
 aborder
 création
 modèle
-convenir|convier
+convenir
 avoir
 idée
 clair
@@ -17670,7 +17670,7 @@ session
 mot
 script
 utiliser
-sens|sen
+sens
 large
 parti
 code

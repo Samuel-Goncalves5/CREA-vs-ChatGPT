@@ -1,4 +1,4 @@
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -9,12 +9,12 @@ table
 du
 matière
 ce
-cours|cour
+cours
 au
 format
 epub
 ce
-cours|cour
+cours
 au
 format
 pdf
@@ -248,7 +248,7 @@ index
 ii
 chapitrer
 ce
-cours|cour
+cours
 au
 format
 epub
@@ -257,19 +257,19 @@ en
 accéléré
 format
 epub
-cours|cour
+cours
 PHP
 accélérer
 version
 chapitrer
 ce
-cours|cour
+cours
 au
 format
 epub
 chapitrer
 ce
-cours|cour
+cours
 au
 format
 pdf
@@ -278,13 +278,13 @@ en
 accéléré
 en
 pdf
-cours|cour
+cours
 PHP
 accélérer
 version
 chapitrer
 ce
-cours|cour
+cours
 au
 format
 pdf
@@ -358,7 +358,7 @@ entre
 balise
 php
 et
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -468,7 +468,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accéléré
 version
@@ -821,7 +821,7 @@ page
 puis
 HypertextPreProcessor
 historique
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -987,7 +987,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -1200,7 +1200,7 @@ falloir
 y
 veiller
 et
-la|le
+la
 vérifier
 minutieusement
 dans
@@ -1360,7 +1360,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -1719,7 +1719,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -2169,7 +2169,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -2487,7 +2487,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -2874,7 +2874,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -3171,7 +3171,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -3235,7 +3235,7 @@ de
 résultat
 exemple
 simple
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -3372,7 +3372,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -3660,7 +3660,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -3980,7 +3980,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -4370,7 +4370,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -4626,7 +4626,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -4836,7 +4836,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accéléré
 version
@@ -5122,7 +5122,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -5269,7 +5269,7 @@ inclusion
 de
 fichier
 externe
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -5513,7 +5513,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accéléré
 version
@@ -5835,7 +5835,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -5932,7 +5932,7 @@ son
 côté
 objet
 ceci
-la|le
+la
 bloquer
 tôt
 ou
@@ -5962,7 +5962,7 @@ suivre
 d
 abord
 un
-cours|cour
+cours
 d
 introduction
 à
@@ -6266,7 +6266,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -6682,7 +6682,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -6978,7 +6978,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -7285,7 +7285,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -7602,7 +7602,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -7899,7 +7899,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -8298,7 +8298,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accéléré
 version
@@ -8607,7 +8607,7 @@ saisir
 et
 non
 pas
-la|le
+la
 utiliser
 dans
 du
@@ -8818,7 +8818,7 @@ chapitre
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -9201,7 +9201,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -9474,7 +9474,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -9777,7 +9777,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -10388,7 +10388,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -10538,7 +10538,7 @@ le
 table
 carnet
 pour
-la|le
+la
 exporter
 en
 XML
@@ -10631,7 +10631,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -10976,7 +10976,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -11178,7 +11178,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -11493,7 +11493,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -11760,7 +11760,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -12121,7 +12121,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -12509,7 +12509,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -12873,7 +12873,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -13217,7 +13217,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -13459,7 +13459,7 @@ package
 librement
 disponible
 on
-la|le
+la
 trouver
 sur
 Packagist
@@ -13779,7 +13779,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -14151,7 +14151,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -14428,7 +14428,7 @@ chapitre
 table
 du
 matière
-cours|cour
+cours
 PHP
 accéléré
 version
@@ -14676,7 +14676,7 @@ testsuite
 testsuite
 phpunir
 nous
-être|sommer
+être
 prêt
 à
 lancer
@@ -14767,7 +14767,7 @@ chapitre
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -14824,11 +14824,11 @@ client
 mobile
 permettre
 de
-la|le
+la
 récupérer
 et
 du
-la|le
+la
 afficher
 REST
 signifier
@@ -15048,7 +15048,7 @@ patch
 du
 élément
 ou
-la|le
+la
 effacer
 DELETE
 être
@@ -15456,7 +15456,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -15947,7 +15947,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -16321,7 +16321,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -16406,7 +16406,7 @@ proxy
 il
 valoir
 mieux
-la|le
+la
 désactiver
 pour
 que
@@ -16504,7 +16504,7 @@ devoir
 modifier
 comme
 suivre
-la|le
+la
 user
 dir
 être
@@ -16563,7 +16563,7 @@ navigateur
 ou
 avec
 curl
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -16743,7 +16743,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -16863,7 +16863,7 @@ pro
 Web
 et
 mobile
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -16992,7 +16992,7 @@ chapitrer
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17166,7 +17166,7 @@ Alice
 grâce
 à
 git
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17311,7 +17311,7 @@ chapitre
 table
 du
 matière
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17517,7 +17517,7 @@ le
 fin
 de
 ce
-cours|cour
+cours
 un
 rappel
 du
@@ -17544,7 +17544,7 @@ branche
 git
 GIT
 brancher
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17600,7 +17600,7 @@ html
 version
 de
 javascript
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17614,7 +17614,7 @@ recherche
 genindex
 —
 search
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17682,7 +17682,7 @@ heure
 controleur
 Cookies
 hidden
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17787,7 +17787,7 @@ time
 phpinfo
 timestamp
 index
-cours|cour
+cours
 PHP
 accélérer
 version
@@ -17822,12 +17822,12 @@ index
 document
 Outline
 ce
-cours|cour
+cours
 au
 format
 epub
 ce
-cours|cour
+cours
 au
 format
 pdf

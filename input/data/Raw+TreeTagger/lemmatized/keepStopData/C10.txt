@@ -1,12 +1,12 @@
 développement
 web
 php
-cours|cour
+cours
 organisation
 séance
 séance
 heure
-cours|cour
+cours
 heure
 td
 projet
@@ -38,7 +38,7 @@ information
 divers
 epi
 fin
-cours|cour
+cours
 avril
 evaluation
 contrôler
@@ -55,7 +55,7 @@ participation
 examen
 partiel
 programmer
-cours|cour
+cours
 introduction
 général
 web
@@ -362,7 +362,7 @@ dtd
 html
 doctype
 html
-cours|cour
+cours
 définition
 reconnaître
 uniquement
@@ -1732,7 +1732,7 @@ xyz
 pager
 xyz
 objectif
-cours|cour
+cours
 création
 site
 web
@@ -2246,7 +2246,7 @@ date
 dater
 create
 extraction
-mois|moi
+mois
 année
 style
 procédural
@@ -2562,7 +2562,7 @@ valeur
 développement
 web
 php
-cours|cour
+cours
 rappel
 baser
 donner
@@ -2714,7 +2714,7 @@ command
 line
 interface
 usage
-cours|cour
+cours
 extension
 apache
 rappel
@@ -4772,7 +4772,7 @@ php
 echo
 nom
 fichier
-cours|cour
+cours
 execution
 partir
 raciner
@@ -6019,7 +6019,7 @@ exit
 développement
 web
 php
-cours|cour
+cours
 rappel
 architecturer
 général
@@ -6242,7 +6242,7 @@ cli
 disponible
 script
 usage
-cours|cour
+cours
 extension
 apache
 sgbd
@@ -6264,7 +6264,7 @@ database
 sgbd
 bdd
 personne
-cours|cour
+cours
 id
 nom
 prenom
@@ -8633,7 +8633,7 @@ voir
 ensemble
 bon
 pratique
-cours|cour
+cours
 php
 session
 start
@@ -9549,7 +9549,7 @@ pouvoir
 vouloir
 annuler
 transaction
-cours|cour
+cours
 route
 après
 commettre

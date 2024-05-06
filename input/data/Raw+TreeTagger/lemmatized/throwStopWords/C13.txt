@@ -17,10 +17,10 @@ sur
 le
 serveur
 de
-cours|cour
+cours
 plan
 du
-cours|cour
+cours
 rappel
 le
 HTML
@@ -58,7 +58,7 @@ d
 exploitation
 tache
 de
-fond|fonds
+fond
 application
 utilisateur
 le
@@ -262,7 +262,7 @@ le
 navigateur
 plan
 du
-cours|cour
+cours
 rappel
 le
 HTML
@@ -499,7 +499,7 @@ attribut
 bilan
 du
 er
-cours|cour
+cours
 principe
 du
 HTML
@@ -1410,7 +1410,7 @@ valoir
 break
 résumer
 du
-cours|cour
+cours
 précédent
 HTML
 structure
@@ -1942,7 +1942,7 @@ du
 site
 utile
 du
-cours|cour
+cours
 bien
 faire
 du

@@ -863,7 +863,7 @@ du
 recommandation
 de
 style
-la|le
+la
 respecter
 n
 être
@@ -2077,14 +2077,14 @@ selon
 le
 contexte
 trois
-sens|sen
+sens
 distinct
 même
 si
 conceptuellement
 apparenter
 au
-sens|sen
+sens
 informatique
 commun
 un
@@ -2110,7 +2110,7 @@ interface
 homme
 machiner
 au
-sens|sen
+sens
 programmation
 objet
 l
@@ -2147,7 +2147,7 @@ commentaire
 de
 documentation
 au
-sens|sen
+sens
 spécifique
 du
 langage
@@ -2174,7 +2174,7 @@ comportement
 c
 être
 le
-sens|sen
+sens
 qui
 être
 définir
@@ -2189,14 +2189,14 @@ d
 utilisation
 qui
 donner
-sens|sen
+sens
 au
 mot
 interface
 le
 interface
 au
-sens|sen
+sens
 du
 langage
 java
@@ -2677,7 +2677,7 @@ regroupement
 logique
 un
 encapsulation
-accroître|accroire
+accroître
 un
 code
 plus
@@ -4081,7 +4081,7 @@ l
 opérateur
 new
 pour
-la|le
+la
 créer
 le
 caractère
@@ -5226,7 +5226,7 @@ de
 le
 collection
 en
-cours|cour
+cours
 de
 parcours
 relever
@@ -6492,7 +6492,7 @@ le
 constructeur
 être
 en
-cours|cour
+cours
 d
 appel
 par
@@ -6731,7 +6731,7 @@ le
 méthode
 en
 ce
-sens|sen
+sens
 le
 signature
 correspondre
@@ -7994,7 +7994,7 @@ de
 caractère
 dont
 à
-droit|droite
+droit
 de
 le
 virgule
@@ -8561,7 +8561,7 @@ ancêtre
 mais
 pouvoir
 aussi
-la|le
+la
 redéfinir
 le
 classe
@@ -10723,7 +10723,7 @@ interface
 un
 interface
 au
-sens|sen
+sens
 du
 langage
 java
@@ -12458,7 +12458,7 @@ défaut
 S
 il
 ne
-convenir|convier
+convenir
 pas
 on
 pouvoir
@@ -12537,7 +12537,7 @@ composant
 de
 gauche
 à
-droit|droite
+droit
 passer
 à
 un
@@ -12772,7 +12772,7 @@ offrir
 du
 interface
 au
-sens|sen
+sens
 java
 appeler
 écouteur
@@ -12792,7 +12792,7 @@ sélectif
 afin
 de
 pouvoir
-la|le
+la
 traiter
 event
 source
@@ -13563,7 +13563,7 @@ du
 donnée
 quantifiable
 avoir
-sens|sen
+sens
 pour
 l
 application
@@ -14874,7 +14874,7 @@ classe
 de
 base
 garder
-sens|sen
+sens
 même
 si
 le
@@ -14883,7 +14883,7 @@ classe
 en
 spécialiser
 ou
-la|le
+la
 compléter
 le
 objet
@@ -15085,12 +15085,12 @@ métier
 afin
 de
 pouvoir
-la|le
+la
 faire
 évoluer
 indépendamment
 et
-la|le
+la
 réutiliser
 MVC
 organiser
@@ -17230,7 +17230,7 @@ expérimenté
 se
 devoir
 de
-la|le
+la
 connaître
 et
 de
@@ -17989,7 +17989,7 @@ notamment
 du
 méthode
 en
-cours|cour
+cours
 d
 exécution
 le

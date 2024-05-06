@@ -14,7 +14,7 @@ gmail
 com
 plan
 du
-cours|cour
+cours
 rappel
 SQL
 introduction
@@ -674,7 +674,7 @@ dater
 create
 extraction
 du
-mois|moi
+mois
 année
 Ø
 avec
@@ -2316,7 +2316,7 @@ permettre
 d
 afficher
 un
-mois|moi
+mois
 en
 tout
 lettre
@@ -2332,7 +2332,7 @@ Switch
 caser
 afficher
 le
-mois|moi
+mois
 en
 faire
 appel
@@ -2398,7 +2398,7 @@ décembre
 break
 default
 return
-mois|moi
+mois
 non
 valide
 echo
@@ -3252,7 +3252,7 @@ php
 qui
 permettre
 de
-la|le
+la
 afficher
 exercice
 exercice
@@ -3369,7 +3369,7 @@ php
 qui
 permettre
 de
-la|le
+la
 afficher
 sans
 utiliser
@@ -3908,7 +3908,7 @@ nom
 du
 fichier
 en
-cours|cour
+cours
 d
 exécution
 à
@@ -4157,7 +4157,7 @@ d
 envoyer
 au
 serveur
-la|le
+la
 entêter
 passer
 en
@@ -4703,7 +4703,7 @@ two
 sinon
 on
 pouvoir
-la|le
+la
 parcourir
 avec
 foreach
@@ -5072,7 +5072,7 @@ son
 caractéristique
 et
 de
-la|le
+la
 adapter
 au
 besoin
@@ -5171,7 +5171,7 @@ un
 classe
 permettre
 de
-la|le
+la
 manipuler
 POO
 en
@@ -5274,7 +5274,7 @@ l
 objet
 que
 nous
-être|sommer
+être
 entrain
 de
 définir
@@ -5885,7 +5885,7 @@ changer
 de
 valeur
 au
-cours|cour
+cours
 du
 temps
 à
@@ -7568,7 +7568,7 @@ PHP
 http
 php
 net
-cours|cour
+cours
 en
 ligne
 https

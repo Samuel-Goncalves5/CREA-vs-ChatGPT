@@ -1389,11 +1389,11 @@ prendre
 selon
 contexte
 trois
-sens|sen
+sens
 distinct
 conceptuellement
 apparenté
-sens|sen
+sens
 informatique
 commun
 interface
@@ -1410,7 +1410,7 @@ exemple
 interface
 homme
 machiner
-sens|sen
+sens
 programmation
 objet
 interface
@@ -1449,7 +1449,7 @@ section
 contexte
 utilisation
 donner
-sens|sen
+sens
 mot
 interface
 interface
@@ -1769,7 +1769,7 @@ imbriquer
 regroupement
 logique
 encapsulation
-accroître|accroire
+accroître
 coder
 lisible
 maintenable
@@ -3276,7 +3276,7 @@ noter
 suppression
 élément
 collection
-cours|cour
+cours
 parcours
 relever
 méthode
@@ -4020,7 +4020,7 @@ e
 objet
 méthode
 constructeur
-cours|cour
+cours
 appel
 mot
 clé
@@ -7727,7 +7727,7 @@ gestionnaire
 mise
 pager
 défaut
-convenir|convier
+convenir
 pouvoir
 remplacer
 composant
@@ -7772,7 +7772,7 @@ jpanel
 positionner
 composant
 gauche
-droit|droite
+droit
 passer
 nouveau
 ligne
@@ -8402,7 +8402,7 @@ dater
 représenter
 donner
 quantifiable
-sens|sen
+sens
 application
 modèle
 relever
@@ -9236,7 +9236,7 @@ méthode
 classer
 base
 garder
-sens|sen
+sens
 sous
 classe
 spécialiser
@@ -11103,7 +11103,7 @@ exécution
 variable
 local
 méthode
-cours|cour
+cours
 exécution
 tas
 contenir

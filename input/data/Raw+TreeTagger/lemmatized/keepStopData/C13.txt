@@ -12,9 +12,9 @@ placer
 projet
 disponible
 serveur
-cours|cour
+cours
 plan
-cours|cour
+cours
 rappel
 html
 css
@@ -190,7 +190,7 @@ ouvrir
 fichier
 navigateur
 plan
-cours|cour
+cours
 rappel
 html
 css
@@ -356,7 +356,7 @@ jouer
 attribut
 bilan
 er
-cours|cour
+cours
 principe
 html
 balise
@@ -889,7 +889,7 @@ fonction
 interfacé
 mysql
 premier
-cours|cour
+cours
 variable
 fonction
 boucler
@@ -1023,7 +1023,7 @@ caser
 valoir
 break
 résumer
-cours|cour
+cours
 précédent
 html
 structure
@@ -1425,7 +1425,7 @@ information
 internet
 site
 utile
-cours|cour
+cours
 bien
 faire
 tutoriaux

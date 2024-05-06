@@ -1,4 +1,4 @@
-cours|cour
+cours
 PHP
 verser
 x
@@ -956,7 +956,7 @@ et
 apporter
 du
 performance
-accroître|accroire
+accroître
 le
 support
 de
@@ -967,7 +967,7 @@ le
 session
 un
 sécurité
-accroître|accroire
+accroître
 C
 être
 actuellement
@@ -993,7 +993,7 @@ qui
 pouvoir
 durer
 plusieurs
-mois|moi
+mois
 le
 but
 de
@@ -1019,7 +1019,7 @@ du
 C
 un
 compatibilité
-accroître|accroire
+accroître
 avec
 de
 nouveau
@@ -1585,7 +1585,7 @@ disposer
 de
 plus
 de
-api|apis
+api
 ce
 que
 vous
@@ -2524,7 +2524,7 @@ ferme
 le
 commentaire
 en
-cours|cour
+cours
 php
 echo
 salut
@@ -3123,7 +3123,7 @@ variable
 de
 session
 voir
-cours|cour
+cours
 sur
 le
 session
@@ -4715,7 +4715,7 @@ lire
 de
 gauche
 à
-droit|droite
+droit
 et
 ne
 retourner
@@ -4758,7 +4758,7 @@ associatif
 gauche
 gauche
 gauche
-droit|droite
+droit
 int
 double
 string
@@ -4836,7 +4836,7 @@ b
 bit
 sur
 le
-droit|droite
+droit
 un
 décalage
 de
@@ -4854,7 +4854,7 @@ un
 décalage
 sur
 le
-droit|droite
+droit
 à
 un
 division
@@ -5233,7 +5233,7 @@ le
 le
 tableau
 de
-droit|droite
+droit
 être
 ajouter
 au
@@ -5732,7 +5732,7 @@ un
 syntaxe
 alternatif
 on
-ouvrir|ouvrer
+ouvrir
 le
 bloc
 juste
@@ -7187,7 +7187,7 @@ fonction
 il
 falloir
 simplement
-la|le
+la
 appeler
 par
 leur
@@ -8082,7 +8082,7 @@ le
 semaine
 ou
 du
-mois|moi
+mois
 le
 faire
 en
@@ -8174,7 +8174,7 @@ Swatch
 d
 jour
 du
-mois|moi
+mois
 sur
 deux
 chiffre
@@ -8200,7 +8200,7 @@ Fri
 pour
 vendredi
 F
-mois|moi
+mois
 textuel
 version
 longue
@@ -8268,7 +8268,7 @@ hiver
 j
 jour
 du
-mois|moi
+mois
 sans
 le
 zéro
@@ -8309,12 +8309,12 @@ bissextile
 ou
 pas
 m
-mois|moi
+mois
 i
 e
 à
 M
-mois|moi
+mois
 en
 trois
 lettre
@@ -8327,7 +8327,7 @@ Apr
 pour
 avril
 n
-mois|moi
+mois
 sans
 le
 zéro
@@ -8362,7 +8362,7 @@ ajouter
 en
 PHP
 s
-seconde|second
+seconde
 i
 e
 à
@@ -8387,7 +8387,7 @@ de
 jour
 dans
 le
-mois|moi
+mois
 donner
 i
 e
@@ -8591,13 +8591,13 @@ b
 nom
 abréger
 du
-mois|moi
+mois
 local
 B
 nom
 complet
 du
-mois|moi
+mois
 local
 c
 représentation
@@ -8630,7 +8630,7 @@ page
 d
 jour
 du
-mois|moi
+mois
 en
 numérique
 intervalle
@@ -8646,7 +8646,7 @@ numéro
 du
 jour
 du
-mois|moi
+mois
 le
 chiffre
 être
@@ -8695,7 +8695,7 @@ numérique
 intervalle
 à
 m
-mois|moi
+mois
 en
 numérique
 intervalle
@@ -8955,7 +8955,7 @@ heure
 mday
 jour
 du
-mois|moi
+mois
 wday
 jour
 de
@@ -8967,7 +8967,7 @@ jusqu
 à
 samedi
 mon
-mois|moi
+mois
 numérique
 year
 année
@@ -8993,7 +8993,7 @@ i
 e
 Friday
 month
-mois|moi
+mois
 texte
 complet
 en
@@ -9003,7 +9003,7 @@ e
 January
 aujourdhui
 getdate
-mois|moi
+mois
 aujourdhui
 month
 mjour
@@ -9014,7 +9014,7 @@ aujourdhui
 year
 echo
 mjour
-mois|moi
+mois
 annee
 L
 heure
@@ -9058,10 +9058,10 @@ tm
 mday
 jour
 du
-mois|moi
+mois
 tm
 mon
-mois|moi
+mois
 de
 l
 année
@@ -10585,7 +10585,7 @@ effectuer
 le
 validité
 du
-mois|moi
+mois
 entre
 et
 et
@@ -10611,7 +10611,7 @@ ou
 de
 l
 année
-mois|moi
+mois
 seulement
 par
 exemple
@@ -10679,7 +10679,7 @@ préférence
 au
 format
 année
-mois|moi
+mois
 jour
 L
 année
@@ -10695,7 +10695,7 @@ d
 un
 année
 jour
-mois|moi
+mois
 attention
 MySQL
 ne
@@ -11106,7 +11106,7 @@ toujours
 l
 année
 le
-mois|moi
+mois
 et
 le
 jour
@@ -11605,7 +11605,7 @@ et
 verrouillage
 du
 donnée
-la|le
+la
 commettre
 rollback
 restauration
@@ -11760,7 +11760,7 @@ set
 NULL
 le
 enregistrement
-fils|fil
+fils
 ne
 être
 pas
@@ -13054,7 +13054,7 @@ le
 mieux
 être
 de
-la|le
+la
 renommer
 select
 t
@@ -14433,7 +14433,7 @@ ouvrir
 lister
 fermer
 on
-ouvrir|ouvrer
+ouvrir
 un
 répertoire
 en
@@ -14520,7 +14520,7 @@ fermer
 un
 répertoire
 en
-cours|cour
+cours
 de
 lecture
 avec
@@ -16826,7 +16826,7 @@ cookie
 être
 envoyer
 avec
-la|le
+la
 entêter
 HTTP
 il
@@ -17878,13 +17878,13 @@ serveur
 en
 nombre
 de
-seconde|second
+seconde
 il
 être
 par
 défaut
 de
-seconde|second
+seconde
 soit
 minute
 au
@@ -17919,7 +17919,7 @@ de
 session
 exprimer
 en
-seconde|second
+seconde
 par
 défaut
 le
@@ -18135,7 +18135,7 @@ dépasser
 le
 cadre
 du
-cours|cour
+cours
 mais
 voici
 un
@@ -19671,7 +19671,7 @@ function
 example
 echo
 je
-être|suivre
+être
 le
 fonction
 original
@@ -19691,7 +19691,7 @@ L
 affichage
 être
 je
-être|suivre
+être
 le
 fonction
 original
@@ -20499,7 +20499,7 @@ function
 example
 echo
 je
-être|suivre
+être
 à
 example
 fonctionnalité
@@ -20515,7 +20515,7 @@ function
 example
 echo
 je
-être|suivre
+être
 B
 example
 fonctionnalité
@@ -20752,7 +20752,7 @@ function
 à
 echo
 je
-être|suivre
+être
 le
 classe
 à
@@ -20765,7 +20765,7 @@ function
 B
 echo
 je
-être|suivre
+être
 le
 classe
 B
@@ -20790,7 +20790,7 @@ new
 B
 afficher
 je
-être|suivre
+être
 le
 classe
 B
@@ -20820,7 +20820,7 @@ function
 à
 echo
 je
-être|suivre
+être
 le
 classe
 à
@@ -20835,7 +20835,7 @@ b
 new
 B
 je
-être|suivre
+être
 le
 classe
 à
@@ -20904,7 +20904,7 @@ function
 à
 echo
 je
-être|suivre
+être
 le
 classe
 à
@@ -20919,7 +20919,7 @@ function
 B
 echo
 je
-être|suivre
+être
 le
 classe
 B
@@ -20931,12 +20931,12 @@ new
 B
 afficher
 je
-être|suivre
+être
 le
 classe
 B
 je
-être|suivre
+être
 le
 classe
 à
@@ -20988,7 +20988,7 @@ function
 à
 echo
 je
-être|suivre
+être
 le
 classe
 à
@@ -21009,7 +21009,7 @@ PHP
 pager
 echo
 je
-être|suivre
+être
 le
 classe
 B
@@ -21027,12 +21027,12 @@ new
 B
 afficher
 je
-être|suivre
+être
 le
 classe
 B
 je
-être|suivre
+être
 le
 classe
 à
@@ -23906,7 +23906,7 @@ ne
 pouvoir
 donc
 pas
-la|le
+la
 étendre
 mais
 le
@@ -24843,7 +24843,7 @@ le
 manière
 qui
 vous
-convenir|convier
+convenir
 le
 second
 fonction

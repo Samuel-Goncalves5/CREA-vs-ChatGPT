@@ -1,4 +1,4 @@
-cours|cour
+cours
 initiation
 php
 initiation
@@ -12,7 +12,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 tabler
@@ -72,7 +72,7 @@ installation
 easyphp
 installation
 support
-cours|cour
+cours
 langage
 php
 règle
@@ -158,7 +158,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fonction
@@ -325,7 +325,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 copier
@@ -455,7 +455,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 pre
@@ -465,7 +465,7 @@ suivre
 efficacité
 connaissance
 utile
-cours|cour
+cours
 langage
 html
 php
@@ -508,7 +508,7 @@ structurer
 client
 serveur
 etc
-cours|cour
+cours
 adresse
 débutant
 programmer
@@ -604,7 +604,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 introduction
@@ -952,7 +952,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 marche
@@ -1279,7 +1279,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 architecturer
@@ -1402,7 +1402,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 source
@@ -1482,7 +1482,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 installation
@@ -1675,7 +1675,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 windows
@@ -1837,7 +1837,7 @@ htdocs
 répertoire
 installation
 apache
-convenir|convier
+convenir
 changer
 web
 exemple
@@ -1864,7 +1864,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 copier
@@ -2029,7 +2029,7 @@ apache
 in
 consoler
 fenêtre
-ouvrir|ouvrer
+ouvrir
 indiquer
 apache
 winn
@@ -2042,7 +2042,7 @@ exécuter
 taper
 cmd
 fenêtre
-ouvrir|ouvrer
+ouvrir
 taper
 cd
 program
@@ -2162,7 +2162,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 script
@@ -2250,7 +2250,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 installation
@@ -2295,7 +2295,7 @@ installation
 easyphp
 utiliser
 cadre
-cours|cour
+cours
 version
 easyphp
 comprendre
@@ -2364,7 +2364,7 @@ configuration
 easyphp
 web
 local
-ouvrir|ouvrer
+ouvrir
 page
 http
 localhost
@@ -2459,12 +2459,12 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 installation
 support
-cours|cour
+cours
 aller
 installer
 site
@@ -2540,7 +2540,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 langage
@@ -2749,7 +2749,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exemple
@@ -2801,7 +2801,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 variable
@@ -3064,7 +3064,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exemple
@@ -3304,7 +3304,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 str
@@ -3333,7 +3333,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 variable
@@ -3521,7 +3521,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 traitement
@@ -3703,7 +3703,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 variable
@@ -3823,7 +3823,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 transtypage
@@ -4048,7 +4048,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 echo
@@ -4135,7 +4135,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 variable
@@ -4365,7 +4365,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 opérateur
@@ -4532,7 +4532,7 @@ afficher
 éventuel
 message
 erreur
-cours|cour
+cours
 exécution
 fonction
 appartenir
@@ -4553,7 +4553,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 opérateur
@@ -4726,7 +4726,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 instruction
@@ -4860,7 +4860,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exemple
@@ -4967,11 +4967,11 @@ exercice
 centrer
 formation
 dispenser
-cours|cour
+cours
 différent
 stagiaire
 entreprise
-cours|cour
+cours
 principal
 facultatif
 selon
@@ -4980,11 +4980,11 @@ stagiaire
 pouvoir
 inscrire
 deux
-cours|cour
+cours
 principal
 maximum
 deux
-cours|cour
+cours
 facultatif
 maximum
 condition
@@ -5030,7 +5030,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 courrier
@@ -5051,7 +5051,7 @@ lettre
 conseiller
 stagiaire
 inscrit
-cours|cour
+cours
 principal
 adresser
 lettre
@@ -5059,7 +5059,7 @@ conseiller
 stagiaire
 inscrire
 deux
-cours|cour
+cours
 principal
 adresse
 lettrer
@@ -5067,10 +5067,10 @@ confirmation
 stagiaire
 inscrire
 deux
-cours|cour
+cours
 principal
 deux
-cours|cour
+cours
 facultatif
 adresse
 lettrer
@@ -5115,14 +5115,14 @@ mademoiselle
 monsieur
 ncours
 nombre
-cours|cour
+cours
 principal
 pouvoir
 prendre
 valeur
 ncoursf
 nombre
-cours|cour
+cours
 facultatif
 pouvoir
 prendre
@@ -5134,7 +5134,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 instruction
@@ -5304,7 +5304,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exercice
@@ -5313,9 +5313,9 @@ annexe
 boucle
 exercice
 tableau
-mois|moi
+mois
 année
-mois|moi
+mois
 array
 janvier
 février
@@ -5334,7 +5334,7 @@ page
 php
 afficher
 douze
-mois|moi
+mois
 année
 aider
 instruction
@@ -5385,7 +5385,7 @@ créer
 page
 php
 afficher
-mois|moi
+mois
 juin
 aider
 instruction
@@ -5437,7 +5437,7 @@ page
 php
 afficher
 douze
-mois|moi
+mois
 année
 aider
 boucle
@@ -5458,7 +5458,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 tableau
@@ -5671,9 +5671,9 @@ annexe
 tableau
 exercice
 tableau
-mois|moi
+mois
 année
-mois|moi
+mois
 array
 janvier
 février
@@ -5688,11 +5688,11 @@ octobre
 novembre
 décembre
 afficher
-mois|moi
+mois
 juillet
 partir
 tableau
-mois|moi
+mois
 année
 sans
 utiliser
@@ -5704,7 +5704,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fonction
@@ -5998,7 +5998,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 mademoiselle
@@ -6167,7 +6167,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 tableau
@@ -6435,7 +6435,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 mademoiselle
@@ -6469,24 +6469,24 @@ manteau
 montfermeil
 lister
 inscrire
-cours|cour
+cours
 suivant
 inscrit
-cours|cour
+cours
 mathématique
 madame
 durant
 monsieur
 camus
 inscrit
-cours|cour
+cours
 physique
 mademoiselle
 dupré
 père
 alain
 inscrire
-cours|cour
+cours
 français
 jean
 marc
@@ -6507,14 +6507,14 @@ adresser
 annuaire
 stagiaire
 lister
-cours|cour
+cours
 stagiaire
 inscrit
-cours|cour
+cours
 stagiaire
 afficher
 lister
-cours|cour
+cours
 stagiaire
 inscrire
 accompagner
@@ -6531,7 +6531,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 tri
@@ -6771,7 +6771,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exercice
@@ -6780,9 +6780,9 @@ annexe
 tri
 tableau
 tableau
-mois|moi
+mois
 année
-mois|moi
+mois
 array
 janvier
 février
@@ -6807,7 +6807,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fonction
@@ -7013,7 +7013,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exercice
@@ -7157,7 +7157,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 porter
@@ -7417,7 +7417,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exercice
@@ -7446,7 +7446,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 inclusion
@@ -7613,7 +7613,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 formulaire
@@ -7928,7 +7928,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 nbsp
@@ -7983,7 +7983,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 urlencode
@@ -8024,7 +8024,7 @@ php
 prenom
 arthur
 jérémie
-cours|cour
+cours
 anglais
 transmettre
 url
@@ -8035,7 +8035,7 @@ r
 £
 e
 émier
-cours|cour
+cours
 b
 anglais
 grâce
@@ -8160,7 +8160,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 recupération
@@ -8289,7 +8289,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 contrôler
@@ -8366,7 +8366,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 caser
@@ -8385,7 +8385,7 @@ considérer
 réponse
 constituer
 tableau
-convenir|convier
+convenir
 attribut
 name
 élément
@@ -8419,7 +8419,7 @@ checkbox
 valoir
 physique
 name
-cours|cour
+cours
 lister
 selection
 créer
@@ -8472,7 +8472,7 @@ prénom
 adresser
 courriel
 choix
-cours|cour
+cours
 principal
 optionnel
 math
@@ -8492,7 +8492,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exercice
@@ -8548,7 +8548,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 validation
@@ -8651,7 +8651,7 @@ postal
 ville
 courriel
 choix
-cours|cour
+cours
 optionnel
 principal
 mathématique
@@ -8708,7 +8708,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 htmlentites
@@ -8818,7 +8818,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 tête
@@ -9037,7 +9037,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 baser
@@ -9151,7 +9151,7 @@ donner
 exécuter
 requête
 php
-ouvrir|ouvrer
+ouvrir
 connexion
 vers
 serveur
@@ -9352,7 +9352,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 permettre
@@ -9474,7 +9474,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 php
@@ -9511,7 +9511,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 baser
@@ -9809,7 +9809,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 déconnexion
@@ -9843,7 +9843,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 envoyer
@@ -10115,7 +10115,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 echo
@@ -10358,7 +10358,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exercice
@@ -10378,19 +10378,19 @@ formulaire
 remplacer
 contrôle
 checkbox
-cours|cour
+cours
 principal
 aider
 information
 recueillir
 tabler
-cours|cour
+cours
 baser
 formation
 alimenter
 liste
 sélection
-cours|cour
+cours
 optionnel
 partir
 table
@@ -10449,7 +10449,7 @@ inc
 alimentation
 lister
 sélection
-cours|cour
+cours
 optionnel
 partir
 donner
@@ -10475,7 +10475,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 rechercher
@@ -10785,7 +10785,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 création
@@ -10971,7 +10971,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 naviguer
@@ -11260,7 +11260,7 @@ sous
 forme
 liste
 ficher
-cours|cour
+cours
 suivre
 stagiaire
 rechercher
@@ -11285,7 +11285,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 résultat
@@ -11357,7 +11357,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 insérer
@@ -11589,7 +11589,7 @@ création
 fichier
 connection
 inc
-ouvrir|ouvrer
+ouvrir
 connection
 baser
 donner
@@ -11643,7 +11643,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 ficher
@@ -11669,7 +11669,7 @@ fr
 ville
 creteil
 choix
-cours|cour
+cours
 principal
 optionnel
 mathém
@@ -11691,7 +11691,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 supprimer
@@ -11763,7 +11763,7 @@ fr
 ville
 creteil
 choix
-cours|cour
+cours
 principal
 optionnel
 mathématique
@@ -11843,7 +11843,7 @@ argument
 pouvoir
 être
 omettre
-droit|droite
+droit
 gauche
 argument
 manquant
@@ -11859,7 +11859,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fonction
@@ -11876,11 +11876,11 @@ invalide
 exemple
 php
 jour
-mois|moi
+mois
 annee
 echo
 mktime
-mois|moi
+mois
 jour
 annee
 afficher
@@ -11943,12 +11943,12 @@ fournir
 mktime
 français
 jour
-mois|moi
+mois
 annee
 echo
 date
 mktime
-mois|moi
+mois
 jour
 annee
 afficher
@@ -12006,7 +12006,7 @@ système
 temps
 universel
 jour
-mois|moi
+mois
 sous
 forme
 nombre
@@ -12034,7 +12034,7 @@ exemple
 frire
 ”
 vendredi
-mois|moi
+mois
 année
 anglais
 format
@@ -12145,7 +12145,7 @@ activer
 “
 ”
 jour
-mois|moi
+mois
 format
 numérique
 sans
@@ -12188,7 +12188,7 @@ bissextile
 ”
 année
 bissextile
-mois|moi
+mois
 année
 sous
 forme
@@ -12204,7 +12204,7 @@ autoriser
 ”
 “
 ”
-mois|moi
+mois
 année
 anglais
 format
@@ -12230,10 +12230,10 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
-mois|moi
+mois
 année
 sous
 forme
@@ -12286,7 +12286,7 @@ précéder
 nombre
 total
 jour
-mois|moi
+mois
 donner
 plage
 autoriser
@@ -12422,7 +12422,7 @@ mday
 représentation
 numérique
 jour
-mois|moi
+mois
 courir
 wday
 représentation
@@ -12434,7 +12434,7 @@ dimanche
 samedi
 représentation
 numérique
-mois|moi
+mois
 year
 année
 chiffrer
@@ -12454,7 +12454,7 @@ saturday
 month
 version
 texte
-mois|moi
+mois
 january
 march
 nombre
@@ -12476,12 +12476,12 @@ december
 exemple
 php
 jour
-mois|moi
+mois
 annee
 madate
 getdate
 mktime
-mois|moi
+mois
 jour
 annee
 foreach
@@ -12516,7 +12516,7 @@ date
 représenter
 jour
 day
-mois|moi
+mois
 month
 année
 year
@@ -12534,7 +12534,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 conversion
@@ -12591,7 +12591,7 @@ entrer
 sous
 forme
 anné
-mois|moi
+mois
 jour
 exemple
 août
@@ -12627,7 +12627,7 @@ falloir
 utiliser
 format
 jour
-mois|moi
+mois
 zéro
 placer
 préfix
@@ -12685,7 +12685,7 @@ coder
 format
 correspondre
 représentation
-mois|moi
+mois
 sous
 forme
 nombre
@@ -12715,7 +12715,7 @@ tableau
 suivant
 code
 description
-mois|moi
+mois
 plein
 texte
 w
@@ -12725,7 +12725,7 @@ semaine
 plein
 texte
 jour
-mois|moi
+mois
 numérique
 préfixer
 textuel
@@ -12740,26 +12740,26 @@ jour
 semaine
 lettre
 jour
-mois|moi
+mois
 numérique
 zéro
 préfix
 e
 jour
-mois|moi
+mois
 numérique
 zéro
 préfix
-mois|moi
+mois
 numérique
 zéro
 préfix
-mois|moi
+mois
 numérique
 zéro
 préfix
 b
-mois|moi
+mois
 texte
 lettre
 jour
@@ -12819,7 +12819,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 seconder
@@ -12862,7 +12862,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 utiliser
@@ -12971,7 +12971,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 pouvoir
@@ -13258,7 +13258,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 echo
@@ -13458,7 +13458,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 session
@@ -13742,7 +13742,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 cookie
@@ -13983,7 +13983,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 indiquer
@@ -14153,7 +14153,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 session
@@ -14477,7 +14477,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 session
@@ -14622,7 +14622,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 ouverture
@@ -14637,7 +14637,7 @@ session
 rafraîchir
 donner
 session
-cours|cour
+cours
 boolean
 session
 start
@@ -14891,7 +14891,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 dé
@@ -15020,7 +15020,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 baser
@@ -15054,7 +15054,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 gestion
@@ -15289,7 +15289,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fermer
@@ -15542,7 +15542,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 exemple
@@ -15752,7 +15752,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 int
@@ -15948,7 +15948,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 chargement
@@ -16065,7 +16065,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 gérer
@@ -16297,7 +16297,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fichier
@@ -16368,7 +16368,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 afficher
@@ -16596,7 +16596,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 int
@@ -16784,7 +16784,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 gestion
@@ -16931,7 +16931,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 erreur
@@ -17245,7 +17245,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 valeur
@@ -17402,7 +17402,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 possible
@@ -17594,7 +17594,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 nom
@@ -17758,7 +17758,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 programmation
@@ -18017,7 +18017,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 classe
@@ -18156,7 +18156,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 structurer
@@ -18335,7 +18335,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 apporter
@@ -18473,7 +18473,7 @@ attribut
 new
 attribut
 class
-fils|fil
+fils
 extends
 parent
 var
@@ -18484,7 +18484,7 @@ this
 attribut
 echo
 attribut
-fils|fil
+fils
 b
 this
 attribut
@@ -18495,12 +18495,12 @@ br
 br
 instanciation
 classer
-fils|fil
+fils
 objet
 b
 b
 new
-fils|fil
+fils
 affectation
 nouveau
 valeur
@@ -18529,7 +18529,7 @@ br
 exécution
 méthode
 classer
-fils|fil
+fils
 hériter
 classer
 parent
@@ -18552,7 +18552,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 affectation
@@ -18580,7 +18580,7 @@ br
 exécution
 méthode
 classer
-fils|fil
+fils
 affichage
 valeur
 attributer
@@ -18588,19 +18588,19 @@ grace
 méthode
 operation
 class
-fils|fil
+fils
 b
 operation
 afficher
 attribut
-fils|fil
+fils
 accès
 attribut
 opération
 possible
 objet
 classer
-fils|fil
+fils
 instanciation
 classer
 parent
@@ -18665,14 +18665,14 @@ br
 exécution
 méthode
 classer
-fils|fil
+fils
 operation
 autoriser
 classe
 parent
 hériter
 classe
-fils|fil
+fils
 affichage
 valeur
 attributer
@@ -18680,7 +18680,7 @@ grace
 méthode
 operation
 class
-fils|fil
+fils
 afficher
 fatal
 error
@@ -18698,7 +18698,7 @@ line
 operation
 afficher
 attribut
-fils|fil
+fils
 opérateur
 contexte
 classer
@@ -18792,7 +18792,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 fonction
@@ -19035,7 +19035,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 echo
@@ -19198,7 +19198,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 classe
@@ -19467,7 +19467,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 constructeur
@@ -19642,7 +19642,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 création
@@ -19851,7 +19851,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 classer
@@ -20024,7 +20024,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 contructeurs
@@ -20188,7 +20188,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 public
@@ -20361,7 +20361,7 @@ dahadjadj
 free
 fr
 pager
-cours|cour
+cours
 initiation
 php
 return

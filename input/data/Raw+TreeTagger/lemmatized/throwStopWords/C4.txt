@@ -81,7 +81,7 @@ Antilles
 Guyane
 plan
 du
-cours|cour
+cours
 pour
 tout
 heure
@@ -407,7 +407,7 @@ du
 crochet
 tout
 devoir
-être|êtres
+être
 ouvrir
 et
 fermer
@@ -537,7 +537,7 @@ un
 unité
 qui
 faire
-sens|sen
+sens
 pour
 le
 site
@@ -837,7 +837,7 @@ feuille
 de
 style
 on
-la|le
+la
 appeler
 aussi
 css
@@ -4366,7 +4366,7 @@ le
 script
 php
 pouvoir
-la|le
+la
 récupérer
 avec
 le
@@ -4415,7 +4415,7 @@ un
 script
 php
 pouvoir
-la|le
+la
 récupérer
 avec
 POST
@@ -4684,7 +4684,7 @@ vérifier
 que
 vous
 pouvoir
-la|le
+la
 utiliser
 envoyer
 en

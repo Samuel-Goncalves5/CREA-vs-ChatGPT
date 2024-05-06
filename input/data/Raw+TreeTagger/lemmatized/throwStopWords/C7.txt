@@ -293,7 +293,7 @@ echo
 nom
 echo
 je
-être|suivre
+être
 nom
 et
 j
@@ -303,7 +303,7 @@ an
 formulaire
 echo
 je
-être|suivre
+être
 nom
 et
 j
@@ -1136,7 +1136,7 @@ autre
 page
 M
 utiliser
-la|le
+la
 en
 tête
 HTTP
@@ -1348,7 +1348,7 @@ timestamp
 nombrer
 M
 de
-seconde|second
+seconde
 écouler
 depuis
 le
@@ -1409,7 +1409,7 @@ entre
 autre
 formulaire
 s
-seconde|second
+seconde
 i
 minute
 heure
@@ -1419,7 +1419,7 @@ global
 d
 jour
 m
-mois|moi
+mois
 y
 ou
 y
@@ -2144,7 +2144,7 @@ formulaire
 mourir
 nombre
 de
-seconde|second
+seconde
 avant
 expiration
 du

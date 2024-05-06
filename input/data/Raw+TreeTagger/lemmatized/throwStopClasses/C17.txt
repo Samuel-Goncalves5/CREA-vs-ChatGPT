@@ -1,4 +1,4 @@
-cours|cour
+cours
 introductif
 php
 riad
@@ -2327,7 +2327,7 @@ bit
 vers
 gauche
 vers
-droit|droite
+droit
 premier
 opérande
 désigner
@@ -2364,7 +2364,7 @@ gauche
 décaler
 bit
 vers
-droit|droite
+droit
 divis
 rotation
 droit
@@ -2900,7 +2900,7 @@ boucle
 interrompre
 programme
 continuer
-cours|cour
+cours
 autre
 partir
 langage

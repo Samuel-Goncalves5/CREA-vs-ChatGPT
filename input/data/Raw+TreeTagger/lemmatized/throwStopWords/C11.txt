@@ -51,7 +51,7 @@ le
 bienvenue
 vous
 pouvoir
-la|le
+la
 envoyer
 à
 etienne
@@ -759,7 +759,7 @@ de
 donnée
 en
 ce
-sens|sen
+sens
 qu
 il
 offrir
@@ -815,7 +815,7 @@ le
 donnée
 avant
 de
-la|le
+la
 envoyer
 le
 traitement
@@ -888,7 +888,7 @@ Web
 commander
 en
 ligne
-cours|cour
+cours
 en
 ligne
 homebanking
@@ -957,7 +957,7 @@ form
 du
 élément
 au
-sens|sen
+sens
 de
 HTML
 en
@@ -1258,7 +1258,7 @@ et
 de
 dossier
 il
-convenir|convier
+convenir
 donc
 d
 être
@@ -1278,7 +1278,7 @@ URL
 vide
 avoir
 du
-sens|sen
+sens
 dans
 certain
 circonstance
@@ -1342,7 +1342,7 @@ attribut
 n
 avoir
 aucun
-sens|sen
+sens
 si
 le
 formulaire
@@ -1699,7 +1699,7 @@ serif
 strong
 objectif
 du
-cours|cour
+cours
 strong
 faire
 p
@@ -2055,7 +2055,7 @@ serif
 strong
 type
 de
-cours|cour
+cours
 strong
 faire
 p
@@ -2099,7 +2099,7 @@ serif
 strong
 type
 de
-cours|cour
+cours
 strong
 faire
 p
@@ -2161,7 +2161,7 @@ ce
 élément
 input
 qui
-la|le
+la
 distinguer
 nous
 aller
@@ -2493,7 +2493,7 @@ un
 bouton
 parcourir
 qui
-ouvrir|ouvrer
+ouvrir
 un
 fenêtre
 de
@@ -3289,7 +3289,7 @@ input
 typer
 checkbox
 name
-cours|cour
+cours
 valoir
 faire
 strong
@@ -3337,7 +3337,7 @@ input
 typer
 checkbox
 name
-cours|cour
+cours
 valoir
 physique
 faire
@@ -3972,7 +3972,7 @@ de
 dénomination
 pour
 le
-cours|cour
+cours
 return
 false
 if
@@ -3992,7 +3992,7 @@ d
 objectif
 pour
 le
-cours|cour
+cours
 return
 false
 else
@@ -4332,7 +4332,7 @@ D
 eacute
 nomination
 du
-cours|cour
+cours
 p
 p
 php
@@ -4345,7 +4345,7 @@ class
 important
 objectif
 du
-cours|cour
+cours
 p
 Étienne
 Vandeput
@@ -5369,7 +5369,7 @@ un
 document
 HTML
 il
-convenir|convier
+convenir
 d
 en
 comprendre
@@ -5468,7 +5468,7 @@ du
 différent
 élément
 au
-sens|sen
+sens
 de
 HTML
 ce
@@ -6025,7 +6025,7 @@ quel
 endroit
 on
 pouvoir
-la|le
+la
 définir
 p
 color
@@ -6236,7 +6236,7 @@ définir
 plusieurs
 endroit
 il
-convenir|convier
+convenir
 de
 déterminer
 en
@@ -7084,7 +7084,7 @@ br
 Aujourd
 hui
 nous
-être|sommer
+être
 le
 maintenant
 getDate
@@ -7159,7 +7159,7 @@ perfectionnement
 document
 write
 nous
-être|sommer
+être
 le
 php
 echo
@@ -7252,7 +7252,7 @@ dater
 charAt
 dater
 charAt
-mois|moi
+mois
 dater
 charAt
 dater
@@ -7279,7 +7279,7 @@ le
 dernier
 fois
 le
-mois|moi
+mois
 annee
 jour
 script
@@ -7682,7 +7682,7 @@ que
 ce
 valeur
 ne
-convenir|convier
+convenir
 pas
 cela
 éviter
@@ -9433,7 +9433,7 @@ script
 PHP
 et
 de
-la|le
+la
 exécuter
 en
 ligne
@@ -9655,7 +9655,7 @@ de
 fichier
 ou
 bien
-la|le
+la
 envoyer
 au
 navigateur
@@ -11642,7 +11642,7 @@ et
 s
 interdire
 de
-la|le
+la
 comparer
 avec
 l
@@ -11695,7 +11695,7 @@ du
 apostrophe
 vous
 devoir
-la|le
+la
 échapper
 avec
 le
@@ -11830,7 +11830,7 @@ prenom
 Étienne
 titrer
 le
-cours|cour
+cours
 PHP
 br
 Étienne
@@ -11854,7 +11854,7 @@ caractère
 br
 c
 le
-cours|cour
+cours
 PHP
 être
 donner
@@ -11863,7 +11863,7 @@ prenom
 br
 d
 le
-cours|cour
+cours
 PHP
 être
 donner
@@ -11872,7 +11872,7 @@ prenom
 br
 e
 le
-cours|cour
+cours
 PHP
 être
 donner
@@ -12875,7 +12875,7 @@ interrompre
 le
 cycle
 en
-cours|cour
+cours
 pour
 passer
 au
@@ -14004,7 +14004,7 @@ renvoyer
 false
 ce
 qui
-convenir|convier
+convenir
 comme
 test
 d
@@ -15202,7 +15202,7 @@ ce
 terme
 avoir
 du
-sens|sen
+sens
 développer
 à
 partir
@@ -15228,7 +15228,7 @@ d
 portable
 en
 ce
-sens|sen
+sens
 qu
 il
 s
@@ -15599,7 +15599,7 @@ du
 entité
 et
 à
-la|le
+la
 associer
 C
 être
@@ -15740,7 +15740,7 @@ organiser
 du
 personne
 qui
-la|le
+la
 organiser
 ou
 en
@@ -15825,7 +15825,7 @@ par
 du
 attribut
 qui
-la|le
+la
 caractériser
 pour
 être
@@ -16106,7 +16106,7 @@ formation
 cela
 avoir
 du
-sens|sen
+sens
 un
 formation
 être
@@ -16693,7 +16693,7 @@ d
 un
 table
 il
-convenir|convier
+convenir
 d
 en
 définir
@@ -17236,7 +17236,7 @@ l
 année
 suivre
 du
-mois|moi
+mois
 et
 du
 jour
@@ -17360,7 +17360,7 @@ passe
 L
 instruction
 suivant
-convenir|convier
+convenir
 donc
 C
 Program
@@ -17589,7 +17589,7 @@ sur
 plusieurs
 ligne
 il
-convenir|convier
+convenir
 alors
 de
 sélectionner
@@ -18498,7 +18498,7 @@ index
 intéressant
 en
 ce
-sens|sen
+sens
 qu
 il
 accélérer
@@ -19449,7 +19449,7 @@ table
 mais
 aussi
 de
-la|le
+la
 éditer
 facilement
 
@@ -19893,7 +19893,7 @@ ne
 pas
 souhaiter
 il
-convenir|convier
+convenir
 de
 préciser
 celui
@@ -20066,7 +20066,7 @@ nous
 n
 aller
 pas
-la|le
+la
 énumérer
 ici
 nous
@@ -20346,7 +20346,7 @@ illustrer
 ce
 regroupement
 il
-convenir|convier
+convenir
 de
 travailler
 avec
@@ -21335,7 +21335,7 @@ n
 être
 pas
 de
-la|le
+la
 décrire
 tout
 nous
@@ -22251,7 +22251,7 @@ un
 fonction
 en
 ce
-sens|sen
+sens
 qu
 elle
 pouvoir
@@ -22321,7 +22321,7 @@ au
 serveur
 MySQL
 il
-convenir|convier
+convenir
 d
 activer
 un
@@ -22992,7 +22992,7 @@ p
 ce
 petit
 script
-ouvrir|ouvrer
+ouvrir
 le
 base
 de
@@ -24926,7 +24926,7 @@ s
 y
 rendre
 au
-cours|cour
+cours
 de
 ce
 année
@@ -24951,7 +24951,7 @@ pas
 le
 système
 de
-la|le
+la
 prendre
 en
 compte
@@ -25049,7 +25049,7 @@ mais
 en
 ce
 qui
-la|le
+la
 concerner
 nous
 aller
@@ -25082,7 +25082,7 @@ vraiment
 utile
 dans
 le
-sens|sen
+sens
 où
 lors
 du
@@ -25249,7 +25249,7 @@ le
 schéma
 en
 ce
-sens|sen
+sens
 qu
 un
 lieu
@@ -25308,7 +25308,7 @@ l
 entité
 lieu
 qui
-la|le
+la
 représenter
 le
 autre
@@ -25732,7 +25732,7 @@ de
 communication
 entre
 du
-être|êtres
+être
 humain
 et
 un
@@ -26201,7 +26201,7 @@ quelque
 conseil
 permettre
 de
-la|le
+la
 rendre
 relativement
 ergonomique
@@ -26314,7 +26314,7 @@ création
 de
 modèle
 il
-convenir|convier
+convenir
 d
 avoir
 un
@@ -28600,7 +28600,7 @@ connaître
 le
 manière
 de
-la|le
+la
 construire
 de
 s
@@ -28619,7 +28619,7 @@ login
 un
 formulaire
 au
-sens|sen
+sens
 HTML
 du
 terme
@@ -28961,7 +28961,7 @@ script
 utiliser
 dans
 le
-sens|sen
+sens
 large
 de
 partie

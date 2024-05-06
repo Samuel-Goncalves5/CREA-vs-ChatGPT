@@ -1139,7 +1139,7 @@ rang
 avoir
 décaler
 à
-droit|droite
+droit
 de
 b
 rang
@@ -3126,7 +3126,7 @@ faire
 pour
 ne
 pas
-la|le
+la
 définir
 dans
 chacun
@@ -4742,7 +4742,7 @@ function
 afficher
 echo
 je
-être|suivre
+être
 simple
 class
 Etendue
@@ -4763,14 +4763,14 @@ e
 new
 Etendue
 je
-être|suivre
+être
 simple
 s
 affiche
 e
 affiche
 je
-être|suivre
+être
 simple
 mais
 aussi
@@ -6995,7 +6995,7 @@ si
 le
 driver
 ne
-la|le
+la
 supporter
 pas
 nativement

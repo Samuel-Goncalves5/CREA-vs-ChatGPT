@@ -12,7 +12,7 @@ externFiltre = lambda text: [token.lower() for token in text if token.lower() no
 ponctuation = ['.', ',', '«', '»', '?', '!', '[', ']', '(', ')', ';', '%', '`', '@', ':', '’',
                '⇒', '<', '>', '\'', '$', '#', '&', "'", '"', '•', '=', '●', '\\', '/', '–',
                '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '-', '◦', '_', '˓', '→',
-               '|', '…', '~', '{', '}', '*', '^', '', '', '', '©', '°', '´']
+               '…', '~', '{', '}', '*', '^', '', '', '', '©', '°', '´', '|']
 frEliminateDico = str.maketrans('','', "".join(ponctuation))
 internFiltre = lambda text: [token.translate(frEliminateDico) for token in text if len(token.translate(frEliminateDico)) > 0]
 

@@ -1,7 +1,7 @@
-cours|cour
+cours
 html
 php
-cours|cour
+cours
 html
 php
 e
@@ -11,7 +11,7 @@ coquery
 liris
 cnrs
 fr
-cours|cour
+cours
 html
 php
 page
@@ -67,7 +67,7 @@ fichier
 serveur
 ex
 image
-cours|cour
+cours
 html
 php
 page
@@ -93,7 +93,7 @@ accès
 index
 html
 disquer
-cours|cour
+cours
 html
 php
 page
@@ -123,7 +123,7 @@ fournir
 demander
 ex
 formulaire
-cours|cour
+cours
 html
 php
 page
@@ -191,7 +191,7 @@ navigateur
 navigateur
 afficher
 résultat
-cours|cour
+cours
 html
 php
 page
@@ -227,7 +227,7 @@ coder
 source
 index
 php
-cours|cour
+cours
 html
 php
 page
@@ -267,7 +267,7 @@ requêter
 effectuer
 base
 sql
-cours|cour
+cours
 html
 php
 page
@@ -350,7 +350,7 @@ valeur
 base
 donn
 ees
-cours|cour
+cours
 html
 php
 html
@@ -426,7 +426,7 @@ interpréter
 balise
 faire
 affichage
-cours|cour
+cours
 html
 php
 html
@@ -456,7 +456,7 @@ commentaire
 non
 afficher
 délimiter
-cours|cour
+cours
 html
 php
 html
@@ -503,7 +503,7 @@ heure
 texte
 petit
 titre
-cours|cour
+cours
 html
 php
 html
@@ -546,7 +546,7 @@ casimir
 p
 body
 html
-cours|cour
+cours
 html
 php
 html
@@ -592,7 +592,7 @@ mettre
 texte
 plus
 petit
-cours|cour
+cours
 html
 php
 html
@@ -626,7 +626,7 @@ li
 li
 li
 ol
-cours|cour
+cours
 html
 php
 html
@@ -652,7 +652,7 @@ caser
 td
 tr
 tabler
-cours|cour
+cours
 html
 php
 html
@@ -679,7 +679,7 @@ caser
 td
 tr
 tabler
-cours|cour
+cours
 html
 php
 html
@@ -742,7 +742,7 @@ situer
 endroit
 pager
 courant
-cours|cour
+cours
 html
 php
 html
@@ -766,7 +766,7 @@ adresser
 web
 chercher
 image
-cours|cour
+cours
 html
 php
 html
@@ -796,7 +796,7 @@ composant
 saisir
 correspondre
 paramètre
-cours|cour
+cours
 html
 php
 html
@@ -848,7 +848,7 @@ nom
 nom
 formulaire
 optionnel
-cours|cour
+cours
 html
 php
 html
@@ -902,7 +902,7 @@ lors
 saisir
 baliser
 fermant
-cours|cour
+cours
 html
 php
 html
@@ -949,7 +949,7 @@ pouvoir
 vide
 contenir
 balise
-cours|cour
+cours
 html
 php
 html
@@ -981,7 +981,7 @@ information
 base
 baliser
 fermant
-cours|cour
+cours
 html
 php
 html
@@ -1039,7 +1039,7 @@ opter
 pré
 sélectionner
 option
-cours|cour
+cours
 html
 php
 html
@@ -1087,7 +1087,7 @@ texte
 texte
 afficher
 bouton
-cours|cour
+cours
 html
 php
 html
@@ -1132,7 +1132,7 @@ web
 plus
 pratique
 formulaire
-cours|cour
+cours
 html
 php
 php
@@ -1152,7 +1152,7 @@ php
 langage
 impératif
 proche
-cours|cour
+cours
 html
 php
 php
@@ -1180,7 +1180,7 @@ directement
 contenir
 html
 générer
-cours|cour
+cours
 html
 php
 php
@@ -1218,7 +1218,7 @@ réalité
 entier
 comme
 tableau
-cours|cour
+cours
 html
 php
 php
@@ -1261,7 +1261,7 @@ extérieur
 passé
 argument
 print
-cours|cour
+cours
 html
 php
 php
@@ -1306,7 +1306,7 @@ p
 nom
 nom
 p
-cours|cour
+cours
 html
 php
 php
@@ -1335,7 +1335,7 @@ or
 xor
 exclusif
 non
-cours|cour
+cours
 html
 php
 php
@@ -1375,7 +1375,7 @@ pouvoir
 utiliser
 tableau
 array
-cours|cour
+cours
 html
 php
 php
@@ -1403,7 +1403,7 @@ prenom
 générer
 texte
 toto
-cours|cour
+cours
 html
 php
 php
@@ -1428,7 +1428,7 @@ nom
 fichier
 php
 ”
-cours|cour
+cours
 html
 php
 php
@@ -1447,7 +1447,7 @@ résultat
 fonction
 return
 valeur
-cours|cour
+cours
 html
 php
 php
@@ -1489,7 +1489,7 @@ post
 print
 post
 nom
-cours|cour
+cours
 html
 php
 php
@@ -1522,7 +1522,7 @@ avant
 fermer
 connexion
 étape
-cours|cour
+cours
 html
 php
 php
@@ -1572,7 +1572,7 @@ requête
 mysql
 clore
 connect
-cours|cour
+cours
 html
 php
 php
@@ -1630,7 +1630,7 @@ requete
 avant
 envoi
 sgbd
-cours|cour
+cours
 html
 php
 php
@@ -1675,7 +1675,7 @@ jour
 inutile
 parcourir
 résultat
-cours|cour
+cours
 html
 php
 php
@@ -1736,7 +1736,7 @@ salaire
 euro
 an
 p
-cours|cour
+cours
 html
 php
 php
@@ -1782,7 +1782,7 @@ programmation
 fastidieux
 source
 problème
-cours|cour
+cours
 html
 php
 php
@@ -1827,7 +1827,7 @@ valeur
 conserver
 pager
 autre
-cours|cour
+cours
 html
 php
 php
@@ -1865,7 +1865,7 @@ comme
 tableau
 associatif
 classique
-cours|cour
+cours
 html
 php
 php

@@ -140,7 +140,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -462,7 +462,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -545,7 +545,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -636,7 +636,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -703,7 +703,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -786,7 +786,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -1045,7 +1045,7 @@ heure
 super
 global
 jour
-mois|moi
+mois
 année
 session
 autre
@@ -1086,7 +1086,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -1206,7 +1206,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 html
@@ -1309,7 +1309,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -1339,7 +1339,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -1482,7 +1482,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -1512,7 +1512,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php
@@ -1671,7 +1671,7 @@ unice
 fr
 escazut
 ext
-cours|cour
+cours
 exemple
 php
 php

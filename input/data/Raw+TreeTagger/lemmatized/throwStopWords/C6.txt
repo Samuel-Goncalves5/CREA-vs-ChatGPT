@@ -54,7 +54,7 @@ du
 matière
 I
 le
-cours|cour
+cours
 vii
 pourquoi
 et
@@ -715,7 +715,7 @@ v
 vi
 I
 le
-cours|cour
+cours
 chapitrer
 pourquoi
 et
@@ -739,7 +739,7 @@ absolument
 pas
 d
 un
-cours|cour
+cours
 d
 algorithmique
 en
@@ -854,7 +854,7 @@ avoir
 pour
 origine
 un
-cours|cour
+cours
 destiner
 au
 étudiant
@@ -898,7 +898,7 @@ l
 occasion
 d
 un
-cours|cour
+cours
 destiner
 au
 étudiant
@@ -918,7 +918,7 @@ destiner
 à
 être
 un
-cours|cour
+cours
 autonome
 elle
 ne
@@ -927,7 +927,7 @@ qu
 un
 support
 de
-cours|cour
+cours
 et
 beaucoup
 de
@@ -940,7 +940,7 @@ l
 oral
 pendant
 le
-cours|cour
+cours
 ne
 être
 pas
@@ -949,7 +949,7 @@ L
 environnement
 technique
 du
-cours|cour
+cours
 être
 constituer
 de
@@ -973,7 +973,7 @@ partir
 du
 contenu
 du
-cours|cour
+cours
 comment
 avoir
 t
@@ -1968,7 +1968,7 @@ bouge
 dans
 tout
 le
-sens|sen
+sens
 il
 s
 agir
@@ -2571,7 +2571,7 @@ HTML
 dynamique
 dans
 le
-sens|sen
+sens
 que
 deux
 appel
@@ -3430,7 +3430,7 @@ le
 variable
 avant
 de
-la|le
+la
 utiliser
 le
 contrôle
@@ -3653,7 +3653,7 @@ libre
 choix
 sur
 le
-sens|sen
+sens
 exact
 de
 ce
@@ -4160,7 +4160,7 @@ client
 au
 serveur
 qui
-la|le
+la
 transmettre
 à
 son
@@ -4453,7 +4453,7 @@ zone
 de
 saisie
 au
-sens|sen
+sens
 habituel
 du
 terme
@@ -4654,7 +4654,7 @@ avoir
 priori
 pas
 de
-sens|sen
+sens
 pour
 un
 bouton
@@ -5085,7 +5085,7 @@ programme
 il
 suffire
 de
-la|le
+la
 appeler
 par
 leur
@@ -5373,7 +5373,7 @@ Montpellier
 leur
 bébé
 de
-mois|moi
+mois
 qui
 n
 avoir
@@ -5387,7 +5387,7 @@ pas
 leur
 surprise
 quand
-mois|moi
+mois
 plus
 tard
 rentrer
@@ -5999,13 +5999,13 @@ voici
 deux
 exemple
 je
-être|suivre
+être
 un
 chaîne
 de
 caractère
 je
-être|suivre
+être
 aussi
 un
 chaîne
@@ -6045,7 +6045,7 @@ de
 caractère
 je
 ne
-être|suivre
+être
 pas
 un
 chaîne
@@ -6053,7 +6053,7 @@ de
 caractère
 je
 ne
-être|suivre
+être
 pas
 non
 plus
@@ -6850,7 +6850,7 @@ php
 chapitrer
 le
 tableau
-la|le
+la
 corriger
 du
 exercice
@@ -7498,7 +7498,7 @@ valeur
 il
 falloir
 aller
-la|le
+la
 chercher
 dans
 le
@@ -7878,7 +7878,7 @@ attraper
 un
 virus
 en
-ouvrir|ouvrer
+ouvrir
 un
 e
 mail
@@ -8368,7 +8368,7 @@ avoir
 par
 exemple
 en
-cours|cour
+cours
 un
 site
 utiliser
@@ -11182,7 +11182,7 @@ version
 crypté
 et
 de
-la|le
+la
 décoder
 tranquillement
 par
@@ -13060,7 +13060,7 @@ avoir
 par
 exemple
 en
-cours|cour
+cours
 un
 site
 utiliser
@@ -14708,7 +14708,7 @@ avoir
 par
 exemple
 en
-cours|cour
+cours
 un
 site
 utiliser
@@ -15310,7 +15310,7 @@ contenu
 d
 un
 répertoire
-la|le
+la
 corriger
 du
 exercice
@@ -16138,7 +16138,7 @@ avoir
 faire
 dans
 le
-cours|cour
+cours
 sur
 l
 exploration
@@ -16511,7 +16511,7 @@ php
 chapitrer
 le
 fichier
-la|le
+la
 corriger
 du
 exercice
@@ -16571,10 +16571,10 @@ fichier
 il
 falloir
 savoir
-la|le
+la
 écrire
 et
-la|le
+la
 relire
 ouverture
 et
@@ -16644,7 +16644,7 @@ plus
 courant
 être
 r
-ouvrir|ouvrer
+ouvrir
 en
 lecture
 seul
@@ -16659,7 +16659,7 @@ début
 du
 fichier
 w
-ouvrir|ouvrer
+ouvrir
 en
 écriture
 seul
@@ -16691,7 +16691,7 @@ de
 le
 créer
 avoir
-ouvrir|ouvrer
+ouvrir
 en
 écriture
 seul
@@ -16842,7 +16842,7 @@ fichier
 mais
 nous
 ne
-la|le
+la
 aborder
 pas
 comme
@@ -17311,7 +17311,7 @@ le
 choix
 sur
 le
-sens|sen
+sens
 à
 donner
 au
@@ -20437,7 +20437,7 @@ name
 pipo
 option
 il
-convenir|convier
+convenir
 de
 option
 option
@@ -20650,7 +20650,7 @@ option
 option
 de
 bon
-sens|sen
+sens
 option
 option
 envisageable
@@ -20673,7 +20673,7 @@ option
 option
 de
 bon
-sens|sen
+sens
 option
 select
 input
@@ -22584,7 +22584,7 @@ exercice
 d
 application
 du
-cours|cour
+cours
 aucun
 corriger
 de
@@ -23664,7 +23664,7 @@ le
 créneau
 et
 ou
-la|le
+la
 imprimer
 lister
 tout
@@ -23672,7 +23672,7 @@ le
 inscription
 et
 ou
-la|le
+la
 imprimer
 pouvoir
 fermer
@@ -23937,7 +23937,7 @@ INTEGER
 NOT
 NULL
 sea
-mois|moi
+mois
 INTEGER
 NOT
 NULL
@@ -24334,7 +24334,7 @@ adhésion
 le
 adhésion
 en
-cours|cour
+cours
 être
 mémoriser
 dans
@@ -24381,7 +24381,7 @@ pour
 un
 badge
 en
-cours|cour
+cours
 de
 validité
 pour
@@ -24733,7 +24733,7 @@ de
 rentrer
 pendant
 un
-mois|moi
+mois
 mais
 ne
 pouvoir
@@ -25682,7 +25682,7 @@ nuit
 le
 semaine
 au
-mois|moi
+mois
 ou
 à
 l
@@ -25838,7 +25838,7 @@ nuit
 le
 semaine
 au
-mois|moi
+mois
 ou
 à
 l
@@ -25921,7 +25921,7 @@ information
 encore
 falloir
 pouvoir
-la|le
+la
 utiliser
 on
 devoir
@@ -25978,13 +25978,13 @@ par
 année
 recette
 par
-mois|moi
+mois
 fréquentation
 par
 année
 fréquentation
 par
-mois|moi
+mois
 par
 type
 d
@@ -26752,7 +26752,7 @@ le
 semestre
 je
 ne
-être|suivre
+être
 là
 que
 pour
@@ -27698,12 +27698,12 @@ rassembler
 n
 avoir
 de
-sens|sen
+sens
 que
 si
 on
 pouvoir
-la|le
+la
 utiliser
 voici
 le
@@ -28189,7 +28189,7 @@ INTEGER
 jour
 naître
 INTEGER
-mois|moi
+mois
 naître
 INTEGER
 annee
@@ -28204,7 +28204,7 @@ INTEGER
 jour
 deces
 INTEGER
-mois|moi
+mois
 deces
 INTEGER
 annee
@@ -28286,7 +28286,7 @@ NULL
 jour
 debut
 INTEGER
-mois|moi
+mois
 debut
 INTEGER
 annee
@@ -28298,7 +28298,7 @@ INTEGER
 jour
 fin
 INTEGER
-mois|moi
+mois
 fin
 INTEGER
 annee
@@ -30043,9 +30043,9 @@ devoir
 être
 possible
 de
-la|le
+la
 enregistrer
-la|le
+la
 modifier
 d
 en
@@ -30071,7 +30071,7 @@ ni
 le
 répartition
 du
-cours|cour
+cours
 par
 semaine
 le
@@ -30112,7 +30112,7 @@ du
 enseignant
 à
 un
-cours|cour
+cours
 être
 définir
 au
@@ -30130,7 +30130,7 @@ formation
 on
 devoir
 pouvoir
-la|le
+la
 affecter
 à
 enseignant
@@ -30512,7 +30512,7 @@ quand
 cela
 avoir
 un
-sens|sen
+sens
 il
 falloir
 avoir
@@ -30562,7 +30562,7 @@ affectation
 UFR
 formater
 filière
-cours|cour
+cours
 enseigner
 etc
 affecter
@@ -30600,7 +30600,7 @@ chaque
 enseignement
 désignation
 du
-cours|cour
+cours
 nombre
 d
 heure
@@ -30627,7 +30627,7 @@ qui
 être
 charger
 du
-cours|cour
+cours
 ne
 être
 pas
@@ -30784,7 +30784,7 @@ concerner
 par
 le
 même
-cours|cour
+cours
 dans
 du
 groupe
@@ -31094,7 +31094,7 @@ travail
 diriger
 le
 CM
-cours|cour
+cours
 magistral
 et
 le
@@ -31143,7 +31143,7 @@ entité
 être
 cmtd
 annees
-cours|cour
+cours
 cnu
 formation
 ufr
@@ -31158,7 +31158,7 @@ liaison
 sauf
 celui
 entre
-cours|cour
+cours
 et
 enseignant
 être
@@ -31224,7 +31224,7 @@ de
 le
 liaison
 entre
-cours|cour
+cours
 et
 enseignant
 il
@@ -31236,7 +31236,7 @@ relation
 n
 n
 chaque
-cours|cour
+cours
 pouvoir
 être
 associer
@@ -31250,7 +31250,7 @@ avoir
 à
 assurer
 plusieurs
-cours|cour
+cours
 pour
 réaliser
 ce
@@ -31287,7 +31287,7 @@ schéma
 suivant
 cmtd
 annees
-cours|cour
+cours
 cnu
 affectation
 formater
@@ -31332,7 +31332,7 @@ description
 du
 type
 de
-cours|cour
+cours
 TD
 CM
 CMTD
@@ -31347,7 +31347,7 @@ d
 un
 type
 de
-cours|cour
+cours
 TD
 CM
 CMTD
@@ -31503,14 +31503,14 @@ le
 section
 CNU
 correspondant
-cours|cour
+cours
 ce
 table
 contenir
 le
 description
 du
-cours|cour
+cours
 base
 de
 donnée
@@ -31521,7 +31521,7 @@ réseau
 macro
 économie
 etc
-numcours|cour
+numcours
 identifier
 intituler
 intituler
@@ -31529,7 +31529,7 @@ en
 tout
 lettre
 du
-cours|cour
+cours
 base
 de
 donnée
@@ -31548,13 +31548,13 @@ formation
 dont
 dépendre
 ce
-cours|cour
+cours
 numcmtd
 code
 du
 type
 de
-cours|cour
+cours
 CMTD
 TD
 etc
@@ -31569,7 +31569,7 @@ lequel
 être
 rattacher
 le
-cours|cour
+cours
 heure
 nombre
 d
@@ -31580,7 +31580,7 @@ par
 groupe
 pour
 ce
-cours|cour
+cours
 grouper
 nombre
 de
@@ -31590,7 +31590,7 @@ qui
 concerner
 par
 ce
-cours|cour
+cours
 statut
 ce
 table
@@ -31687,14 +31687,14 @@ affectation
 exister
 entre
 le
-cours|cour
+cours
 et
 le
 enseignant
-numcours|cour
+numcours
 coder
 du
-cours|cour
+cours
 concerner
 par
 ce
@@ -31806,11 +31806,11 @@ PRIMARY
 KEY
 intitulé
 TEXT
-cours|cour
+cours
 CREATE
 tabler
-cours|cour
-numcours|cour
+cours
+numcours
 NUMERIC
 NOT
 NULL
@@ -31906,7 +31906,7 @@ affectation
 CREATE
 tabler
 affectation
-numcours|cour
+numcours
 NUMERIC
 NOT
 NULL
@@ -31918,14 +31918,14 @@ groupe
 INT
 PRIMARY
 KEY
-numcours|cour
+numcours
 numenseigner
 FOREIGN
 KEY
 numcours
 REFERENCES
-cours|cour
-cnumcours|cour
+cours
+cnumcours
 FOREIGN
 KEY
 numenseigner
@@ -31967,7 +31967,7 @@ statut
 valoir
 charger
 de
-cours|cour
+cours
 insert
 INTO
 statut
@@ -32238,7 +32238,7 @@ valoir
 milieu
 dense
 et
-matériaux|matériau
+matériaux
 insert
 INTO
 cnu
@@ -32278,7 +32278,7 @@ cnu
 valoir
 chimie
 du
-matériaux|matériau
+matériaux
 insert
 INTO
 cnu
@@ -33390,7 +33390,7 @@ le
 base
 nous
 nous
-être|sommer
+être
 un
 peu
 éloigner
@@ -33989,7 +33989,7 @@ musical
 étendre
 j
 en
-être|suivre
+être
 sûr
 aller
 vous
@@ -34198,7 +34198,7 @@ problème
 éventuel
 et
 de
-la|le
+la
 signaler
 au
 client
@@ -35670,7 +35670,7 @@ même
 le
 projet
 du
-cours|cour
+cours
 un
 ou
 deux
@@ -35695,7 +35695,7 @@ le
 fin
 du
 dernier
-cours|cour
+cours
 mais
 il
 y
@@ -36153,7 +36153,7 @@ du
 matière
 I
 le
-cours|cour
+cours
 chapitrer
 pourquoi
 et
@@ -37269,7 +37269,7 @@ ufr
 formater
 annees
 cnu
-cours|cour
+cours
 statut
 enseignant
 affectation
@@ -37281,7 +37281,7 @@ ufr
 formater
 annees
 cnu
-cours|cour
+cours
 statut
 enseignant
 affectation

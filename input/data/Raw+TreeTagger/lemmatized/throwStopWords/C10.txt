@@ -7,7 +7,7 @@ séance
 un
 séance
 heure
-cours|cour
+cours
 heure
 TD
 projet
@@ -51,7 +51,7 @@ sur
 l
 EPI
 fin
-cours|cour
+cours
 avril
 Evaluation
 contrôler
@@ -70,7 +70,7 @@ examen
 partiel
 programme
 du
-cours|cour
+cours
 introduction
 général
 au
@@ -451,7 +451,7 @@ HTML
 DOCTYPE
 html
 en
-cours|cour
+cours
 de
 définition
 reconnaître
@@ -2242,7 +2242,7 @@ pager
 xyz
 objectif
 du
-cours|cour
+cours
 création
 d
 un
@@ -2949,7 +2949,7 @@ dater
 create
 extraction
 du
-mois|moi
+mois
 année
 avec
 style
@@ -3557,7 +3557,7 @@ interface
 usage
 dans
 ce
-cours|cour
+cours
 extension
 apache
 rappel
@@ -4018,7 +4018,7 @@ contenir
 le
 valeur
 et
-la|le
+la
 envoyer
 à
 PHP
@@ -4408,7 +4408,7 @@ contenir
 le
 valeur
 et
-la|le
+la
 envoyer
 à
 PHP
@@ -5998,7 +5998,7 @@ on
 pouvoir
 aussi
 écrire
-la|le
+la
 nôtre
 même
 en
@@ -6024,7 +6024,7 @@ droit
 Aujourd
 hui
 nous
-être|sommer
+être
 le
 date
 d
@@ -6447,7 +6447,7 @@ nom
 du
 fichier
 en
-cours|cour
+cours
 d
 execution
 avoir
@@ -6712,7 +6712,7 @@ droit
 Aujourd
 hui
 nous
-être|sommer
+être
 le
 date
 d
@@ -6779,7 +6779,7 @@ droit
 Aujourd
 hui
 nous
-être|sommer
+être
 le
 p
 PHP
@@ -7621,7 +7621,7 @@ d
 envoyer
 au
 client
-la|le
+la
 en
 tête
 passer
@@ -8348,7 +8348,7 @@ script
 usage
 dans
 ce
-cours|cour
+cours
 extension
 apache
 SGBD
@@ -8374,7 +8374,7 @@ DataBase
 SGBD
 BDD
 personne
-cours|cour
+cours
 ID
 nom
 Prenom
@@ -10129,7 +10129,7 @@ son
 caractéristique
 et
 de
-la|le
+la
 adapter
 au
 besoin
@@ -10242,7 +10242,7 @@ un
 classe
 permettre
 de
-la|le
+la
 manipuler
 PHP
 orienter
@@ -11602,7 +11602,7 @@ bon
 pratique
 dans
 ce
-cours|cour
+cours
 php
 session
 start
@@ -11923,7 +11923,7 @@ le
 visiteur
 afin
 de
-la|le
+la
 identifier
 plus
 tard
@@ -12976,7 +12976,7 @@ isoler
 le
 produit
 pour
-la|le
+la
 mettre
 de
 côté
@@ -13026,7 +13026,7 @@ annuler
 un
 transaction
 en
-cours|cour
+cours
 de
 route
 ou
