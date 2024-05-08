@@ -1,5 +1,9 @@
 from os import listdir
 from concepts import Definition, Context
+from sklearn import preprocessing
+from scipy.cluster.hierarchy import linkage, fcluster
+import numpy as np
+import pandas
 import json
 
 ##########################################################
@@ -54,7 +58,47 @@ def contextToMatrix(context):
     ID_ID   = [[1. if i==j else AND_ID_ID[i][j]   / (ID[i]  + ID[j]  - AND_ID_ID[i][j]  ) for j in range(len(BnIds))]     for i in range(len(BnIds))]
     DOC_DOC = [[1. if i==j else AND_DOC_DOC[i][j] / (DOC[i] + DOC[j] - AND_DOC_DOC[i][j]) for j in range(len(Documents))] for i in range(len(Documents))]
 
+    # MutualImpact, DocSimilarity, IdSimilarity
     return ID_DOC, ID_ID, DOC_DOC
+
+def dissimilarityToClusters(IdDissimilarity, IdLabels, outputFolder):
+    in_data = pandas.DataFrame(data=IdDissimilarity, index=IdLabels, columns=IdLabels)
+    in_labels = np.array(in_data.columns.values.tolist())
+
+    data_CR = preprocessing.scale(in_data)
+    data_LinkMatrix = linkage(data_CR, method='ward', metric='euclidean')
+
+    nb_clusters = 8
+
+    groupes_cah = fcluster(data_LinkMatrix, t=nb_clusters, criterion='maxclust')
+
+    cluster_list = []
+    nb_clusters = 0
+    for val in groupes_cah:
+        if (nb_clusters < val):
+            nb_clusters = val
+    for _ in range(nb_clusters + 1):
+        cluster_list.append([])
+
+    for index, value in enumerate(groupes_cah):
+        cluster_list[value].append(index)
+    
+    for cluster in range(1, len(cluster_list)):
+        for elt in range(len(cluster_list[cluster])):
+            index = cluster_list[cluster][elt]
+
+    CSV_OUT = open(outputFolder + '/clusters.csv', "w")
+    OFS = ";"
+    for cluster in range(1, len(cluster_list)):
+        line = str(cluster)
+        for elt in range(len(cluster_list[cluster])):
+            index = cluster_list[cluster][elt]
+            out_label = in_labels[index]
+            EachLabel = str.strip(out_label)
+            line = line + OFS + EachLabel
+        line = line + "\n"
+        CSV_OUT.write(line)
+    CSV_OUT.close()
 
 def crea(outputFolder, BabelDictionaries, bnIds, docs):
     l_ids = len(bnIds)
@@ -89,15 +133,20 @@ def crea(outputFolder, BabelDictionaries, bnIds, docs):
         d.add_property(bnIds[i], documents)
 
     c = Context.fromstring(d.tostring())
-    MutualImpact, IdSimilarity, DocSimilarity = contextToMatrix(c)
-    
+    _, _, IdSimilarity = contextToMatrix(c)
+
+    # CLUSTERS
+    dissimilarityToClusters([[1 - IdSimilarity[i][j] for j in range(l_ids)] for i in range(l_ids)], bnIds, outputFolder)
+
+    # 
 
 ###########################################################
 ####################### APPLICATION #######################
 ###########################################################
 dataCouples = [
         ("input-data/Raw+Babelfy/linked", "output-data/Raw+Babelfy+CREA"),
-        ("input-data/Raw+RNNTagger+Babelfy/linked", "output-data/Raw+RNNTagger+Babelfy+CREA"),
+        ("input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", "output-data/Raw+RNNTagger+Babelfy+CREA/keepPunctuation"),
+        ("input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", "output-data/Raw+RNNTagger+Babelfy+CREA/punctuationClean"),
         ("input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", "output-data/Raw+TreeTagger+Babelfy+CREA/keepStopData"),
         ("input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", "output-data/Raw+TreeTagger+Babelfy+CREA/throwStopClasses"),
         ("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "output-data/Raw+TreeTagger+Babelfy+CREA/throwStopWords"),
