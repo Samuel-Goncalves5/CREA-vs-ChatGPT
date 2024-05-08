@@ -13,6 +13,49 @@ def folderToX(inputFolder, fileToX):
 ########################## CREA ##########################
 ##########################################################
 FILTER_LIMIT = 0.5
+
+def contextToMatrix(context):
+    BnIds = context.extension([])
+    Documents = context.intension([])
+
+    AND_ID_DOC = [[0 for _ in range(len(Documents))] for _ in range(len(BnIds))]
+    AND_ID_ID = [[0 for _ in range(len(BnIds))] for _ in range(len(BnIds))]
+    AND_DOC_DOC = [[0 for _ in range(len(Documents))] for _ in range(len(Documents))]
+    ID = [0 for _ in range(len(BnIds))]
+    DOC = [0 for _ in range(len(Documents))]
+
+    # Parcours du treillis
+    for extent, intent in context.lattice:
+        # OCCURENCE D'ID
+        for bn in range(len(extent)):
+            a = BnIds.index(extent[bn])
+            ID[a] += 1
+            # OCCURENCE D'ID & ID
+            for bn2 in range(bn + 1, len(extent)):
+                b = BnIds.index(extent[bn2])
+                AND_ID_ID[a][b] += 1
+                AND_ID_ID[b][a] += 1
+            # OCCURENCE D'ID & DOCUMENT
+            for doc in range(len(intent)):
+                b = Documents.index(intent[doc])
+                AND_ID_DOC[a][b] += 1
+
+        # OCCURENCE DE DOCUMENT
+        for doc in range(len(intent)):
+            a = Documents.index(intent[doc])
+            DOC[a] += 1
+            # OCCURENCE DE DOCUMENT & DOCUMENT
+            for doc2 in range(doc + 1, len(intent)):
+                b = Documents.index(intent[doc2])
+                AND_DOC_DOC[a][b] += 1
+                AND_DOC_DOC[b][a] += 1
+
+    ID_DOC  = [[AND_ID_DOC[i][j]  / (ID[i]  + DOC[j] - AND_ID_DOC[i][j] ) for j in range(len(Documents))] for i in range(len(BnIds))]
+    ID_ID   = [[1. if i==j else AND_ID_ID[i][j]   / (ID[i]  + ID[j]  - AND_ID_ID[i][j]  ) for j in range(len(BnIds))]     for i in range(len(BnIds))]
+    DOC_DOC = [[1. if i==j else AND_DOC_DOC[i][j] / (DOC[i] + DOC[j] - AND_DOC_DOC[i][j]) for j in range(len(Documents))] for i in range(len(Documents))]
+
+    return ID_DOC, ID_ID, DOC_DOC
+
 def crea(outputFolder, BabelDictionaries, bnIds, docs):
     l_ids = len(bnIds)
     l_docs = len(docs)
@@ -44,7 +87,10 @@ def crea(outputFolder, BabelDictionaries, bnIds, docs):
             if Entity_Matrix[i][j] > 0.0:
                 documents.append(docs[j])
         d.add_property(bnIds[i], documents)
-    print(d)
+
+    c = Context.fromstring(d.tostring())
+    MutualImpact, IdSimilarity, DocSimilarity = contextToMatrix(c)
+    
 
 ###########################################################
 ####################### APPLICATION #######################

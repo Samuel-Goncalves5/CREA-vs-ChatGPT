@@ -17,6 +17,7 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 - **make preprocessing-rnn** :
     - génère la pré-lemmatisation RNNTagger des fichiers de `Raw/` dans `Raw+RNNTagger/prelemmatized/`
     - génère la lemmatisation des fichiers de `Raw+RNNTagger/prelemmatized/` dans `Raw+TreeTagger/lemmatized/`
+    - génère la version sans ponctuation des fichiers de `Raw+TreeTagger/lemmatized/` dans `Raw+TreeTagger/punctuationClean/`
 ##### 2.1.2 - TreeTagger
 - **make preprocessing-tree** :
     - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+TreeTagger/prelemmatized/throwStopWords/` en filtrant les stop words et dans `Raw+TreeTagger/prelemmatized/keepStopWords/` en ne les filtrant pas
@@ -27,9 +28,12 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
     - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+Babelfy/prelinked/`
     - génère les informations babelfy des fichiers de `Raw+Babelfy/prelinked/` dans `Raw+Babelfy/linked/`
     - génère les textes équivalents des fichiers de `Raw+Babelfy/linked/` dans `Raw+Babelfy/equivalent/`
-- **make preprocessing-babelfy-rnn** :
-    - génère les informations babelfy des fichiers de `Raw+RNNTagger/lemmatized/` dans `Raw+RNNTagger+Babelfy/linked/`
-    - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/` dans `Raw+RNNTagger+Babelfy/equivalent/`
+- **make preprocessing-babelfy-rnn-punctuation** :
+    - génère les informations babelfy des fichiers de `Raw+RNNTagger/lemmatized/` dans `Raw+RNNTagger+Babelfy/linked/keepPunctuation/`
+    - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/keepPunctuation/` dans `Raw+RNNTagger+Babelfy/equivalent/keepPunctuation/`
+- **make preprocessing-babelfy-rnn-no-punctuation** :
+    - génère les informations babelfy des fichiers de `Raw+RNNTagger/punctuationClean/` dans `Raw+RNNTagger+Babelfy/linked/punctuationClean/`
+    - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/punctuationClean/` dans `Raw+RNNTagger+Babelfy/equivalent/punctuationClean/`
 - **make preprocessing-babelfy-tree-no-stop** :
     - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/keepStopData/` dans `Raw+TreeTagger+Babelfy/linked/keepStopData/`
     - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/keepStopData/` dans `Raw+TreeTagger+Babelfy/equivalent/keepStopData/`

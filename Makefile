@@ -23,8 +23,10 @@ preprocessing-tree: build
 ### Babelfy
 preprocessing-babelfy-raw: build
 	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-raw $(IMAGE) preprocessing/babelfy.py Raw
-preprocessing-babelfy-rnn: build
-	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-rnn $(IMAGE) preprocessing/babelfy.py RNNTagger
+preprocessing-babelfy-rnn-punctuation: build
+	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-rnn $(IMAGE) preprocessing/babelfy.py RNNTagger-punctuation
+preprocessing-babelfy-rnn-no-punctuation: build
+	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-rnn $(IMAGE) preprocessing/babelfy.py RNNTagger-no-punctuation
 preprocessing-babelfy-tree-no-stop: build
 	$(DOCKER-RUN) $(PREFIX)-preprocessing-babelfy-tree-no-stop $(IMAGE) preprocessing/babelfy.py TreeTagger-no-stop
 preprocessing-babelfy-tree-stop-word: build

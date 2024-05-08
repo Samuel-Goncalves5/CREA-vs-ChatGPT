@@ -91,13 +91,21 @@ if __name__ == '__main__':
         print("Equivalent text... (3/3)", flush=True)
         folderToX("input-data/Raw+Babelfy/linked", "input-data/Raw+Babelfy/equivalent", textToEquivalent)
     
-    elif sys.argv[1] == "RNNTagger":
+    elif sys.argv[1] == "RNNTagger-punctuation":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked", textToCSV)
+        folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", textToCSV)
         # EQUIVALENT TEXT
         print("Equivalent text... (2/2)", flush=True)
-        folderToX("input-data/Raw+RNNTagger+Babelfy/linked", "input-data/Raw+RNNTagger+Babelfy/equivalent", textToEquivalent)
+        folderToX("input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", "input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", textToEquivalent)
+
+    elif sys.argv[1] == "RNNTagger-no-punctuation":
+        # ENTITY LINKING
+        print("Entity linking... (1/2)", flush=True)
+        folderToX("input-data/Raw+RNNTagger/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", textToCSV)
+        # EQUIVALENT TEXT
+        print("Equivalent text... (2/2)", flush=True)
+        folderToX("input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", textToEquivalent)
     
     elif sys.argv[1] == "TreeTagger-no-stop":
         # ENTITY LINKING
@@ -124,4 +132,4 @@ if __name__ == '__main__':
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", textToEquivalent)
 
     else:
-        print("Error : Valid arguments are : Raw - RNNTagger - TreeTagger-no-stop - TreeTagger-stop-class - TreeTagger-stop-word")
+        print("Error : Valid arguments are : Raw - RNNTagger-no-punctuation - RNNTagger-punctuation - TreeTagger-no-stop - TreeTagger-stop-class - TreeTagger-stop-word")
