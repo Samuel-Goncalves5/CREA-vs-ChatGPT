@@ -2,7 +2,6 @@ from os import listdir
 from concepts import Definition, Context
 from sklearn import preprocessing
 from scipy.cluster.hierarchy import linkage, fcluster
-import numpy as np
 import pandas
 import json
 
@@ -17,88 +16,113 @@ def folderToX(inputFolder, fileToX):
 ########################## CREA ##########################
 ##########################################################
 FILTER_LIMIT = 0.5
+TOPIC_NUMBER = 8
 
 def contextToMatrix(context):
-    BnIds = context.extension([])
-    Documents = context.intension([])
+    Documents = context.extension([])
+    BnIds = context.intension([])
 
-    AND_ID_DOC = [[0 for _ in range(len(Documents))] for _ in range(len(BnIds))]
-    AND_ID_ID = [[0 for _ in range(len(BnIds))] for _ in range(len(BnIds))]
+    AND_ID_DOC =  [[0 for _ in range(len(Documents))] for _ in range(len(BnIds    ))]
+    AND_ID_ID =   [[0 for _ in range(len(BnIds    ))] for _ in range(len(BnIds    ))]
     AND_DOC_DOC = [[0 for _ in range(len(Documents))] for _ in range(len(Documents))]
-    ID = [0 for _ in range(len(BnIds))]
+    ID  = [0 for _ in range(len(BnIds    ))]
     DOC = [0 for _ in range(len(Documents))]
 
     # Parcours du treillis
     for extent, intent in context.lattice:
         # OCCURENCE D'ID
-        for bn in range(len(extent)):
-            a = BnIds.index(extent[bn])
+        for bn in range(len(intent)):
+            a = BnIds.index(intent[bn])
             ID[a] += 1
             # OCCURENCE D'ID & ID
-            for bn2 in range(bn + 1, len(extent)):
-                b = BnIds.index(extent[bn2])
+            for bn2 in range(bn + 1, len(intent)):
+                b = BnIds.index(intent[bn2])
                 AND_ID_ID[a][b] += 1
                 AND_ID_ID[b][a] += 1
             # OCCURENCE D'ID & DOCUMENT
-            for doc in range(len(intent)):
-                b = Documents.index(intent[doc])
+            for doc in range(len(extent)):
+                b = Documents.index(extent[doc])
                 AND_ID_DOC[a][b] += 1
 
         # OCCURENCE DE DOCUMENT
-        for doc in range(len(intent)):
-            a = Documents.index(intent[doc])
+        for doc in range(len(extent)):
+            a = Documents.index(extent[doc])
             DOC[a] += 1
             # OCCURENCE DE DOCUMENT & DOCUMENT
-            for doc2 in range(doc + 1, len(intent)):
-                b = Documents.index(intent[doc2])
+            for doc2 in range(doc + 1, len(extent)):
+                b = Documents.index(extent[doc2])
                 AND_DOC_DOC[a][b] += 1
                 AND_DOC_DOC[b][a] += 1
 
-    ID_DOC  = [[AND_ID_DOC[i][j]  / (ID[i]  + DOC[j] - AND_ID_DOC[i][j] ) for j in range(len(Documents))] for i in range(len(BnIds))]
-    ID_ID   = [[1. if i==j else AND_ID_ID[i][j]   / (ID[i]  + ID[j]  - AND_ID_ID[i][j]  ) for j in range(len(BnIds))]     for i in range(len(BnIds))]
+    ID_DOC  = [[                AND_ID_DOC[i][j]  / (ID[i]  + DOC[j] - AND_ID_DOC[i][j] ) for j in range(len(Documents))] for i in range(len(BnIds    ))]
+    ID_ID   = [[1. if i==j else AND_ID_ID[i][j]   / (ID[i]  + ID[j]  - AND_ID_ID[i][j]  ) for j in range(len(BnIds    ))] for i in range(len(BnIds    ))]
     DOC_DOC = [[1. if i==j else AND_DOC_DOC[i][j] / (DOC[i] + DOC[j] - AND_DOC_DOC[i][j]) for j in range(len(Documents))] for i in range(len(Documents))]
 
     # MutualImpact, DocSimilarity, IdSimilarity
-    return ID_DOC, ID_ID, DOC_DOC
+    return ID_DOC, DOC_DOC, ID_ID
 
-def dissimilarityToClusters(IdDissimilarity, IdLabels, outputFolder):
+def clusterizedContextToMatrix(context, cluster_tags, cluster_nb):
+    Documents = context.extension([])
+    BnIds = context.intension([])
+
+    AND_CLUSTER_DOC     = [[0 for _ in range(len(Documents))] for _ in range(cluster_nb    )]
+    AND_CLUSTER_CLUSTER = [[0 for _ in range(cluster_nb    )] for _ in range(cluster_nb    )]
+    AND_DOC_DOC         = [[0 for _ in range(len(Documents))] for _ in range(len(Documents))]
+    CLUSTER = [0 for _ in range(cluster_nb    )]
+    DOC     = [0 for _ in range(len(Documents))]
+
+    # Parcours du treillis
+    for extent, intent in context.lattice:
+        nodeClusters = []
+        for bn in range(len(intent)):
+            # OCCURENCE DE CLUSTER
+            clust = cluster_tags[BnIds.index(intent[bn])]
+            if not clust in nodeClusters:
+                nodeClusters.append(clust)
+                CLUSTER[clust] += 1
+
+        for i in range(len(nodeClusters)):
+            # OCCURENCE DE CLUSTER & CLUSTER
+            for j in range(i+1, len(nodeClusters)):
+                AND_CLUSTER_CLUSTER[nodeClusters[i]][nodeClusters[j]] += 1
+                AND_CLUSTER_CLUSTER[nodeClusters[j]][nodeClusters[i]] += 1
+            # OCCURENCE DE CLUSTER & DOCUMENT
+            for doc in range(len(extent)):
+                b = Documents.index(extent[doc])
+                AND_CLUSTER_DOC[nodeClusters[i]][b] += 1
+
+        # OCCURENCE DE DOCUMENT
+        for doc in range(len(extent)):
+            a = Documents.index(extent[doc])
+            DOC[a] += 1
+            # OCCURENCE DE DOCUMENT & DOCUMENT
+            for doc2 in range(doc + 1, len(extent)):
+                b = Documents.index(extent[doc2])
+                AND_DOC_DOC[a][b] += 1
+                AND_DOC_DOC[b][a] += 1
+
+    CLUSTER_DOC     = [[                AND_CLUSTER_DOC[i][j]     / (CLUSTER[i]  + DOC[j]     - AND_CLUSTER_DOC[i][j]    ) for j in range(len(Documents))] for i in range(cluster_nb    )]
+    CLUSTER_CLUSTER = [[1. if i==j else AND_CLUSTER_CLUSTER[i][j] / (CLUSTER[i]  + CLUSTER[j] - AND_CLUSTER_CLUSTER[i][j]) for j in range(cluster_nb    )] for i in range(cluster_nb    )]
+    DOC_DOC         = [[1. if i==j else AND_DOC_DOC[i][j]         / (DOC[i]      + DOC[j]     - AND_DOC_DOC[i][j]        ) for j in range(len(Documents))] for i in range(len(Documents))]
+
+    # MutualImpact, DocSimilarity, IdSimilarity
+    return CLUSTER_DOC, DOC_DOC, CLUSTER_CLUSTER
+
+def dissimilarityToClusters(IdDissimilarity, IdLabels):
     in_data = pandas.DataFrame(data=IdDissimilarity, index=IdLabels, columns=IdLabels)
-    in_labels = np.array(in_data.columns.values.tolist())
-
     data_CR = preprocessing.scale(in_data)
     data_LinkMatrix = linkage(data_CR, method='ward', metric='euclidean')
 
-    nb_clusters = 8
+    groupes_cah = fcluster(data_LinkMatrix, t=TOPIC_NUMBER, criterion='maxclust')
+    cluster_list = [[] for _ in range(max(groupes_cah))]
 
-    groupes_cah = fcluster(data_LinkMatrix, t=nb_clusters, criterion='maxclust')
+    for i in range(len(groupes_cah)):
+        groupes_cah[i] -= 1
 
-    cluster_list = []
-    nb_clusters = 0
-    for val in groupes_cah:
-        if (nb_clusters < val):
-            nb_clusters = val
-    for _ in range(nb_clusters + 1):
-        cluster_list.append([])
+    for index, cluster in enumerate(groupes_cah):
+        cluster_list[cluster].append(index)
 
-    for index, value in enumerate(groupes_cah):
-        cluster_list[value].append(index)
-    
-    for cluster in range(1, len(cluster_list)):
-        for elt in range(len(cluster_list[cluster])):
-            index = cluster_list[cluster][elt]
-
-    CSV_OUT = open(outputFolder + '/clusters.csv', "w")
-    OFS = ";"
-    for cluster in range(1, len(cluster_list)):
-        line = str(cluster)
-        for elt in range(len(cluster_list[cluster])):
-            index = cluster_list[cluster][elt]
-            out_label = in_labels[index]
-            EachLabel = str.strip(out_label)
-            line = line + OFS + EachLabel
-        line = line + "\n"
-        CSV_OUT.write(line)
-    CSV_OUT.close()
+    return groupes_cah, cluster_list
 
 def crea(outputFolder, BabelDictionaries, bnIds, docs):
     l_ids = len(bnIds)
@@ -136,9 +160,45 @@ def crea(outputFolder, BabelDictionaries, bnIds, docs):
     _, _, IdSimilarity = contextToMatrix(c)
 
     # CLUSTERS
-    dissimilarityToClusters([[1 - IdSimilarity[i][j] for j in range(l_ids)] for i in range(l_ids)], bnIds, outputFolder)
+    cluster_tags, clusters = dissimilarityToClusters([[1 - IdSimilarity[i][j] for j in range(l_ids)] for i in range(l_ids)], bnIds)
 
-    # 
+    # CLUSTERIZED FORMAL CONCEPT ANALYSIS
+    clusterizedMutualImpact, _, _ = clusterizedContextToMatrix(c, cluster_tags, len(clusters))
+
+    # NORMALISATION
+    clusterizedMutualImpact = [[clusterizedMutualImpact[i][j] for i in range(len(clusterizedMutualImpact))] for j in range(len(clusterizedMutualImpact[0]))]
+    for clusterImpactByDocument in clusterizedMutualImpact:
+        s = sum(clusterImpactByDocument)
+        for clusterImpactIndex in range(len(clusterImpactByDocument)):
+            clusterImpactByDocument[clusterImpactIndex] /= s
+
+    # JSON
+    topics_json = []
+    for cluster in clusters:
+        topic_json = []
+        for index in cluster:
+            word_json = {
+                "word": bnIds[index]
+            }
+            topic_json.append(word_json)
+
+        topics_json.append(topic_json)
+
+    documents_json = []
+    for i in range(len(docs)):
+        document_json = {
+            "document": docs[i],
+            "topics": clusterizedMutualImpact[i]
+        }
+        documents_json.append(document_json)
+
+    result_json = {
+        "topics": topics_json,
+        "documents": documents_json
+    }
+
+    with open(outputFolder + "/result", "w") as outputFile:
+        json.dump(result_json, outputFile, indent=2)
 
 ###########################################################
 ####################### APPLICATION #######################

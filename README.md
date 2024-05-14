@@ -48,7 +48,8 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
 - **make crea** :
     génère pour chacun des dossiers suivants la modélisation des sujets et le niveau d'appartenance de chaque document du dossier à chaque classe selon la méthode CREA:
     - De `input/data/Raw+Babelfy/linked/` à `output/data/Raw+Babelfy+CREA`
-    - De `input/data/Raw+RNNTagger+Babelfy/linked/` à `output/data/Raw+RNNTagger+Babelfy+CREA/`
+    - De `input/data/Raw+RNNTagger+Babelfy/linked/keepPunctuation/` à `output/data/Raw+RNNTagger+Babelfy+CREA/keepPunctuation/`
+    - De `input/data/Raw+RNNTagger+Babelfy/linked/punctuationClean/` à `output/data/Raw+RNNTagger+Babelfy+CREA/punctuationClean/`
     - De `input/data/Raw+TreeTagger+Babelfy/linked/keepStopData/` à `output-data/Raw+TreeTagger+Babelfy+CREA/keepStopData/`
     - De `input/data/Raw+TreeTagger+Babelfy/linked/throwStopClasses/` à `output-data/Raw+TreeTagger+Babelfy+CREA/throwStopClasses/`
     - De `input/data/Raw+TreeTagger+Babelfy/linked/throwStopWords/` à `output-data/Raw+TreeTagger+Babelfy+CREA/throwStopWords/`
@@ -60,7 +61,8 @@ TODO
     - De `input/data/Raw+Babelfy/prelinked/` à `output/data/Raw+LDA/`
     - De `input/data/Raw+Babelfy/equivalent/` à `output/data/Raw+Babelfy+LDA/`
     - De `input/data/Raw+RNNTagger/punctuationClean/` à `output/data/Raw+RNNTagger+LDA/`
-    - De `input/data/Raw+RNNTagger+Babelfy/equivalent/` à `output/data/Raw+RNNTagger+Babelfy+LDA/`
+    - De `input/data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean/` à `output/data/Raw+RNNTagger+Babelfy+LDA/punctuationClean/`
+    - De `input/data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation/` à `output/data/Raw+RNNTagger+Babelfy+LDA/keepPunctuation/`
     - De `input/data/Raw+TreeTagger/lemmatized/keepStopData/` à `output/data/Raw+TreeTagger+LDA/keepStopData/`
     - De `input/data/Raw+TreeTagger/lemmatized/throwStopClasses/` à `output/data/Raw+TreeTagger+LDA/throwStopClasses/`
     - De `input/data/Raw+TreeTagger/lemmatized/throwStopWords/` à `output/data/Raw+TreeTagger+LDA/throwStopWords/`
