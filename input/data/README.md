@@ -41,14 +41,14 @@ Tokens représentant les mots de l'entrée après
 - Un retrait de la ponctuation, des chiffres et des caractères issus des erreurs de l'OCR (. , « » ? ! [ ] ( ) ; % ` @ : ’ ⇒ < > $ # & ' " • = ● \ / – 0 1 2 3 4 5 6 7 8 9 + - ◦ _ ˓ → … ~ { } * ^    © ° ´ |)
 - Possiblement un retrait des mots inutiles (stopwords) de la langue française, tels que définis par nltk.
 ### 4.1.1 - keepStopWords
-Version dans laquelle les mots inutiles sont gardés.
+Version dans laquelle les mots inutiles (de nltk) sont gardés.
 ### 4.1.2 - throwStopWords
-Version dans laquelle les mots inutiles sont supprimés.
+Version dans laquelle les mots inutiles (de nltk) sont supprimés.
 ## 4.2 - lemmatized
 Tokens représentant les mots de l'entrée via TreeTagger. Les ambiguités (comme "cours|cour" pour le mot "cours", ou "le|la" pour le mot "les") sont résolues en gardant la première proposition.
 ### 4.2.1 - keepStopData
-Version dans laquelle les mots inutiles sont gardés.
+Version dans laquelle les mots inutiles (de nltk) sont gardés.
 ### 4.2.2 - throwStopClasses
-Version dans laquelle les tokens inutiles sont supprimés si leur classe TreeTagger appartient à ['ADV', 'DET:ART', 'DET:POS', 'KON', 'PRO', 'PRO:DEM', 'PRO:IND', 'PRO:PER', 'PRO:POS', 'PRO:REL', 'PRP:det'].
+Version dans laquelle les tokens inutiles (de nltk) sont supprimés si leur classe TreeTagger appartient à ['ADV', 'DET:ART', 'DET:POS', 'KON', 'PRO', 'PRO:DEM', 'PRO:IND', 'PRO:PER', 'PRO:POS', 'PRO:REL', 'PRP:det'].
 ### 4.2.3 - throwStopWords
 Version dans laquelle les mots inutiles sont supprimés durant la phase de pré-lemmatisation.
