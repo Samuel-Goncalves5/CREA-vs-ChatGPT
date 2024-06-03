@@ -78,8 +78,8 @@ def textToEquivalent(text, outputFolder, document):
             bn_ids[values[0]] = values[3]
     equivalent_database.close()
 
-def save_bn_ids(outputFolder):
-    f = open(outputFolder, "w")
+def save_bn_ids(outputPath):
+    f = open(outputPath, "w")
     for x in bn_ids.keys():
         f.write(x + ";" + bn_ids[x] + "\n")
     f.close()
@@ -94,10 +94,10 @@ if __name__ == '__main__':
     if sys.argv[1] == "Raw":
         # TOKENISATION
         print("Tokenisation... (1/3)", flush=True)
-        #folderToX("input-data/Raw", "input-data/Raw+Babelfy/prelinked", textToTokens)
+        folderToX("input-data/Raw", "input-data/Raw+Babelfy/prelinked", textToTokens)
         # ENTITY LINKING
         print("Entity linking... (2/3)", flush=True)
-        #folderToX("input-data/Raw+Babelfy/prelinked", "input-data/Raw+Babelfy/linked", textToCSV)
+        folderToX("input-data/Raw+Babelfy/prelinked", "input-data/Raw+Babelfy/linked", textToCSV)
         # EQUIVALENT TEXT AND BN-ID DICTIONARY
         print("Equivalent text and bn-id dictionary... (3/3)", flush=True)
         folderToX("input-data/Raw+Babelfy/linked", "input-data/Raw+Babelfy/equivalent", textToEquivalent)
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == "RNNTagger-punctuation":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        #folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", textToCSV)
+        folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", textToCSV)
         # EQUIVALENT TEXT AND BN-ID DICTIONARY
         print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", "input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", textToEquivalent)
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == "RNNTagger-no-punctuation":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        #folderToX("input-data/Raw+RNNTagger/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", textToCSV)
+        folderToX("input-data/Raw+RNNTagger/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", textToCSV)
         # EQUIVALENT TEXT AND BN-ID DICTIONARY
         print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", textToEquivalent)
@@ -125,7 +125,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == "TreeTagger-no-stop":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        #folderToX("input-data/Raw+TreeTagger/lemmatized/keepStopData", "input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", textToCSV)
+        folderToX("input-data/Raw+TreeTagger/lemmatized/keepStopData", "input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", textToCSV)
         # EQUIVALENT TEXT AND BN-ID DICTIONARY
         print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", "input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", textToEquivalent)
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == "TreeTagger-stop-class":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        #folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", textToCSV)
+        folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", textToCSV)
         # EQUIVALENT TEXT AND BN-ID DICTIONARY
         print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", textToEquivalent)
@@ -143,7 +143,7 @@ if __name__ == '__main__':
     elif sys.argv[1] == "TreeTagger-stop-word":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        #folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", textToCSV)
+        folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", textToCSV)
         # EQUIVALENT TEXT AND BN-ID DICTIONARY
         print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", textToEquivalent)

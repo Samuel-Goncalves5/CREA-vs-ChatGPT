@@ -18,7 +18,7 @@ def folderToX(inputFolder, textToX):
 ##########################################################
 TOPIC_NUMBER = 2
 TOPIC_SIZE = 3
-def lda(outputFolder, corpus, docs):
+def lda(outputFolder, corpus, docs, IdDictionary):
     dictionary = Dictionary(corpus)
     bagOfWords = [dictionary.doc2bow(doc) for doc in corpus]
     lda_model = LdaModel(corpus=bagOfWords, id2word=dictionary, num_topics=TOPIC_NUMBER)
@@ -51,8 +51,40 @@ def lda(outputFolder, corpus, docs):
         "documents": documents_json
     }
 
-    with open(outputFolder + "/result", "w") as outputFile:
+    if IdDictionary is not None:
+        str_topics = []
+        dico_topics = []
+        for topic in topics_json:
+            str_topic = []
+            dico_topic = []
+            for w in topic:
+                id = w["word"]
+                str_topic.append(id)
+                dico_topic.append(IdDictionary[id])
+            str_topics.append(str_topic)
+            dico_topics.append(dico_topic)
+    else:
+        str_topics = []
+        for topic in topics_json:
+            str_topic = []
+            for w in topic:
+                id = w["word"]
+                str_topic.append(id)
+            str_topics.append(str_topic)
+
+    with open(outputFolder + "/result.json", "w") as outputFile:
         json.dump(result_json, outputFile, indent=2)
+
+    if IdDictionary is not None:
+        with open(outputFolder + "/result.txt", "w") as outputFileStr:
+            with open(outputFolder + "/result_terms.txt", "w") as outputFileDico:
+                for i in range(len(str_topics)):
+                    outputFileStr.write("Topic " + str(i+1) + ";" + ";".join(str_topics[i]) + "\n")
+                    outputFileDico.write("Topic " + str(i+1) + ";" + ";".join(dico_topics[i]) + "\n")
+    else:
+        with open(outputFolder + "/result.txt", "w") as outputFileStr:
+            for i in range(len(str_topics)):
+                outputFileStr.write("Topic " + str(i+1) + ";" + ";".join(str_topics[i]) + "\n")
 
 ###########################################################
 ####################### APPLICATION #######################
@@ -71,6 +103,20 @@ dataCouples = [
         ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", "output-data/Raw+TreeTagger+Babelfy+LDA/throwStopWords"),
     ]
 
+idDictionaryPaths = [
+    "",
+    "input-data/Raw+Babelfy/dictionary/bn_ids.csv",
+    "",
+    "input-data/Raw+RNNTagger+Babelfy/dictionary/punctuationClean/bn_ids.csv",
+    "input-data/Raw+RNNTagger+Babelfy/dictionary/keepPunctuation/bn_ids.csv",
+    "",
+    "",
+    "",
+    "input-data/Raw+TreeTagger+Babelfy/dictionary/keepStopData/bn_ids.csv",
+    "input-data/Raw+TreeTagger+Babelfy/dictionary/throwStopClasses/bn_ids.csv",
+    "input-data/Raw+TreeTagger+Babelfy/dictionary/throwStopWords/bn_ids.csv",
+]
+
 if __name__ == '__main__':
     # LDA
     print("LDA...", flush=True)
@@ -84,4 +130,14 @@ if __name__ == '__main__':
             docs.append(document)
         
         folderToX(inputFolder, textToCorpus)
-        lda(outputFolder, corpus, docs)
+
+        if idDictionaryPaths[i] == "":
+            IdDictionary = None
+        else:
+            IdDictionary = {}
+            with open(idDictionaryPaths[i], "r") as f:
+                    for line in f:
+                        key, value = line.strip().split(";")
+                        IdDictionary[key] = value
+
+        lda(outputFolder, corpus, docs, IdDictionary)

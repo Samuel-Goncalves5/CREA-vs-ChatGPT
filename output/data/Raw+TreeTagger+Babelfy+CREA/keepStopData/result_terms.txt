@@ -1,0 +1,8 @@
+Topic 1;java;histoire;personne;ordinateur;communication;code source;math;informatique;logiciel;concept;nombre;linux;microsoft;logique;unix;database
+Topic 2;fichier;langage;fois;infos;internet;temps;mot
+Topic 3;navigateur;france;programmer;windows;www;site;php;application;serveur
+Topic 4;économie;philosophie;psychologie;biologie;culture;connaissance
+Topic 5;comportement;bibliothèque;classe;processeur;type;téléphone mobile
+Topic 6;fichier texte;python;wikipedia;javascript;firefox;page web;langage html;donnée
+Topic 7;url;serveur web;http;script;disque dur
+Topic 8;nombre entier;esprit;généralement;fonction;importer;syntaxe;mode;anglais;intervalle;free software;perl;open source;xml;art;droit;physique;texte;définition;italie;science;matériel;musique
