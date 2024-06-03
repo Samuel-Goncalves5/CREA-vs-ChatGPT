@@ -68,11 +68,22 @@ def textToCSV(text, outputFolder, document):
 ###########################################################
 ##################### EQUIVALENT TEXT #####################
 ###########################################################
+bn_ids = {}
 def textToEquivalent(text, outputFolder, document):
     equivalent_database = open(outputFolder + "/" + document, "w")
     for line in text.splitlines():
-        equivalent_database.write(line.rstrip().split(';')[0] + "\n")
+        values = line.rstrip().split(';')
+        equivalent_database.write(values[0] + "\n")
+        if not values[0] in bn_ids:
+            bn_ids[values[0]] = values[3]
     equivalent_database.close()
+
+def save_bn_ids(outputFolder):
+    f = open(outputFolder, "w")
+    for x in bn_ids.keys():
+        f.write(x + ";" + bn_ids[x] + "\n")
+    f.close()
+    print("bn_ids.csv")
 
 ###########################################################
 ####################### APPLICATION #######################
@@ -83,53 +94,60 @@ if __name__ == '__main__':
     if sys.argv[1] == "Raw":
         # TOKENISATION
         print("Tokenisation... (1/3)", flush=True)
-        folderToX("input-data/Raw", "input-data/Raw+Babelfy/prelinked", textToTokens)
+        #folderToX("input-data/Raw", "input-data/Raw+Babelfy/prelinked", textToTokens)
         # ENTITY LINKING
         print("Entity linking... (2/3)", flush=True)
-        folderToX("input-data/Raw+Babelfy/prelinked", "input-data/Raw+Babelfy/linked", textToCSV)
-        # EQUIVALENT TEXT
-        print("Equivalent text... (3/3)", flush=True)
+        #folderToX("input-data/Raw+Babelfy/prelinked", "input-data/Raw+Babelfy/linked", textToCSV)
+        # EQUIVALENT TEXT AND BN-ID DICTIONARY
+        print("Equivalent text and bn-id dictionary... (3/3)", flush=True)
         folderToX("input-data/Raw+Babelfy/linked", "input-data/Raw+Babelfy/equivalent", textToEquivalent)
+        save_bn_ids("input-data/Raw+Babelfy/dictionary/bn_ids.csv")
     
     elif sys.argv[1] == "RNNTagger-punctuation":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", textToCSV)
-        # EQUIVALENT TEXT
-        print("Equivalent text... (2/2)", flush=True)
+        #folderToX("input-data/Raw+RNNTagger/lemmatized", "input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", textToCSV)
+        # EQUIVALENT TEXT AND BN-ID DICTIONARY
+        print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", "input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", textToEquivalent)
+        save_bn_ids("input-data/Raw+Babelfy/bn_ids.csv")
+        save_bn_ids("input-data/Raw+RNNTagger+Babelfy/dictionary/keepPunctuation/bn_ids.csv")
 
     elif sys.argv[1] == "RNNTagger-no-punctuation":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+RNNTagger/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", textToCSV)
-        # EQUIVALENT TEXT
-        print("Equivalent text... (2/2)", flush=True)
+        #folderToX("input-data/Raw+RNNTagger/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", textToCSV)
+        # EQUIVALENT TEXT AND BN-ID DICTIONARY
+        print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", "input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", textToEquivalent)
+        save_bn_ids("input-data/Raw+RNNTagger+Babelfy/dictionary/punctuationClean/bn_ids.csv")
     
     elif sys.argv[1] == "TreeTagger-no-stop":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+TreeTagger/lemmatized/keepStopData", "input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", textToCSV)
-        # EQUIVALENT TEXT
-        print("Equivalent text... (2/2)", flush=True)
+        #folderToX("input-data/Raw+TreeTagger/lemmatized/keepStopData", "input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", textToCSV)
+        # EQUIVALENT TEXT AND BN-ID DICTIONARY
+        print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", "input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", textToEquivalent)
+        save_bn_ids("input-data/Raw+TreeTagger+Babelfy/dictionary/keepStopData/bn_ids.csv")
     
     elif sys.argv[1] == "TreeTagger-stop-class":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", textToCSV)
-        # EQUIVALENT TEXT
-        print("Equivalent text... (2/2)", flush=True)
+        #folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", textToCSV)
+        # EQUIVALENT TEXT AND BN-ID DICTIONARY
+        print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", textToEquivalent)
+        save_bn_ids("input-data/Raw+TreeTagger+Babelfy/dictionary/throwStopClasses/bn_ids.csv")
     
     elif sys.argv[1] == "TreeTagger-stop-word":
         # ENTITY LINKING
         print("Entity linking... (1/2)", flush=True)
-        folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", textToCSV)
-        # EQUIVALENT TEXT
-        print("Equivalent text... (2/2)", flush=True)
+        #folderToX("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", textToCSV)
+        # EQUIVALENT TEXT AND BN-ID DICTIONARY
+        print("Equivalent text and bn-id dictionary... (2/2)", flush=True)
         folderToX("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", textToEquivalent)
+        save_bn_ids("input-data/Raw+TreeTagger+Babelfy/dictionary/throwStopWords/bn_ids.csv")
 
     else:
         print("Error : Valid arguments are : Raw - RNNTagger-no-punctuation - RNNTagger-punctuation - TreeTagger-no-stop - TreeTagger-stop-class - TreeTagger-stop-word")

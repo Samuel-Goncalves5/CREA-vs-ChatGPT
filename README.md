@@ -28,21 +28,27 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
     - génère la séparation en tokens des fichiers de `Raw/` dans `Raw+Babelfy/prelinked/`
     - génère les informations babelfy des fichiers de `Raw+Babelfy/prelinked/` dans `Raw+Babelfy/linked/`
     - génère les textes équivalents des fichiers de `Raw+Babelfy/linked/` dans `Raw+Babelfy/equivalent/`
+    - génère un exemple de représentation pour chaque identifiant trouvé durant le processus dans `Raw+Babelfy/dictionary/bn_ids.csv`
 - **make preprocessing-babelfy-rnn-punctuation** :
     - génère les informations babelfy des fichiers de `Raw+RNNTagger/lemmatized/` dans `Raw+RNNTagger+Babelfy/linked/keepPunctuation/`
     - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/keepPunctuation/` dans `Raw+RNNTagger+Babelfy/equivalent/keepPunctuation/`
+    - génère un exemple de représentation pour chaque identifiant trouvé durant le processus dans `Raw+RNNTagger+Babelfy/dictionary/keepPunctuation/bn_ids.csv`
 - **make preprocessing-babelfy-rnn-no-punctuation** :
     - génère les informations babelfy des fichiers de `Raw+RNNTagger/punctuationClean/` dans `Raw+RNNTagger+Babelfy/linked/punctuationClean/`
     - génère les textes équivalents des fichiers de `Raw+RNNTagger+Babelfy/linked/punctuationClean/` dans `Raw+RNNTagger+Babelfy/equivalent/punctuationClean/`
+    - génère un exemple de représentation pour chaque identifiant trouvé durant le processus dans `Raw+RNNTagger+Babelfy/dictionary/punctuationClean/bn_ids.csv`
 - **make preprocessing-babelfy-tree-no-stop** :
     - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/keepStopData/` dans `Raw+TreeTagger+Babelfy/linked/keepStopData/`
     - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/keepStopData/` dans `Raw+TreeTagger+Babelfy/equivalent/keepStopData/`
+    - génère un exemple de représentation pour chaque identifiant trouvé durant le processus dans `Raw+TreeTagger+Babelfy/dictionary/keepStopData/bn_ids.csv`
 - **make preprocessing-babelfy-tree-stop-word** :
     - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/throwStopWords/` dans `Raw+TreeTagger+Babelfy/linked/throwStopWords/`
     - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/throwStopWords/` dans `Raw+TreeTagger+Babelfy/equivalent/throwStopWords/`
+    - génère un exemple de représentation pour chaque identifiant trouvé durant le processus dans `Raw+TreeTagger+Babelfy/dictionary/throwStopWords/bn_ids.csv`
 - **make preprocessing-babelfy-tree-stop-class** :
     - génère les informations babelfy des fichiers de `Raw+TreeTagger/lemmatized/throwStopClasses/` dans `Raw+TreeTagger+Babelfy/linked/throwStopClasses/`
     - génère les textes équivalents des fichiers de `Raw+TreeTagger+Babelfy/linked/throwStopClasses/` dans `Raw+TreeTagger+Babelfy/equivalent/throwStopClasses/`
+    - génère un exemple de représentation pour chaque identifiant trouvé durant le processus dans `Raw+TreeTagger+Babelfy/dictionary/throwStopClasses/bn_ids.csv`
 #### 2.2 - Traitement
 ##### 2.2.1 - CREA
 - **make crea** :

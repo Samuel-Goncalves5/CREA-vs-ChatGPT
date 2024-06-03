@@ -17,6 +17,8 @@ Tokens représentant les notions de l'entrée via Babelfy, avec pour chaque noti
     - Le "score de consistance".
 ## 2.3 - equivalent
 Identifiants (bn:id) des tokens représentant les notions de l'entrée.
+## 2.4 - dictionary
+Exemple de représentation en langage naturel pour chaque identifiant (bn:id)
 
 # 3 - RNNTagger
 Tokens représentant les mots de l'entrée via RNNTagger, et traitements associés.
