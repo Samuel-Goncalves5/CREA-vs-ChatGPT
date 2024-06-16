@@ -2,7 +2,7 @@ PREFIX := llm-vs-topic
 IMAGE := $(PREFIX)-image
 
 DOCKER-BUILD := docker build -t
-DOCKER-RUN := docker run --rm --mount type=bind,source=$(shell pwd)/input/data,target=/user-zone/input-data --mount type=bind,source=$(shell pwd)/output/data,target=/user-zone/output-data --name
+DOCKER-RUN := docker run --rm --mount type=bind,source=$(shell pwd)/input/data,target=/user-zone/input-data --mount type=bind,source=$(shell pwd)/output/data,target=/user-zone/output-data --mount type=bind,source=$(shell pwd)/output/evaluations,target=/user-zone/output-evaluations --name
 LLAMA2 := --mount type=bind,source=$(shell pwd)/input/external/Llama-2,target=/user-zone/Llama-2
 
 # Outils
@@ -48,3 +48,5 @@ llama2: build
 	$(DOCKER-RUN) $(PREFIX)-lda $(LLAMA2) $(IMAGE) Llama2.py
 
 ## Evaluation
+coherence-v: build
+	$(DOCKER-RUN) $(PREFIX)-evaluation-v $(IMAGE) c_v.py

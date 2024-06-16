@@ -5,7 +5,7 @@ WORKDIR user-zone/
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY sources/methods sources/utils .
+COPY sources/methods sources/evaluations sources/utils .
 COPY sources/preprocessing/* input/external/pybabelfy input/external/nltk preprocessing
 COPY input/external/TreeTagger preprocessing/TreeTagger
 COPY input/external/RNNTagger preprocessing/RNNTagger
