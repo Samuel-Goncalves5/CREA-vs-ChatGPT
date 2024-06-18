@@ -1,16 +1,20 @@
-from os import listdir
+from os import listdir, mkdir
+from os.path import isdir
 from concepts import Definition, Context
 from sklearn import preprocessing
 from scipy.cluster.hierarchy import linkage, fcluster
 import pandas
 import json
 
+from generate_scenarios import getScenarios
+
 ##########################################################
 ############ APPLICATION A TOUS LES DOCUMENTS ############
 ##########################################################
-def folderToX(inputFolder, fileToX):
+def folderToX(inputFolder, fileToX, docFilter):
     for document in listdir(inputFolder):
-        fileToX(inputFolder + "/" + document, document)
+        if document.split(".")[0] in docFilter:
+            fileToX(inputFolder + "/" + document, document)
 
 ##########################################################
 ########################## CREA ##########################
@@ -221,12 +225,12 @@ def crea(outputFolder, BabelDictionaries, bnIds, docs, IdDictionary):
 ####################### APPLICATION #######################
 ###########################################################
 dataCouples = [
-        ("input-data/Raw+Babelfy/linked", "output-data/Raw+Babelfy+CREA"),
-        ("input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", "output-data/Raw+RNNTagger+Babelfy+CREA/keepPunctuation"),
-        ("input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", "output-data/Raw+RNNTagger+Babelfy+CREA/punctuationClean"),
-        ("input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", "output-data/Raw+TreeTagger+Babelfy+CREA/keepStopData"),
-        ("input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", "output-data/Raw+TreeTagger+Babelfy+CREA/throwStopClasses"),
-        ("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "output-data/Raw+TreeTagger+Babelfy+CREA/throwStopWords"),
+        ("input-data/Raw+Babelfy/linked", "/data/Raw+Babelfy+CREA"),
+        ("input-data/Raw+RNNTagger+Babelfy/linked/keepPunctuation", "/data/Raw+RNNTagger+Babelfy+CREA/keepPunctuation"),
+        ("input-data/Raw+RNNTagger+Babelfy/linked/punctuationClean", "/data/Raw+RNNTagger+Babelfy+CREA/punctuationClean"),
+        ("input-data/Raw+TreeTagger+Babelfy/linked/keepStopData", "/data/Raw+TreeTagger+Babelfy+CREA/keepStopData"),
+        ("input-data/Raw+TreeTagger+Babelfy/linked/throwStopClasses", "/data/Raw+TreeTagger+Babelfy+CREA/throwStopClasses"),
+        ("input-data/Raw+TreeTagger+Babelfy/linked/throwStopWords", "/data/Raw+TreeTagger+Babelfy+CREA/throwStopWords"),
 ]
 
 idDictionaryPaths = [
@@ -242,34 +246,49 @@ if __name__ == '__main__':
     # CREA
     print("CREA...", flush=True)
     l_data = len(dataCouples)
-    for i in range(l_data):
-        inputFolder, outputFolder = dataCouples[i]
-        print(f"CREA - {inputFolder}... ({i+1}/{l_data})", flush=True)
-        bnIds, docs = [], []
-        BabelDictionaries = []
-        def fileToDictionary(f, document):
-            docs.append(document)
-            documentBabelDictionary = {}
-            with open(f, "r") as file:
-                for line in file:
-                    values = line.rstrip().split(';')
-                    if float(values[-1]) >= FILTER_LIMIT:
-                        if not values[0] in bnIds:
-                            bnIds.append(values[0])
-                        
-                        if values[0] in documentBabelDictionary:
-                            documentBabelDictionary[values[0]].append(values)
-                        else:
-                            documentBabelDictionary[values[0]] = [values]
 
-            BabelDictionaries.append(documentBabelDictionary)
+    scs = getScenarios()
+    l_scs = len(scs)
 
-        folderToX(inputFolder, fileToDictionary)
 
-        IdDictionary = {}
-        with open(idDictionaryPaths[i], "r") as f:
-                for line in f:
-                    key, value = line.strip().split(";")
-                    IdDictionary[key] = value
+    for i in range(l_scs):
+        scName, scContent = scs[i]
+        print(f"CREA - {scName}... ({i+1}/{l_scs})", flush=True)
 
-        crea(outputFolder, BabelDictionaries, bnIds, docs, IdDictionary)
+        for j in range(l_data):
+            inputFolder, outputFolder = dataCouples[j]
+            print(f"CREA - {scName} ({i+1}/{l_scs}) - {inputFolder}... ({j+1}/{l_data})", flush=True)
+
+            bnIds, docs = [], []
+            BabelDictionaries = []
+            def fileToDictionary(f, document):
+                docs.append(document)
+                documentBabelDictionary = {}
+                with open(f, "r") as file:
+                    for line in file:
+                        values = line.rstrip().split(';')
+                        if float(values[-1]) >= FILTER_LIMIT:
+                            if not values[0] in bnIds:
+                                bnIds.append(values[0])
+                            
+                            if values[0] in documentBabelDictionary:
+                                documentBabelDictionary[values[0]].append(values)
+                            else:
+                                documentBabelDictionary[values[0]] = [values]
+
+                BabelDictionaries.append(documentBabelDictionary)
+
+            folderToX(inputFolder, fileToDictionary, scContent)
+
+            IdDictionary = {}
+            with open(idDictionaryPaths[j], "r") as f:
+                    for line in f:
+                        key, value = line.strip().split(";")
+                        IdDictionary[key] = value
+
+            outputFolder = "output/" + scName + outputFolder
+
+            if not isdir(outputFolder):
+                mkdir(outputFolder)
+
+            crea(outputFolder, BabelDictionaries, bnIds, docs, IdDictionary)

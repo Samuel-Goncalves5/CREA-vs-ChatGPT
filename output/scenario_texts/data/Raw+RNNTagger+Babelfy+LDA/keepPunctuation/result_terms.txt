@@ -1,0 +1,8 @@
+Topic 1;est;Php;Pages;fonction;table;fichier;echo;type
+Topic 2;Php;est;nom;Pages;fonction;fichier;table;echo
+Topic 3;est;Php;fichier;Pages;fonction;Exemple;nom;valeurs
+Topic 4;est;Php;Pages;fonction;fichier;tableaux;echo;nom
+Topic 5;est;Php;fonction;fichier;Pages;echo;tableaux;base
+Topic 6;est;Php;fonction;Pages;fichier;Exemple;table;permettent
+Topic 7;est;Php;fonction;type;nom;table;fichier;Exemple
+Topic 8;est;Php;fichier;Pages;fonction;nom;base;table

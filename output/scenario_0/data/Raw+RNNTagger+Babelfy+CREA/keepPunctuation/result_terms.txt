@@ -1,0 +1,8 @@
+Topic 1;booléen;virgule flottante;bits;rangées;Structures de contrôles;valeur;Numériques;Nombres réels;Opérateurs;attribut;méthode;héritage;Polymorphisme;Constructeur;Destructeur
+Topic 2;Transtypage;Concaténation;instruction;branchement;base de données web;Ecriture;Définition;Allemagne;Espagne;Art;Espagnol
+Topic 3;C#;Ruby;msie;Interface;fonction;sens;Free Software;application web;système de fichiers;pdf;services Web;téléphones mobiles;Wikipedia;URL;Langage interprété;interfaces graphiques;client;mode;Europe;italie;science;matériel
+Topic 4;mot de passe;encodage;organisation;chien;esprit;Jésus-Christ;service;National;Philosophie;Psychologie;Sciences biologiques;ville
+Topic 5;économie;histoire;organisme;musique;Identificateurs;symboles;entité;connaissance
+Topic 6;navigateur;fichier;base de données;données;HTML;Php;langages;JavaScript;Java;informations;foi;personne;langage de programmation;Linux;Windows;mot;nombre;Logiques;temps;communication;Programmation;serveur;Internet;anglais;site;web;Math
+Topic 7;FRANCE;français;logiciels;informatique;entier;addition;concept;Syntaxe;Comparaison;Incrémentation;droits;SQL;classe;Affectation;Fichier texte;Technologies;Langage de script;physique;livre
+Topic 8;Pages Web;disque dur;code source;Perl;Python;texte;ordinateur;langage C;Microsoft;Unix;type;Chaîne;code;lien;Firefox;Mac;bibliothèques;Paris;E-mail;open source;orienté objets;Ibm;XML;serveur Web;http;application

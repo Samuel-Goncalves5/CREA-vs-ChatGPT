@@ -1,0 +1,8 @@
+Topic 1;HTML;navigateur;fichier;base de donnée;donnée;langage;java;fois;site;Internet
+Topic 2;python;fichier texte;texte;histoire
+Topic 3;être;infos;connaissance;informatique;latin;math;italie;Firefox;matériel;science
+Topic 4;Free software;Perl;syntaxe;entier
+Topic 5;code source;programmation;javascript;code;IBM;www;XML;Unix;Microsoft
+Topic 6;disque dur;personne;ordinateur;France;français;anglais;Paris;serveur;langage C;mot;Europe;temps
+Topic 7;langage de script;Windows;logique;Wikipedia;linux;URL
+Topic 8;page Web;langage de programmation;PHP;open source;http;application;nombre;communication

@@ -1,23 +1,27 @@
-from os import listdir
+from os import listdir, mkdir
+from os.path import isdir
 from gensim.models.ldamodel import LdaModel
 from gensim.matutils import corpus2csc
 from gensim.corpora import Dictionary
 import json
 
+from generate_scenarios import getScenarios
+
 ##########################################################
 ############ APPLICATION A TOUS LES DOCUMENTS ############
 ##########################################################
-def folderToX(inputFolder, textToX):
+def folderToX(inputFolder, textToX, docFilter):
     for document in listdir(inputFolder):
-        f = open(inputFolder + "/" + document, "r")
-        textToX(f.read(), document)
-        f.close()
+        if document.split(".")[0] in docFilter:
+            f = open(inputFolder + "/" + document, "r")
+            textToX(f.read(), document)
+            f.close()
 
 ##########################################################
 ########################## LDA ###########################
 ##########################################################
-TOPIC_NUMBER = 2
-TOPIC_SIZE = 3
+TOPIC_NUMBER = 8
+TOPIC_SIZE = 8
 def lda(outputFolder, corpus, docs, IdDictionary):
     dictionary = Dictionary(corpus)
     bagOfWords = [dictionary.doc2bow(doc) for doc in corpus]
@@ -90,17 +94,17 @@ def lda(outputFolder, corpus, docs, IdDictionary):
 ####################### APPLICATION #######################
 ###########################################################
 dataCouples = [
-        ("input-data/Raw+Babelfy/prelinked", "output-data/Raw+LDA"),
-        ("input-data/Raw+Babelfy/equivalent", "output-data/Raw+Babelfy+LDA"),
-        ("input-data/Raw+RNNTagger/punctuationClean", "output-data/Raw+RNNTagger+LDA"),
-        ("input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", "output-data/Raw+RNNTagger+Babelfy+LDA/punctuationClean"),
-        ("input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", "output-data/Raw+RNNTagger+Babelfy+LDA/keepPunctuation"),
-        ("input-data/Raw+TreeTagger/lemmatized/keepStopData", "output-data/Raw+TreeTagger+LDA/keepStopData"),
-        ("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "output-data/Raw+TreeTagger+LDA/throwStopClasses"),
-        ("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "output-data/Raw+TreeTagger+LDA/throwStopWords"),
-        ("input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", "output-data/Raw+TreeTagger+Babelfy+LDA/keepStopData"),
-        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", "output-data/Raw+TreeTagger+Babelfy+LDA/throwStopClasses"),
-        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", "output-data/Raw+TreeTagger+Babelfy+LDA/throwStopWords"),
+        ("input-data/Raw+Babelfy/prelinked", "/data/Raw+LDA"),
+        ("input-data/Raw+Babelfy/equivalent", "/data/Raw+Babelfy+LDA"),
+        ("input-data/Raw+RNNTagger/punctuationClean", "/data/Raw+RNNTagger+LDA"),
+        ("input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", "/data/Raw+RNNTagger+Babelfy+LDA/punctuationClean"),
+        ("input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", "/data/Raw+RNNTagger+Babelfy+LDA/keepPunctuation"),
+        ("input-data/Raw+TreeTagger/lemmatized/keepStopData", "/data/Raw+TreeTagger+LDA/keepStopData"),
+        ("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "/data/Raw+TreeTagger+LDA/throwStopClasses"),
+        ("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "/data/Raw+TreeTagger+LDA/throwStopWords"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", "/data/Raw+TreeTagger+Babelfy+LDA/keepStopData"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", "/data/Raw+TreeTagger+Babelfy+LDA/throwStopClasses"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", "/data/Raw+TreeTagger+Babelfy+LDA/throwStopWords"),
     ]
 
 idDictionaryPaths = [
@@ -121,23 +125,36 @@ if __name__ == '__main__':
     # LDA
     print("LDA...", flush=True)
     l_data = len(dataCouples)
-    for i in range(l_data):
-        inputFolder, outputFolder = dataCouples[i]
-        print(f"LDA - {inputFolder}... ({i+1}/{l_data})", flush=True)
-        corpus, docs = [], []
-        def textToCorpus(text, document):
-            corpus.append(text.splitlines())
-            docs.append(document)
-        
-        folderToX(inputFolder, textToCorpus)
 
-        if idDictionaryPaths[i] == "":
-            IdDictionary = None
-        else:
-            IdDictionary = {}
-            with open(idDictionaryPaths[i], "r") as f:
-                    for line in f:
-                        key, value = line.strip().split(";")
-                        IdDictionary[key] = value
+    scs = getScenarios()
+    l_scs = len(scs)
 
-        lda(outputFolder, corpus, docs, IdDictionary)
+    for i in range(l_scs):
+        scName, scContent = scs[i]
+        print(f"LDA - {scName}... ({i+1}/{l_scs})", flush=True)
+
+        for j in range(l_data):
+            inputFolder, outputFolder = dataCouples[j]
+            print(f"LDA - {scName} ({i+1}/{l_scs}) - {inputFolder}... ({j+1}/{l_data})", flush=True)
+
+            corpus, docs = [], []
+            def textToCorpus(text, document):
+                corpus.append(text.splitlines())
+                docs.append(document)
+            folderToX(inputFolder, textToCorpus, scContent)
+
+            if idDictionaryPaths[j] == "":
+                IdDictionary = None
+            else:
+                IdDictionary = {}
+                with open(idDictionaryPaths[j], "r") as f:
+                        for line in f:
+                            key, value = line.strip().split(";")
+                            IdDictionary[key] = value
+
+            outputFolder = "output/" + scName + outputFolder
+
+            if not isdir(outputFolder):
+                mkdir(outputFolder)
+
+            lda(outputFolder, corpus, docs, IdDictionary)

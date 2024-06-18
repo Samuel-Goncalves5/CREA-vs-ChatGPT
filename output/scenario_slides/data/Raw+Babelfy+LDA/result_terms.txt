@@ -1,0 +1,8 @@
+Topic 1;php;tableaux;nom;fonction;echo;sessions;valeurs;variable
+Topic 2;php;nom;tableaux;echo;fonction;pages;pages web;cookies
+Topic 3;php;echo;nom;valeurs;tableaux;programmation;type;pages
+Topic 4;php;programmation;tableaux;echo;valeurs;sessions;type;nom
+Topic 5;php;pages;echo;nom;pages web;type;http;tableaux
+Topic 6;php;programmation;nom;echo;type;valeurs;fonction;tableaux
+Topic 7;php;echo;programmation;pages web;programmation web;valeurs;type;nom
+Topic 8;php;programmation;programmation web;echo;pages web;fonction;nom;valeurs

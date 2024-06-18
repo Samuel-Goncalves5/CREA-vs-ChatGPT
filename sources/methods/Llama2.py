@@ -44,17 +44,17 @@ def llama2question(prompt, docs, texts, output_format):
 ####################### APPLICATION #######################
 ###########################################################
 dataCouples = [
-        ("input-data/Raw+Babelfy/prelinked", "output-data/Raw+Llama2"),
-        ("input-data/Raw+Babelfy/equivalent", "output-data/Raw+Babelfy+Llama2"),
-        ("input-data/Raw+RNNTagger/punctuationClean", "output-data/Raw+RNNTagger+Llama2"),
-        ("input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", "output-data/Raw+RNNTagger+Babelfy+Llama2/punctuationClean"),
-        ("input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", "output-data/Raw+RNNTagger+Babelfy+Llama2/keepPunctuation"),
-        ("input-data/Raw+TreeTagger/lemmatized/keepStopData", "output-data/Raw+TreeTagger+Llama2/keepStopData"),
-        ("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "output-data/Raw+TreeTagger+Llama2/throwStopClasses"),
-        ("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "output-data/Raw+TreeTagger+Llama2/throwStopWords"),
-        ("input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", "output-data/Raw+TreeTagger+Babelfy+Llama2/keepStopData"),
-        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", "output-data/Raw+TreeTagger+Babelfy+Llama2/throwStopClasses"),
-        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", "output-data/Raw+TreeTagger+Babelfy+Llama2/throwStopWords"),
+        ("input-data/Raw+Babelfy/prelinked", "/Raw+Llama2"),
+        ("input-data/Raw+Babelfy/equivalent", "/Raw+Babelfy+Llama2"),
+        ("input-data/Raw+RNNTagger/punctuationClean", "/Raw+RNNTagger+Llama2"),
+        ("input-data/Raw+RNNTagger+Babelfy/equivalent/punctuationClean", "/Raw+RNNTagger+Babelfy+Llama2/punctuationClean"),
+        ("input-data/Raw+RNNTagger+Babelfy/equivalent/keepPunctuation", "/Raw+RNNTagger+Babelfy+Llama2/keepPunctuation"),
+        ("input-data/Raw+TreeTagger/lemmatized/keepStopData", "/Raw+TreeTagger+Llama2/keepStopData"),
+        ("input-data/Raw+TreeTagger/lemmatized/throwStopClasses", "/Raw+TreeTagger+Llama2/throwStopClasses"),
+        ("input-data/Raw+TreeTagger/lemmatized/throwStopWords", "/Raw+TreeTagger+Llama2/throwStopWords"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/keepStopData", "/Raw+TreeTagger+Babelfy+Llama2/keepStopData"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses", "/Raw+TreeTagger+Babelfy+Llama2/throwStopClasses"),
+        ("input-data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords", "/Raw+TreeTagger+Babelfy+Llama2/throwStopWords"),
     ]
 
 idDictionaryPaths = [

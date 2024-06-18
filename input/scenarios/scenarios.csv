@@ -1,3 +1,3 @@
-scenario_0;C1.txt;C2.txt;C3.txt;C4.txt;C5.txt;C6.txt;C7.txt;C8.txt;C8.txt;C9.txt;C10.txt;C11.txt;C12.txt;C13.txt;C14.txt;C15.txt;C16.txt;C17.txt;C18.txt;C19.txt
-scenario_slides;C1.txt;C2.txt;C4.txt;C7.txt;C8.txt;C9.txt;C10.txt;C12.txt;C13.txt;C14.txt;C16.txt;C18.txt
-scenario_texts;C3.txt;C5.txt;C6.txt;C11.txt;C15.txt;C17.txt;C19.txt
+scenario_0;C1;C2;C3;C4;C5;C6;C7;C8;C9;C10;C11;C12;C13;C14;C15;C16;C17;C18;C19
+scenario_slides;C1;C2;C4;C7;C8;C9;C10;C12;C13;C14;C16;C18
+scenario_texts;C3;C5;C6;C11;C15;C17;C19

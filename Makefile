@@ -2,7 +2,7 @@ PREFIX := llm-vs-topic
 IMAGE := $(PREFIX)-image
 
 DOCKER-BUILD := docker build -t
-DOCKER-RUN := docker run --rm --mount type=bind,source=$(shell pwd)/input/data,target=/user-zone/input-data --mount type=bind,source=$(shell pwd)/output/data,target=/user-zone/output-data --mount type=bind,source=$(shell pwd)/output/evaluations,target=/user-zone/output-evaluations --name
+DOCKER-RUN := docker run --rm --mount type=bind,source=$(shell pwd)/input/data,target=/user-zone/input-data --mount type=bind,source=$(shell pwd)/output,target=/user-zone/output --name
 LLAMA2 := --mount type=bind,source=$(shell pwd)/input/external/Llama-2,target=/user-zone/Llama-2
 
 # Outils
@@ -11,7 +11,9 @@ help:
 build: Dockerfile
 	$(DOCKER-BUILD) $(IMAGE) .
 print-files: build
-	$(DOCKER-RUN) $(PREFIX)-print-files $(IMAGE) print-files.py
+	$(DOCKER-RUN) $(PREFIX)-print-files $(IMAGE) print_files.py
+generate-scenarios: build
+	$(DOCKER-RUN) $(PREFIX)-generate-scenarios $(IMAGE) generate_scenarios.py
 
 # Protocole
 ## Pré-traitement
@@ -49,4 +51,4 @@ llama2: build
 
 ## Evaluation
 coherence-v: build
-	$(DOCKER-RUN) $(PREFIX)-evaluation-v $(IMAGE) c_v.py
+	$(DOCKER-RUN) $(PREFIX)-evaluation-v $(IMAGE) coherence.py

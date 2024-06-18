@@ -10,7 +10,8 @@ COPY sources/preprocessing/* input/external/pybabelfy input/external/nltk prepro
 COPY input/external/TreeTagger preprocessing/TreeTagger
 COPY input/external/RNNTagger preprocessing/RNNTagger
 COPY input/data input-data
-COPY output/data output-data
+COPY input/scenarios/scenarios.csv scenarios.csv 
+COPY output output
 
 RUN ["python", "preprocessing/nltk-download.py"]
 ENTRYPOINT ["python"]

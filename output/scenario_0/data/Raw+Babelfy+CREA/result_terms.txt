@@ -1,0 +1,8 @@
+Topic 1;navigateur;fichier;langages;données;fois;serveur;internet;www;php
+Topic 2;fichier texte;logiques;france;infos;nombre;temps;mots;communication;math
+Topic 3;code source;java;personne;site;unix;linux;windows;microsoft;programmation;paris;database
+Topic 4;mode;chansons;droits;jésus;université;philosophie;psychologie;sciences biologiques;cultures;entité
+Topic 5;disque dur;python;ordinateur;langage html;nombres entiers;javascript;wikipedia;firefox;pages web;url;application;script;http
+Topic 6;fonction;syntaxe;free software;perl;open source;orienté objets;code;chaîne;xml;serveur web;classe;type
+Topic 7;histoire;intervalle;généralement;texte;connaissance;macos x;informatique;bibliothèque;courriel;italie;science;matériel;mac
+Topic 8;langue anglaise;logiciels;physique;art;concept;économie;musique;éducation;organisme

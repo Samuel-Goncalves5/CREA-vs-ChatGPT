@@ -1,0 +1,8 @@
+Topic 1;navigateur;fichier;base de données;données;HTML;Php;langages;Java;serveur
+Topic 2;Perl;personne;ordinateur;Programmation;Paris;open source;nombre;langage C;mot;Math
+Topic 3;code source;JavaScript;informations;foi;langage de programmation;site;Internet
+Topic 4;orienté objets;type;code;Ibm;application web;système de fichiers;classe;SQL
+Topic 5;FRANCE;anglais;Free Software;E-mail;bibliothèques;Syntaxe;entier;Logiques;temps;web;XML
+Topic 6;Pages Web;texte;Linux;communication;Windows;Firefox;URL
+Topic 7;Python;français;Microsoft;Wikipedia;informatique;Europe;italie;matériel;Mac;science
+Topic 8;disque dur;Langage de script;serveur Web;Chaîne;http;application;Unix;Langage interprété;interfaces graphiques;client;lien;mode

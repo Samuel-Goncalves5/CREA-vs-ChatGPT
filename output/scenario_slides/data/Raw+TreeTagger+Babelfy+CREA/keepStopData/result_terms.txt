@@ -1,0 +1,8 @@
+Topic 1;url;serveur web;http;script;disque dur
+Topic 2;free software;perl;nombre entier
+Topic 3;donnée;javascript;code source
+Topic 4;fichier texte;histoire;droit;unix;math;italie;nombre;firefox;matériel;page web;science
+Topic 5;france;infos;temps;www;mot;microsoft
+Topic 6;java;php;open source;programmer;xml;windows;application
+Topic 7;site;linux;communication
+Topic 8;navigateur;fichier;langage;fois;personne;ordinateur;serveur;internet;database

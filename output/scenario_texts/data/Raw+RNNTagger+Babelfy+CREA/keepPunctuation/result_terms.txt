@@ -1,0 +1,8 @@
+Topic 1;langages;Java;base de données;données;Linux;Windows;navigateur;mot;langage de programmation;nombre;Logiques;foi;Php;HTML;fichier;informations;Internet;personne
+Topic 2;langage C;code source;Microsoft;logiciels;entier;temps;concept;Syntaxe;Unix;type;Chaîne;Comparaison;Incrémentation;Programmation;droits;SQL;serveur;code;Affectation;anglais;français;site;Firefox;web;Math;Fichier texte;FRANCE;Technologies;physique;livre
+Topic 3;mot de passe;encodage;organisation;science;texte;chien;esprit;Jésus-Christ;service;National;Philosophie;Psychologie;Sciences biologiques;ville
+Topic 4;ordinateur;informatique;addition;communication;JavaScript;économie;histoire;organisme;musique;Identificateurs;symboles;entité;connaissance
+Topic 5;booléen;virgule flottante;bits;rangées;Structures de contrôles;valeur;Numériques;Nombres réels;Opérateurs;attribut;méthode;classe;héritage;Polymorphisme;Constructeur;Destructeur
+Topic 6;Transtypage;Concaténation;instruction;branchement;base de données web;Ecriture;Définition;orienté objets;Langage de script;Allemagne;Espagne;Paris;Art;Espagnol
+Topic 7;pdf;http;XML;services Web;E-mail;application;téléphones mobiles
+Topic 8;lien;Python;C#;Ruby;msie;Interface;Pages Web;disque dur;Mac;Perl;bibliothèques;fonction;sens
