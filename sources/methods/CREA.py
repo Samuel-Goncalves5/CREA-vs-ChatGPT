@@ -19,7 +19,7 @@ def folderToX(inputFolder, fileToX, docFilter):
 ##########################################################
 ########################## CREA ##########################
 ##########################################################
-FILTER_LIMIT = 0.5
+FILTER_LIMIT = 0.05
 TOPIC_NUMBER = 8
 
 def contextToMatrix(context):
