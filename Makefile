@@ -50,5 +50,5 @@ llama2: build
 	$(DOCKER-RUN) $(PREFIX)-lda $(LLAMA2) $(IMAGE) Llama2.py
 
 ## Evaluation
-coherence-v: build
-	$(DOCKER-RUN) $(PREFIX)-evaluation-v $(IMAGE) coherence.py
+coherence-eval: build
+	$(DOCKER-RUN) $(PREFIX)-evaluation $(IMAGE) coherence.py
