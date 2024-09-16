@@ -1,0 +1,8 @@
+# Liste des scénarios à tester :
+- Scenario 1 : tous les cours de PHP (de C1 à C19)
+- Scénario 2 : tous les cours de PHP + Java (C1-C19 + CJA)
+- Scénario 3 : tous les cours de PHP au format slide (C1, C2, C4, C7, C8, C9, C10, C12, C13, C14, C16, C18)
+- Scénario 4 : tous les cours de PHP au format texte long (C3, C5, C6, C11, C15, C17, C19)
+- Scénario 5 : tous les cours de PHP au format texte long + Java (C3, C5, C6, C11, C15, C17, C19 + CJA)
+- Scénario 6 : les 9 premiers cours de PHP (C1-C9)
+- Scénario 7 : les 9 premiers cours de PHP + Java (C1-C9 + CJA)
