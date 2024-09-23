@@ -1,0 +1,8 @@
+Topic 1;php;nom;type;echo;valeurs;body;variable;pages
+Topic 2;php;echo;tableaux;nom;pages web;type;pages;body
+Topic 3;php;tableaux;fonction;fr;cookies;nom;université antilles guyane;université
+Topic 4;php;echo;programmation;nom;pages;tableaux;pages web;valeurs
+Topic 5;php;echo;nom;fonction;tableaux;programmation;valeurs;objet
+Topic 6;php;valeurs;fonction;echo;pages;programmation web;tableaux;nom
+Topic 7;php;programmation;echo;nom;type;tableaux;pages web;sessions
+Topic 8;php;echo;nom;pages web;tableaux;programmation;pages;valeurs

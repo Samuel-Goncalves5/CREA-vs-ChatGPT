@@ -1,8 +1,0 @@
-Topic 1;php;echo;nom;fichier;html;type;page;fonction
-Topic 2;php;html;page;echo;type;nom;table;web
-Topic 3;php;echo;html;nom;page;valeur;exemple;web
-Topic 4;php;page;html;echo;nom;fichier;fonction;web
-Topic 5;php;echo;nom;page;html;variable;fichier;fonction
-Topic 6;php;html;echo;type;page;tableau;fichier;web
-Topic 7;php;echo;html;type;page;nom;fichier;données
-Topic 8;php;html;echo;nom;i;exemple;type;classe

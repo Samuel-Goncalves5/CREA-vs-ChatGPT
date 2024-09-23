@@ -1,0 +1,8 @@
+Topic 1;php;fonction;pages;type;valeurs;fichier;sessions;cours
+Topic 2;php;pages;type;fonction;cours;nom;valeurs;variable
+Topic 3;php;fonction;type;nom;pages;valeurs;variable;cours
+Topic 4;php;fonction;valeurs;pages;fichier;type;cours;nom
+Topic 5;php;valeurs;type;sessions;pages;nom;fonction;fichier
+Topic 6;php;type;nom;fichier;fonction;valeurs;sessions;pages
+Topic 7;php;fonction;nom;type;pages;valeurs;fichier;paramètres
+Topic 8;php;fonction;type;variable;pages;fichier;programmation;cas

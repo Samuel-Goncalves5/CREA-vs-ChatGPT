@@ -17,23 +17,9 @@ if __name__ == '__main__':
                 "Raw+TreeTagger+LDA", "Raw+TreeTagger+Llama2"]
 
     for s,_ in getScenarios():
-        try:
-            os.mkdir("./output/" + s)
-        except:
-            pass
-
-        try:
-            os.mkdir("./output/" + s + "/data")
-        except:
-            pass
-
-        for sub in subfolders:
-            try:
-                os.mkdir("./output/" + s + "/data/" + sub)
-            except:
-                pass
+        os.makedirs(f"./output/{s}/data", exist_ok=True, mode=0o777)
         
-        try:
-            os.mkdir("./output/" + s + "/evaluations")
-        except:
-            pass
+        for sub in subfolders:
+            os.makedirs(f"./output/{s}/data/{sub}", exist_ok=True, mode=0o777)
+        
+        os.makedirs(f"./output/{s}/evaluations", exist_ok=True, mode=0o777)

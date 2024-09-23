@@ -1,0 +1,8 @@
+Topic 1;php;fonction;valeur;type;nom;fichier;cours;echo
+Topic 2;php;variable;fonction;valeur;cours;utiliser;fichier;nom
+Topic 3;php;fonction;variable;valeur;echo;type;nom;cours
+Topic 4;php;valeur;fichier;nom;fonction;session;echo;exemple
+Topic 5;php;texte;nom;cours;fonction;valeur;fichier;variable
+Topic 6;php;fonction;fichier;valeur;variable;type;session;retourner
+Topic 7;php;fonction;fichier;valeur;nom;variable;session;cours
+Topic 8;php;variable;fonction;fichier;type;echo;valeur;afficher

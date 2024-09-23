@@ -1,8 +1,0 @@
-Topic 1;php;fonction;nom;fichier;valeur;echo;variable;exemple
-Topic 2;php;nom;exemple;echo;fonction;valeur;page web;type
-Topic 3;php;echo;nom;fichier;fonction;http;variable;page
-Topic 4;php;fonction;exemple;echo;fichier;variable;nom;session
-Topic 5;php;fichier;echo;nom;exemple;tableau;variable;fonction
-Topic 6;php;fonction;fichier;variable;nom;tableau;valeur;echo
-Topic 7;php;variable;fonction;nom;tableau;fichier;valeur;donner
-Topic 8;php;tableau;fonction;fichier;nom;variable;echo;http

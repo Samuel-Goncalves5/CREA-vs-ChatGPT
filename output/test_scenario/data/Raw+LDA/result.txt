@@ -1,0 +1,8 @@
+Topic 1;php;peut;page;nom;fonction;cours;html;echo
+Topic 2;php;echo;peut;nom;type;fonction;valeur;html
+Topic 3;php;peut;html;type;nom;valeur;page;mysql
+Topic 4;php;fonction;page;echo;valeur;mysql;peut;html
+Topic 5;php;html;cours;page;texte;peut;nom;fonction
+Topic 6;php;thierry;univ;type;echo;lecroq;fonction;rouen
+Topic 7;php;peut;fonction;page;echo;b;classe;programmation
+Topic 8;php;type;valeur;page;peut;echo;html;fonction

@@ -1,0 +1,8 @@
+Topic 1;php;html;echo;web;nom;p;page;i
+Topic 2;php;html;web;echo;type;i;tableau;session
+Topic 3;php;html;echo;nom;web;valeur;b;p
+Topic 4;php;html;web;echo;nom;;valeur;p
+Topic 5;php;html;echo;web;alcôve;programmer;variables;tableau
+Topic 6;php;html;echo;i;serveur;nom;tableau;web
+Topic 7;php;html;echo;web;nom;variables;p;page
+Topic 8;php;echo;web;programmer;html;alcôve;nom;i

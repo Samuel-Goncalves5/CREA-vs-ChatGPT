@@ -1,0 +1,8 @@
+Topic 1;php;nom;variable;valeur;fichier;donner;fonction;type
+Topic 2;php;variable;nom;fichier;fonction;tableau;valeur;echo
+Topic 3;php;fonction;fichier;exemple;tableau;nom;donner;variable
+Topic 4;php;nom;fichier;fonction;permettre;variable;tableau;exemple
+Topic 5;php;fichier;nom;echo;utiliser;variable;exemple;fonction
+Topic 6;php;fichier;fonction;exemple;nom;variable;donner;tableau
+Topic 7;php;nom;fonction;variable;fichier;exemple;donner;tableau
+Topic 8;php;fonction;valeur;echo;permettre;nom;exemple;variable

@@ -1,8 +1,0 @@
-Topic 1;php;html;;echo;i;web;;nom
-Topic 2;php;html;web;echo;nom;type;;page
-Topic 3;php;web;html;echo;p;page;nom;tableau
-Topic 4;html;php;echo;web;nom;page;serveur;p
-Topic 5;php;html;echo;nom;web;p;i;page
-Topic 6;php;echo;html;i;nom;web;p;session
-Topic 7;php;html;echo;alcôve;nom;programmer;valeur;i
-Topic 8;php;html;web;echo;nom;programmer;alcôve;b

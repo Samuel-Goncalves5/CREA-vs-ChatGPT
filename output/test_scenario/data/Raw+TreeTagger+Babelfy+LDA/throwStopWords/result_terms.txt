@@ -1,0 +1,8 @@
+Topic 1;être;PHP;fonction;avoir;type;valeur;fichier;utiliser
+Topic 2;être;PHP;valeur;avoir;fichier;fonction;session;nom
+Topic 3;être;PHP;avoir;fichier;fonction;type;valeur;afficher
+Topic 4;être;PHP;avoir;fonction;fichier;type;valeur;utiliser
+Topic 5;être;PHP;avoir;fonction;type;fichier;nom;valeur
+Topic 6;être;PHP;avoir;texte;nom;type;page;fonction
+Topic 7;être;PHP;valeur;avoir;nom;texte;type;fonction
+Topic 8;être;PHP;fonction;avoir;nom;type;valeur;session

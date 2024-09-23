@@ -1,0 +1,8 @@
+Topic 1;Php;est;Pages Web;fonction;tableaux;variables;echo;valeurs
+Topic 2;Php;est;nom;echo;Programmation;fonction;tableaux;variables
+Topic 3;Php;est;Programmation;echo;nom;type;Alcôve;tableaux
+Topic 4;Php;est;echo;tableaux;valeurs;fonction;nom;Pages Web
+Topic 5;Php;est;echo;Programmation;Pages Web;variables;nom;tableaux
+Topic 6;Php;est;Pages Web;echo;nom;type;Pages;tableaux
+Topic 7;Php;est;Programmation;echo;nom;fonction;valeurs;tableaux
+Topic 8;Php;est;echo;fonction;Pages Web;tableaux;nom;variables

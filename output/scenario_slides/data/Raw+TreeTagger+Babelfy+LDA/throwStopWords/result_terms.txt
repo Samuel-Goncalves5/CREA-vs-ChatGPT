@@ -1,8 +1,0 @@
-Topic 1;PHP;être;avoir;nom;valeur;tableau;echo;programmation
-Topic 2;PHP;être;echo;nom;avoir;tableau;page;session
-Topic 3;PHP;être;programmation;fonction;tableau;variable;valeur;avoir
-Topic 4;PHP;être;avoir;programmation;fonction;valeur;tableau;nom
-Topic 5;PHP;être;tableau;avoir;echo;page Web;nom;serveur
-Topic 6;PHP;être;nom;echo;page Web;avoir;valeur;tableau
-Topic 7;PHP;être;avoir;page Web;programmation;HTML;valeur;page
-Topic 8;PHP;être;echo;avoir;nom;valeur;programmation;tableau

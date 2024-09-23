@@ -1,0 +1,8 @@
+Topic 1;php;pages;fichier;fonction;valeurs;nom;exemple;type
+Topic 2;php;fonction;type;pages;nom;fichier;base;exemple
+Topic 3;php;table;nom;fonction;fichier;exemple;pages;http
+Topic 4;php;fichier;nom;pages;fonction;type;tableaux;exemple
+Topic 5;php;fonction;fichier;pages;nom;echo;utiliser;variable
+Topic 6;php;fonction;fichier;variable;exemple;nom;echo;base
+Topic 7;php;fichier;pages;fonction;nom;base;exemple;variable
+Topic 8;php;table;nom;echo;pages;exemple;fichier;http

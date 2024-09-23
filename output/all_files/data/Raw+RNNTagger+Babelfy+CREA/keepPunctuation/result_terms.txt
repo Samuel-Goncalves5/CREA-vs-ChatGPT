@@ -1,8 +1,0 @@
-Topic 1;booléen;virgule flottante;bits;rangées;Structures de contrôles;valeur;Numériques;Nombres réels;Opérateurs;attribut;héritage;Polymorphisme;Constructeur;Destructeur
-Topic 2;addition;Technologies;livre;mot de passe;encodage;organisation;science;chien;esprit;Jésus-Christ;service;National;économie;histoire;Philosophie;Psychologie;Sciences biologiques;organisme;musique;ville
-Topic 3;Transtypage;Concaténation;instruction;branchement;base de données web;Ecriture;Définition;Allemagne;Espagne;Art;Espagnol
-Topic 4;méthode;programmeur;sémantique;entité;comportement;C++;processeur;structure de données;téléphones mobiles;compilateur
-Topic 5;Python;lien;C#;Ruby;msie;Interface;Mac;fonction;sens;application web;système de fichiers;pdf;services Web;Wikipedia;URL;Langage interprété;interfaces graphiques;client;mode;Europe;italie;matériel;Identificateurs;symboles;connaissance
-Topic 6;navigateur;fichier;base de données;données;HTML;Php;langages;JavaScript;Java;foi;personne;langage de programmation;Programmation;anglais;Math;mot;nombre;Logiques;web;Internet;serveur
-Topic 7;FRANCE;orienté objets;Comparaison;Incrémentation;droits;SQL;code;classe;Affectation;Free Software;E-mail;open source;Ibm;XML;Langage de script;serveur Web;http;application
-Topic 8;Pages Web;disque dur;code source;Perl;texte;informations;ordinateur;français;type;communication;informatique;logiciels;concept;entier;Syntaxe;physique;Fichier texte;Unix;bibliothèques;langage C;Linux;Windows;Microsoft;temps;Chaîne;site;Firefox;Paris

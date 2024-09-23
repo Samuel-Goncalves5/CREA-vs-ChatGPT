@@ -59,9 +59,7 @@ ChatGPT et les LLM ont radicalement changé notre relation aux connaissances et 
     - De `input/data/Raw+TreeTagger+Babelfy/linked/keepStopData/` à `output-data/Raw+TreeTagger+Babelfy+CREA/keepStopData/`
     - De `input/data/Raw+TreeTagger+Babelfy/linked/throwStopClasses/` à `output-data/Raw+TreeTagger+Babelfy+CREA/throwStopClasses/`
     - De `input/data/Raw+TreeTagger+Babelfy/linked/throwStopWords/` à `output-data/Raw+TreeTagger+Babelfy+CREA/throwStopWords/`
-##### 2.2.2 - GPT
-TODO
-##### 2.2.3 - LDA
+##### 2.2.2 - LDA
 - **make lda** :
     génère pour chacun des dossiers suivants la modélisation des sujets et le niveau d'appartenance de chaque document du dossier à chaque classe selon la méthode LDA:
     - De `input/data/Raw+Babelfy/prelinked/` à `output/data/Raw+LDA/`
@@ -75,8 +73,22 @@ TODO
     - De `input/data/Raw+TreeTagger+Babelfy/equivalent/keepStopData/` à `output/data/Raw+TreeTagger+Babelfy+LDA/keepStopData/`
     - De `input/data/Raw+TreeTagger+Babelfy/equivalent/throwStopClasses/` à `output/data/Raw+TreeTagger+Babelfy+LDA/throwStopClasses/`
     - De `input/data/Raw+TreeTagger+Babelfy/equivalent/throwStopWords/` à `output/data/Raw+TreeTagger+Babelfy+LDA/throwStopWords/`
-##### 2.2.4 - Llama2
+##### 2.2.3 - Llama2
+- **make llama2** :
+    TODO
+##### 2.2.4 - GPT
 TODO
 #### 2.3 - Evaluation
-##### 2.3.1 - Cohérence V
-TODO
+##### 2.3.1 - Cohérences V et UMass
+- **make coherence-v-umass-eval** :
+    TODO
+
+> `test_scenario (1/8) - Evaluations (3/3) - Raw+TreeTagger+Babelfy+CREA_u_mass.txt... (6/17)`
+> `/usr/local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.`
+> `return _methods._mean(a, axis=axis, dtype=dtype,`
+> `/usr/local/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide`
+> `ret = ret.dtype.type(ret / rcount)`
+
+##### 2.3.3 - Cohérence de sujets contextualisés (CTC)
+- **make ctc-eval** :
+    TODO

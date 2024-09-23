@@ -1,0 +1,8 @@
+Topic 1;php;fr;html;echo;page;classe;nom;exemple
+Topic 2;php;echo;type;html;peut;page;valeur;table
+Topic 3;php;html;nom;page;echo;cours;peut;table
+Topic 4;php;table;http;classe;echo;type;nom;html
+Topic 5;php;echo;html;type;page;td;nom;peut
+Topic 6;php;echo;classe;type;nom;exemple;java;p
+Topic 7;php;echo;html;type;nom;cours;page;table
+Topic 8;php;nom;html;table;page;echo;td;type

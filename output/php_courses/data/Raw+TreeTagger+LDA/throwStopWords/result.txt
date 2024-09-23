@@ -1,0 +1,8 @@
+Topic 1;le;de;un;être;du;et;d;en
+Topic 2;le;de;un;du;d;et;être;PHP
+Topic 3;le;de;un;du;être;d;à;PHP
+Topic 4;le;un;de;du;d;être;php;PHP
+Topic 5;le;de;un;être;du;à;PHP;php
+Topic 6;le;de;un;être;du;l;on;à
+Topic 7;le;de;un;être;d;du;à;en
+Topic 8;le;de;un;du;être;d;php;à

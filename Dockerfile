@@ -9,6 +9,7 @@ COPY sources/methods sources/evaluations sources/utils .
 COPY sources/preprocessing/* input/external/pybabelfy input/external/nltk preprocessing
 COPY input/external/TreeTagger preprocessing/TreeTagger
 COPY input/external/RNNTagger preprocessing/RNNTagger
+COPY input/external/CTC-main/ctc ctc
 COPY input/data input-data
 COPY input/scenarios/scenarios.csv scenarios.csv 
 COPY output output

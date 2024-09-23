@@ -1,8 +1,0 @@
-Topic 1;php;variable;fichier;pouvoir;echo;fonction;nom;tableau
-Topic 2;php;fonction;echo;pouvoir;html;fichier;variable;pager
-Topic 3;php;fichier;fonction;exemple;pouvoir;echo;variable;html
-Topic 4;php;echo;pouvoir;html;fonction;nom;tableau;exemple
-Topic 5;php;fichier;fonction;variable;pouvoir;echo;permettre;nom
-Topic 6;php;echo;pouvoir;nom;fonction;fichier;exemple;fr
-Topic 7;php;fichier;echo;pouvoir;exemple;fonction;nom;valeur
-Topic 8;php;nom;pouvoir;fonction;exemple;variable;echo;donner

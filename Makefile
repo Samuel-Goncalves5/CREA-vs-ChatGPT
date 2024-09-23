@@ -41,14 +41,20 @@ preprocessing-babelfy-tree-stop-class: build
 ### CREA
 crea: build
 	$(DOCKER-RUN) $(PREFIX)-crea $(IMAGE) CREA.py
-### GPT
-### LDA
-lda: build
-	$(DOCKER-RUN) $(PREFIX)-lda $(IMAGE) LDA.py
 ### Llama2
 llama2: build
 	$(DOCKER-RUN) $(PREFIX)-lda $(LLAMA2) $(IMAGE) Llama2.py
+### LDA
+lda: build
+	$(DOCKER-RUN) $(PREFIX)-lda $(IMAGE) LDA.py
+### GPT
 
 ## Evaluation
-coherence-eval: build
+### Cohérences V et UMass
+coherence-v-umass-eval: build
 	$(DOCKER-RUN) $(PREFIX)-evaluation $(IMAGE) coherence.py
+
+### Cohérence de sujets contextualisés (CTC)
+ctc-eval: build
+	$(DOCKER-RUN) $(PREFIX)-evaluation $(IMAGE) CTC.py
+

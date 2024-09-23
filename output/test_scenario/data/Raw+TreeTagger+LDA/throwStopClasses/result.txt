@@ -1,0 +1,8 @@
+Topic 1;php;pouvoir;variable;session;valeur;nom;type;cours
+Topic 2;php;html;cours;pouvoir;fonction;texte;valeur;fichier
+Topic 3;php;fonction;pouvoir;echo;fichier;type;valeur;variable
+Topic 4;php;pouvoir;fonction;variable;valeur;echo;html;nom
+Topic 5;php;pouvoir;fonction;valeur;fichier;echo;nom;variable
+Topic 6;php;rouen;lecroq;univ;valeur;session;thierry;type
+Topic 7;php;fonction;valeur;variable;session;fichier;nom;pouvoir
+Topic 8;php;fonction;pouvoir;nom;valeur;html;variable;echo
