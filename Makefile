@@ -43,10 +43,19 @@ crea: build
 	$(DOCKER-RUN) $(PREFIX)-crea $(IMAGE) CREA.py
 ### Llama2
 llama2: build
-	$(DOCKER-RUN) $(PREFIX)-lda $(LLAMA2) $(IMAGE) Llama2.py
+	$(DOCKER-RUN) $(PREFIX)-llama $(LLAMA2) $(IMAGE) Llama2.py
 ### LDA
 lda: build
 	$(DOCKER-RUN) $(PREFIX)-lda $(IMAGE) LDA.py
+### ANTM
+antm: build
+	$(DOCKER-RUN) $(PREFIX)-antm $(IMAGE) ANTM.py
+### Top2Vec
+top2vec: build
+	$(DOCKER-RUN) $(PREFIX)-top2vec $(IMAGE) Top2Vec.py
+### BERTopic
+bertopic: build
+	$(DOCKER-RUN) $(PREFIX)-bertopic $(IMAGE) BERTopic.py
 ### GPT
 
 ## Evaluation
